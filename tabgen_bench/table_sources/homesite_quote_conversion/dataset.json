@@ -1,0 +1,13 @@
+{
+ "unique_name": "homesite_quote_conversion",
+ "domain": "insurance",
+ "year": "2015",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/homesite-quote-conversion",
+ "license": "Kaggle Competition Rules",
+ "reference_key": "Darrel2015HomesiteQuoteConversion",
+ "task_type": "binary_classification",
+ "target": "QuoteConversion_Flag",
+ "rows": 260753,
+ "columns": 296
+}

@@ -1,0 +1,27 @@
+{
+ "table": "lending_club",
+ "columns_sha256": "cdc7dffe590c3c9f9d43cdfd8f85ef90986f121343d52bc3db8233145e3e30d6",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "1d795db2f40d4d9a75208da0067296d201eb75734dbf858ac44f32ca2bdbcc0a",
+  "validation": "506ed146bd8725c0c941bfce21172c6a19f67562c3334d366fade42675ef52de",
+  "test": "edd1d7942dea48257f42e3279727daaea5378d23f37166c310a4ff6808c93896"
+ },
+ "rows": {
+  "train": 851801,
+  "validation": 106475,
+  "test": 106475
+ },
+ "columns": 148,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

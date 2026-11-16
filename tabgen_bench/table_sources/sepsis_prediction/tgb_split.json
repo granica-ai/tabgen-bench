@@ -1,0 +1,31 @@
+{
+ "table": "sepsis_prediction",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "fa841edf6d90da443305ba51733e762405388f11239d18d966fc955927844a00",
+ "raw_file": "sepsis_prediction/versions/019d7391-f36e-72f8-89d7-f7ca71725034/dataset.parquet",
+ "raw_sha256": "14b3b54f1952d093949604ab83e4b88e7d886fc3e1b72014640c798208ab07e7",
+ "raw_rows": 1228686,
+ "rows": {
+  "train": 492324,
+  "validation": 61540,
+  "test": 61540
+ },
+ "row_subset": {
+  "column": "Patient_ID",
+  "groups": 16000,
+  "groups_total": 31930,
+  "groups_kept": 16000,
+  "rows_kept": 615404,
+  "rows_total": 1228686,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32('<table>/<column>') ^ seed); see _table_rng"
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

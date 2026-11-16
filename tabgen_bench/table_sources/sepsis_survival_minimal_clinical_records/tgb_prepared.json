@@ -1,0 +1,27 @@
+{
+ "table": "sepsis_survival_minimal_clinical_records",
+ "columns_sha256": "e3a392af10c6df88c73e90d8cbeb9fa4989966925c6ff0994d99e08d21d487d4",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "28090fc54280f124b31ed1fdf923ab493743c7d59ed3270619aa742a264a4810",
+  "validation": "098c601eef2832f397a44423cafd7701e88b9bf25b0f3e25617128952f1c85b9",
+  "test": "16fc8499e6338de69db7c7fe267b48db4a52f1eff3171899aa126ffc56ac58a0"
+ },
+ "rows": {
+  "train": 88164,
+  "validation": 11020,
+  "test": 11020
+ },
+ "columns": 4,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

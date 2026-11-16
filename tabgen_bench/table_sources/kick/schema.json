@@ -1,0 +1,170 @@
+{
+ "rows": 72983,
+ "columns": [
+  {
+   "name": "IsBadBuy",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "PurchDate",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "Auction",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "VehYear",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "VehicleAge",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Make",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Model",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "Trim",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "SubModel",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "Color",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Transmission",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "WheelTypeID",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "WheelType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "VehOdo",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Nationality",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Size",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "TopThreeAmericanName",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "MMRAcquisitionAuctionAveragePrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRAcquisitionAuctionCleanPrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRAcquisitionRetailAveragePrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRAcquisitonRetailCleanPrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRCurrentAuctionAveragePrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRCurrentAuctionCleanPrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRCurrentRetailAveragePrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MMRCurrentRetailCleanPrice",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PRIMEUNIT",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "AUCGUART",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "BYRNO",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "VNZIP1",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "VNST",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "VehBCost",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "IsOnlineSale",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "WarrantyCost",
+   "dtype": "int64",
+   "storage": "int64"
+  }
+ ]
+}

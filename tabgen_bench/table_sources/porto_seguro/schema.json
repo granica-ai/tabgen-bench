@@ -1,0 +1,195 @@
+{
+ "rows": 595206,
+ "columns": [
+  {
+   "name": "target",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_01",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_02_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_ind_03",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_04_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_ind_05_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_ind_06_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_07_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_08_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_09_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_10_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_11_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_12_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_13_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_14",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_15",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_16_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_17_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_ind_18_bin",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_reg_01",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_reg_02",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_reg_03",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_01_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_02_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_03_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_04_cat",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_car_05_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_06_cat",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_car_07_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_08_cat",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_car_09_cat",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_10_cat",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_car_11_cat",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ps_car_11",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_12",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_13",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ps_car_15",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

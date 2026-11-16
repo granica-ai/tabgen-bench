@@ -1,0 +1,13 @@
+{
+ "unique_name": "covertype",
+ "domain": "environmental science & climate",
+ "year": "1998",
+ "original_source": "UCI",
+ "original_link": "https://doi.org/10.24432/C50K5N",
+ "license": "CC BY 4.0",
+ "reference_key": "blackard1999comparative",
+ "task_type": "multiclass_classification",
+ "target": "Cover_Type",
+ "rows": 512625,
+ "columns": 15
+}

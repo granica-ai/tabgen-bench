@@ -1,0 +1,565 @@
+{
+ "rows": 160057,
+ "columns": [
+  {
+   "name": "total_spend",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "target",
+   "dtype": "category",
+   "storage": "int32"
+  },
+  {
+   "name": "offervalue",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "offerdate",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "day_of_week",
+   "dtype": "int8",
+   "storage": "int8"
+  },
+  {
+   "name": "day_of_month",
+   "dtype": "int8",
+   "storage": "int8"
+  },
+  {
+   "name": "day_of_year",
+   "dtype": "int16",
+   "storage": "int16"
+  },
+  {
+   "name": "has_bought_company",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_3",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_3",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_3",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_7",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_7",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_7",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_7",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_7",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_7",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_7",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_7",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_7",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_14",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_14",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_14",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_14",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_21",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_21",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_21",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_21",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_21",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_21",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_21",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_21",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_21",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_28",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_28",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_28",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_28",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_28",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_28",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_28",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_28",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_28",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_60",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_60",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_60",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_60",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_60",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_60",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_60",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_60",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_60",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_90",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_90",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_90",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_90",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_90",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_90",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_90",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_90",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_90",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_120",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_120",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_120",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_120",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_120",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_120",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_120",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_120",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_120",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_150",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_150",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_150",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_150",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_150",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_150",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_150",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_150",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_150",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_180",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_company_q_180",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_company_a_180",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_180",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_category_q_180",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_category_a_180",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_180",
+   "dtype": "uint32",
+   "storage": "uint32"
+  },
+  {
+   "name": "has_bought_brand_q_180",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "has_bought_brand_a_180",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "never_bought_company",
+   "dtype": "category",
+   "storage": "float"
+  },
+  {
+   "name": "never_bought_category",
+   "dtype": "category",
+   "storage": "float"
+  },
+  {
+   "name": "never_bought_brand",
+   "dtype": "category",
+   "storage": "float"
+  },
+  {
+   "name": "has_bought_brand_company_category",
+   "dtype": "category",
+   "storage": "float"
+  },
+  {
+   "name": "has_bought_brand_category",
+   "dtype": "category",
+   "storage": "float"
+  },
+  {
+   "name": "has_bought_brand_company",
+   "dtype": "category",
+   "storage": "float"
+  }
+ ]
+}

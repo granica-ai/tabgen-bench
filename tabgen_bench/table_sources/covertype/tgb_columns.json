@@ -1,0 +1,179 @@
+{
+ "table": "covertype",
+ "column_order": [
+  "Elevation",
+  "Aspect",
+  "Slope",
+  "Horizontal_Distance_To_Hydrology",
+  "Vertical_Distance_To_Hydrology",
+  "Horizontal_Distance_To_Roadways",
+  "Hillshade_9am",
+  "Hillshade_Noon",
+  "Hillshade_3pm",
+  "Horizontal_Distance_To_Fire_Points",
+  "Cover_Type",
+  "Wilderness_Area",
+  "Soil_Type",
+  "Soil_ClimaticZone",
+  "Soil_GeologicZone"
+ ],
+ "columns": [
+  {
+   "name": "Elevation",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3031.0,
+   "description": ""
+  },
+  {
+   "name": "Aspect",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 124.0,
+   "description": ""
+  },
+  {
+   "name": "Slope",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 12.0,
+   "description": ""
+  },
+  {
+   "name": "Horizontal_Distance_To_Hydrology",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 234.0,
+   "description": ""
+  },
+  {
+   "name": "Vertical_Distance_To_Hydrology",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 28.0,
+   "description": ""
+  },
+  {
+   "name": "Horizontal_Distance_To_Roadways",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2236.0,
+   "description": ""
+  },
+  {
+   "name": "Hillshade_9am",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 218.0,
+   "description": ""
+  },
+  {
+   "name": "Hillshade_Noon",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 227.0,
+   "description": ""
+  },
+  {
+   "name": "Hillshade_3pm",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 143.0,
+   "description": ""
+  },
+  {
+   "name": "Horizontal_Distance_To_Fire_Points",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1852.0,
+   "description": ""
+  },
+  {
+   "name": "Cover_Type",
+   "kind": "categorical",
+   "categories": [
+    "Krummholz",
+    "Lodgepole Pine",
+    "Spruce/Fir"
+   ],
+   "description": "the prediction target, multiclass classification"
+  },
+  {
+   "name": "Wilderness_Area",
+   "kind": "categorical",
+   "categories": [
+    "Comanche Peak Wilderness Area",
+    "Neota Wilderness Area",
+    "Rawah Wilderness Area"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Soil_Type",
+   "kind": "categorical",
+   "categories": [
+    "Bross family - Rock land - Cryumbrepts complex, extremely stony.",
+    "Bullwark - Catamount families - Rock land complex, rubbly.",
+    "Bullwark - Catamount families - Rock outcrop complex, rubbly.",
+    "Catamount family - Rock land - Bullwark family complex, rubbly.",
+    "Catamount family - Rock outcrop - Leighcan family complex, extremely stony.",
+    "Como - Legault families complex, extremely stony.",
+    "Como family - Rock land - Legault family complex, extremely stony.",
+    "Cryaquolis - Cryoborolis complex.",
+    "Cryorthents - Rock land complex, extremely stony.",
+    "Cryumbrepts - Rock outcrop - Cryaquepts complex.",
+    "Gateview family - Cryaquolis complex.",
+    "Gothic family.",
+    "Granile - Catamount families complex, very stony.",
+    "Haploborolis - Rock outcrop complex, rubbly.",
+    "Legault family - Rock land complex, stony.",
+    "Leighcan - Catamount families - Rock outcrop complex, extremely stony.",
+    "Leighcan - Catamount families complex, extremely stony.",
+    "Leighcan - Moran families - Cryaquolls complex, extremely stony.",
+    "Leighcan family - Rock outcrop complex, extremely stony.",
+    "Leighcan family, extremely stony.",
+    "Leighcan family, till substratum - Typic Cryaquolls complex.",
+    "Leighcan family, till substratum, extremely bouldery.",
+    "Leighcan family, warm - Rock outcrop complex, extremely stony.",
+    "Leighcan family, warm, extremely stony.",
+    "Moran family - Cryorthents - Leighcan family complex, extremely stony.",
+    "Moran family - Cryorthents - Rock land complex, extremely stony.",
+    "Ratake family - Rock outcrop complex, rubbly.",
+    "Rock outcrop - Cryumbrepts - Cryorthents complex, extremely stony.",
+    "Rogert family, very stony.",
+    "Supervisor - Limber families complex.",
+    "Troutville family, very stony.",
+    "Typic Cryaquepts - Typic Cryaquolls complex.",
+    "Typic Cryaquolis - Borohemists complex.",
+    "Typic Cryaquolls - Leighcan family, till substratum complex.",
+    "Vanet - Ratake families complex, very stony."
+   ],
+   "description": ""
+  },
+  {
+   "name": "Soil_ClimaticZone",
+   "kind": "categorical",
+   "categories": [
+    "alpine",
+    "lower montane",
+    "montane",
+    "montane and subalpine",
+    "montane dry",
+    "subalpine"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Soil_GeologicZone",
+   "kind": "categorical",
+   "categories": [
+    "alluvium",
+    "glacial",
+    "igneous and metamorphic",
+    "mixed sedimentary"
+   ],
+   "description": ""
+  }
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/container_metadata.json",
+  "size": 162,
+  "sha256": "cac25d084a34091ce52a5e2c8f4744f3eb852847a12a8cfb6c3af6a1ea4c6be6",
+  "git_blob_id": "6cc8607d75c37c7f0c013b81374d221c80f248e8",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dataset.parquet",
+  "size": 620069169,
+  "sha256": "17c42b44a9191b4ce3bd54559a3003b11ca86ee3de0b19d72088c5f727673cc6",
+  "git_blob_id": "43b207277f4a86ae1faa4be6d1803fabd538f7d6",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dataset_metadata.dataset-mold-v1.json",
+  "size": 3865,
+  "sha256": "48ed7269d8cf9fd84908d84afa9c88a41e5ed6cc94129a1ebf4f5e7653ba4ae8",
+  "git_blob_id": "d0b3aaa2a0e141ab2e32ec640e98cad2f02a19aa",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dtypes.json",
+  "size": 413,
+  "sha256": "22f59c6d2d6bea9379544403debc0c2664cc6b848f693a57fa4f10832589da68",
+  "git_blob_id": "9078ba7cf919c401a33a9d8ff7ae0ccb27bda064",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 9925027,
+  "sha256": "c1af5288bfd9fb8a793c3dd2df33555c5c51234c5b72fdf4d253ad06c907f13f",
+  "git_blob_id": "018c5ada889371757217bb9c3fcaf1bd6f53ce40",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 343,
+  "sha256": "2390b68ae9ed816f259447fa74160435c81d055a197cafdb2af13cabbba9e1a9",
+  "git_blob_id": "8ddf0d6676758d62f70c571a539ab5ca07bed444",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

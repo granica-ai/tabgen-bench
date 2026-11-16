@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/container_metadata.json",
+  "size": 162,
+  "sha256": "1b43024d286ce3d39c13c6e4af5408a813ab2385ffc71e6056d5d00a7b6c613b",
+  "git_blob_id": "27035fef97ed5fb78f369c74665aa51dbcb3d458",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dataset.parquet",
+  "size": 1382190,
+  "sha256": "a46bd309a1f7eb1c62ac53516c5afe51459a486fc6542654935e141284f4c246",
+  "git_blob_id": "f219216b04e1a5031464626a33bdc5f29e68fc37",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dataset_metadata.dataset-mold-v1.json",
+  "size": 2173,
+  "sha256": "04350e6ab2df39bd79e741d9f8ab9c0ee7b03a3d99d2cb9fef5950cc2cea04ce",
+  "git_blob_id": "076074cd035051c195733c09df602be3083f97bf",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dtypes.json",
+  "size": 454,
+  "sha256": "0c073e25129d24e5f95407df4272ecf0aa4a3584dbca415cbc56be0264a4203c",
+  "git_blob_id": "73eb091451920fdbec088d6824826db57a763432",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 4233671,
+  "sha256": "b5786048affe71fe6d2128efc3b3683eeeb0f0723f06d1e12caf406acfd1cd67",
+  "git_blob_id": "354980e3166f9a967edeb2eb0ab1c0dfa49ccfe2",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 293,
+  "sha256": "4ddd450d77a5878ce8d9bfab63e9b424b5ad3537c3c3ae1391b19134c6ce046f",
+  "git_blob_id": "cf6c39b339867d21591124730944a2d1a718f805",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

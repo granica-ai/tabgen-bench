@@ -1,0 +1,13 @@
+{
+ "unique_name": "5g_energy_consumption",
+ "domain": "technology & internet",
+ "year": "2023",
+ "original_source": "HuggingFace",
+ "original_link": "https://huggingface.co/datasets/netop/5G-Network-Energy-Consumption",
+ "license": "MIT",
+ "reference_key": "huawei_netop_5g_energy_consumption",
+ "task_type": "regression",
+ "target": "Energy",
+ "rows": 92629,
+ "columns": 22
+}

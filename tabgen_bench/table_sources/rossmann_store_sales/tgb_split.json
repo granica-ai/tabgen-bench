@@ -1,0 +1,21 @@
+{
+ "table": "rossmann_store_sales",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "02c591a34118f593902817a76cf34ea9e8b2e8d6b6cc7dbf9bbc3b4b6821d0e8",
+ "raw_file": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dataset.parquet",
+ "raw_sha256": "71c54c1e0d7215cd77921c2a36509b14ced567efb3a0b7bdde6633f325674a9e",
+ "raw_rows": 844392,
+ "rows": {
+  "train": 675514,
+  "validation": 84439,
+  "test": 84439
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "unique_name": "sf_permit_time",
+ "domain": "business & marketing",
+ "year": "2025",
+ "original_source": "GOV Website",
+ "original_link": "https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9",
+ "license": "Open Data Commons Public Domain Dedication and License",
+ "reference_key": "SanFrancisco2026BuildingPermits",
+ "task_type": "regression",
+ "target": "DaysToIssue",
+ "rows": 116954,
+ "columns": 38
+}

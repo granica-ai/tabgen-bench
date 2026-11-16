@@ -1,0 +1,27 @@
+{
+ "table": "5g_energy_consumption",
+ "columns_sha256": "866a47af1b90d3eb2d5d3386859653a6ca0f59f22b42adb89ea29a73356124f1",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "c155d832271f50b7c0ed2e05dd5856918ae3fa4f0f22dbf0184ffb1352e404ad",
+  "validation": "9cf31ecbe9ee8e8c98c39be783a5d6cd44daa5de7a35005053c35c3b46854adb",
+  "test": "c416e4218f122edf3c91c92ab3f308779e8995cb7409aca2bc20ac2bc6c8d0ae"
+ },
+ "rows": {
+  "train": 74103,
+  "validation": 9263,
+  "test": 9263
+ },
+ "columns": 27,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

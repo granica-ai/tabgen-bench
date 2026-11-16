@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/container_metadata.json",
+  "size": 162,
+  "sha256": "3a6a1cfabc6a77c9001d25ca65f2f2e60add7a14fd7eea19834986aed6d2676b",
+  "git_blob_id": "81968eb595ecdaa1797b8e75634dcabac2fcbab0",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dataset.parquet",
+  "size": 14793133,
+  "sha256": "8707cf0fd8020cffcdb080daa8d02fc2425cfcc706d9c531f3c671ab024dfe5d",
+  "git_blob_id": "aac14981e6871ee4647b12e5e752a881666f9425",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dataset_metadata.dataset-mold-v1.json",
+  "size": 5683,
+  "sha256": "641de8ee43aa331b82020c02011d6b58bd5ff090df96ccf7b50a64dae265c375",
+  "git_blob_id": "6867a69167511edb5ba0ceb9d160bc74580c5aa1",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dtypes.json",
+  "size": 1289,
+  "sha256": "ce21405933340a914c8c05a7c720d41bcdb779f3450648975d592b77fa316763",
+  "git_blob_id": "b5c86aa20e2fec010b6c0681323d5279fa8a20e9",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 3940464,
+  "sha256": "a5490c09a5d7b2d007656b3699c47e799a6a56ae66ae9c1c8139f4101e80f1c9",
+  "git_blob_id": "1ab55e58c387975217694bfee7fe178a18fe8d15",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 278,
+  "sha256": "48cc408294fd227349f5b3319a7f40224790ed321f627fa148c83bdfb0c062c6",
+  "git_blob_id": "dbb763232dc5a29dcfe6d93df9ce5fb65fb8aa76",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

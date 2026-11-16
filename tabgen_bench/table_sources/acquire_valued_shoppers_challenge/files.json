@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/container_metadata.json",
+  "size": 162,
+  "sha256": "6c5187e9468bb8a099c103e80d0e2168315cba6091c59f571fdd5ffae99fd877",
+  "git_blob_id": "61d4945ada0fa5b06a233c23a99842ffa4c80624",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dataset.parquet",
+  "size": 10521873,
+  "sha256": "32ae85b400aba07d90fad884ec06540ba9011e192156049b885239fe280cdb7f",
+  "git_blob_id": "bffedcd9445fe38015573d646326f73c8cef5db8",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dataset_metadata.dataset-mold-v1.json",
+  "size": 1879,
+  "sha256": "e7ca185a24751f45c73a6e9a4afcf731f4ce338715d0490821e61339e2218eab",
+  "git_blob_id": "167e834fb1165f7e9c19de1cdd4e72e6d9ebc3e5",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dtypes.json",
+  "size": 4250,
+  "sha256": "63ce02b112c75f4a8bca5df55370517d32d6682874c041505d41031b3014d997",
+  "git_blob_id": "cb92b2dae2e9b8d25acdea065f0b492e67503b85",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 4392920,
+  "sha256": "d9b63dd64373b22fa2e2968ebc08a7492b3aba02f3a86c386c60556336f992fb",
+  "git_blob_id": "619719885935e5cfce84bfa5e2be110e2b8d68cb",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 290,
+  "sha256": "3f616b8f48b6609f2a958d1168d704620b8c4319169a047c9db6138996a5b9f4",
+  "git_blob_id": "9ac0083929f9a41cb543a2eca68b69a566f244c7",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

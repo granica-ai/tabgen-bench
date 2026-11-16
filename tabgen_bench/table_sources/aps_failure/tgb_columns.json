@@ -1,0 +1,3138 @@
+{
+ "table": "aps_failure",
+ "column_order": [
+  "AirPressureSystemFailure",
+  "aa_000",
+  "ab_000",
+  "ab_000__missing",
+  "ac_000",
+  "ac_000__missing",
+  "ad_000",
+  "ad_000__missing",
+  "ae_000",
+  "ae_000__missing",
+  "af_000",
+  "af_000__missing",
+  "ag_000",
+  "ag_000__missing",
+  "ag_001",
+  "ag_001__missing",
+  "ag_002",
+  "ag_002__missing",
+  "ag_003",
+  "ag_003__missing",
+  "ag_004",
+  "ag_004__missing",
+  "ag_005",
+  "ag_005__missing",
+  "ag_006",
+  "ag_006__missing",
+  "ag_007",
+  "ag_007__missing",
+  "ag_008",
+  "ag_008__missing",
+  "ag_009",
+  "ag_009__missing",
+  "ah_000",
+  "ah_000__missing",
+  "ai_000",
+  "ai_000__missing",
+  "aj_000",
+  "aj_000__missing",
+  "ak_000",
+  "ak_000__missing",
+  "al_000",
+  "al_000__missing",
+  "am_0",
+  "am_0__missing",
+  "an_000",
+  "an_000__missing",
+  "ao_000",
+  "ap_000",
+  "ap_000__missing",
+  "aq_000",
+  "ar_000",
+  "ar_000__missing",
+  "as_000",
+  "as_000__missing",
+  "at_000",
+  "at_000__missing",
+  "au_000",
+  "au_000__missing",
+  "av_000",
+  "av_000__missing",
+  "ax_000",
+  "ax_000__missing",
+  "ay_000",
+  "ay_000__missing",
+  "ay_001",
+  "ay_001__missing",
+  "ay_002",
+  "ay_002__missing",
+  "ay_003",
+  "ay_003__missing",
+  "ay_004",
+  "ay_004__missing",
+  "ay_005",
+  "ay_005__missing",
+  "ay_006",
+  "ay_006__missing",
+  "ay_007",
+  "ay_007__missing",
+  "ay_008",
+  "ay_008__missing",
+  "ay_009",
+  "ay_009__missing",
+  "az_000",
+  "az_000__missing",
+  "az_001",
+  "az_001__missing",
+  "az_002",
+  "az_002__missing",
+  "az_003",
+  "az_003__missing",
+  "az_004",
+  "az_004__missing",
+  "az_005",
+  "az_005__missing",
+  "az_006",
+  "az_006__missing",
+  "az_007",
+  "az_007__missing",
+  "az_008",
+  "az_008__missing",
+  "az_009",
+  "az_009__missing",
+  "ba_000",
+  "ba_000__missing",
+  "ba_001",
+  "ba_001__missing",
+  "ba_002",
+  "ba_002__missing",
+  "ba_003",
+  "ba_003__missing",
+  "ba_004",
+  "ba_004__missing",
+  "ba_005",
+  "ba_005__missing",
+  "ba_006",
+  "ba_006__missing",
+  "ba_007",
+  "ba_007__missing",
+  "ba_008",
+  "ba_008__missing",
+  "ba_009",
+  "ba_009__missing",
+  "bb_000",
+  "bb_000__missing",
+  "bc_000",
+  "bc_000__missing",
+  "bd_000",
+  "bd_000__missing",
+  "be_000",
+  "be_000__missing",
+  "bf_000",
+  "bf_000__missing",
+  "bg_000",
+  "bg_000__missing",
+  "bh_000",
+  "bh_000__missing",
+  "bi_000",
+  "bj_000",
+  "bk_000",
+  "bk_000__missing",
+  "bl_000",
+  "bl_000__missing",
+  "bm_000",
+  "bm_000__missing",
+  "bn_000",
+  "bn_000__missing",
+  "bo_000",
+  "bo_000__missing",
+  "bp_000",
+  "bp_000__missing",
+  "bq_000",
+  "bq_000__missing",
+  "br_000",
+  "br_000__missing",
+  "bs_000",
+  "bs_000__missing",
+  "bt_000",
+  "bu_000",
+  "bu_000__missing",
+  "bv_000",
+  "bv_000__missing",
+  "bx_000",
+  "bx_000__missing",
+  "by_000",
+  "bz_000",
+  "bz_000__missing",
+  "ca_000",
+  "ca_000__missing",
+  "cb_000",
+  "cb_000__missing",
+  "cc_000",
+  "cc_000__missing",
+  "cd_000",
+  "cd_000__missing",
+  "ce_000",
+  "ce_000__missing",
+  "cf_000",
+  "cf_000__missing",
+  "cg_000",
+  "cg_000__missing",
+  "ch_000",
+  "ch_000__missing",
+  "ci_000",
+  "cj_000",
+  "ck_000",
+  "cl_000",
+  "cl_000__missing",
+  "cm_000",
+  "cm_000__missing",
+  "cn_000",
+  "cn_000__missing",
+  "cn_001",
+  "cn_001__missing",
+  "cn_002",
+  "cn_002__missing",
+  "cn_003",
+  "cn_003__missing",
+  "cn_004",
+  "cn_004__missing",
+  "cn_005",
+  "cn_005__missing",
+  "cn_006",
+  "cn_006__missing",
+  "cn_007",
+  "cn_007__missing",
+  "cn_008",
+  "cn_008__missing",
+  "cn_009",
+  "cn_009__missing",
+  "co_000",
+  "co_000__missing",
+  "cp_000",
+  "cp_000__missing",
+  "cq_000",
+  "cq_000__missing",
+  "cr_000",
+  "cr_000__missing",
+  "cs_000",
+  "cs_000__missing",
+  "cs_001",
+  "cs_001__missing",
+  "cs_002",
+  "cs_002__missing",
+  "cs_003",
+  "cs_003__missing",
+  "cs_004",
+  "cs_004__missing",
+  "cs_005",
+  "cs_005__missing",
+  "cs_006",
+  "cs_006__missing",
+  "cs_007",
+  "cs_007__missing",
+  "cs_008",
+  "cs_008__missing",
+  "cs_009",
+  "cs_009__missing",
+  "ct_000",
+  "ct_000__missing",
+  "cu_000",
+  "cu_000__missing",
+  "cv_000",
+  "cv_000__missing",
+  "cx_000",
+  "cx_000__missing",
+  "cy_000",
+  "cy_000__missing",
+  "cz_000",
+  "cz_000__missing",
+  "da_000",
+  "da_000__missing",
+  "db_000",
+  "db_000__missing",
+  "dc_000",
+  "dc_000__missing",
+  "dd_000",
+  "dd_000__missing",
+  "de_000",
+  "de_000__missing",
+  "df_000",
+  "df_000__missing",
+  "dg_000",
+  "dg_000__missing",
+  "dh_000",
+  "dh_000__missing",
+  "di_000",
+  "di_000__missing",
+  "dj_000",
+  "dj_000__missing",
+  "dk_000",
+  "dk_000__missing",
+  "dl_000",
+  "dl_000__missing",
+  "dm_000",
+  "dm_000__missing",
+  "dn_000",
+  "dn_000__missing",
+  "do_000",
+  "do_000__missing",
+  "dp_000",
+  "dp_000__missing",
+  "dq_000",
+  "dq_000__missing",
+  "dr_000",
+  "dr_000__missing",
+  "ds_000",
+  "ds_000__missing",
+  "dt_000",
+  "dt_000__missing",
+  "du_000",
+  "du_000__missing",
+  "dv_000",
+  "dv_000__missing",
+  "dx_000",
+  "dx_000__missing",
+  "dy_000",
+  "dy_000__missing",
+  "dz_000",
+  "dz_000__missing",
+  "ea_000",
+  "ea_000__missing",
+  "eb_000",
+  "eb_000__missing",
+  "ec_00",
+  "ec_00__missing",
+  "ed_000",
+  "ed_000__missing",
+  "ee_000",
+  "ee_000__missing",
+  "ee_001",
+  "ee_001__missing",
+  "ee_002",
+  "ee_002__missing",
+  "ee_003",
+  "ee_003__missing",
+  "ee_004",
+  "ee_004__missing",
+  "ee_005",
+  "ee_005__missing",
+  "ee_006",
+  "ee_006__missing",
+  "ee_007",
+  "ee_007__missing",
+  "ee_008",
+  "ee_008__missing",
+  "ee_009",
+  "ee_009__missing",
+  "ef_000",
+  "ef_000__missing",
+  "eg_000",
+  "eg_000__missing"
+ ],
+ "columns": [
+  {
+   "name": "AirPressureSystemFailure",
+   "kind": "categorical",
+   "categories": [
+    "neg",
+    "pos"
+   ],
+   "description": "the prediction target, binary classification"
+  },
+  {
+   "name": "aa_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 30909.0,
+   "description": ""
+  },
+  {
+   "name": "ab_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ab_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ab_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ab_000 was recorded"
+  },
+  {
+   "name": "ac_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 156.0,
+   "description": ""
+  },
+  {
+   "name": "ac_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ac_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ac_000 was recorded"
+  },
+  {
+   "name": "ad_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 128.0,
+   "description": ""
+  },
+  {
+   "name": "ad_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ad_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ad_000 was recorded"
+  },
+  {
+   "name": "ae_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ae_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ae_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ae_000 was recorded"
+  },
+  {
+   "name": "af_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "af_000__missing",
+   "kind": "categorical",
+   "indicator_of": "af_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether af_000 was recorded"
+  },
+  {
+   "name": "ag_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ag_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_000 was recorded"
+  },
+  {
+   "name": "ag_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ag_001__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_001 was recorded"
+  },
+  {
+   "name": "ag_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ag_002__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_002 was recorded"
+  },
+  {
+   "name": "ag_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ag_003__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_003 was recorded"
+  },
+  {
+   "name": "ag_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3728.0,
+   "description": ""
+  },
+  {
+   "name": "ag_004__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_004 was recorded"
+  },
+  {
+   "name": "ag_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 180168.0,
+   "description": ""
+  },
+  {
+   "name": "ag_005__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_005 was recorded"
+  },
+  {
+   "name": "ag_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 949532.0,
+   "description": ""
+  },
+  {
+   "name": "ag_006__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_006 was recorded"
+  },
+  {
+   "name": "ag_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 120452.0,
+   "description": ""
+  },
+  {
+   "name": "ag_007__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_007 was recorded"
+  },
+  {
+   "name": "ag_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1842.0,
+   "description": ""
+  },
+  {
+   "name": "ag_008__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_008 was recorded"
+  },
+  {
+   "name": "ag_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ag_009__missing",
+   "kind": "categorical",
+   "indicator_of": "ag_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ag_009 was recorded"
+  },
+  {
+   "name": "ah_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1009630.0,
+   "description": ""
+  },
+  {
+   "name": "ah_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ah_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ah_000 was recorded"
+  },
+  {
+   "name": "ai_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ai_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ai_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ai_000 was recorded"
+  },
+  {
+   "name": "aj_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "aj_000__missing",
+   "kind": "categorical",
+   "indicator_of": "aj_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether aj_000 was recorded"
+  },
+  {
+   "name": "ak_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ak_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ak_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ak_000 was recorded"
+  },
+  {
+   "name": "al_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "al_000__missing",
+   "kind": "categorical",
+   "indicator_of": "al_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether al_000 was recorded"
+  },
+  {
+   "name": "am_0",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "am_0__missing",
+   "kind": "categorical",
+   "indicator_of": "am_0",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether am_0 was recorded"
+  },
+  {
+   "name": "an_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1933926.0,
+   "description": ""
+  },
+  {
+   "name": "an_000__missing",
+   "kind": "categorical",
+   "indicator_of": "an_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether an_000 was recorded"
+  },
+  {
+   "name": "ao_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1656806.0,
+   "description": ""
+  },
+  {
+   "name": "ap_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 362058.0,
+   "description": ""
+  },
+  {
+   "name": "ap_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ap_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ap_000 was recorded"
+  },
+  {
+   "name": "aq_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 181850.0,
+   "description": ""
+  },
+  {
+   "name": "ar_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ar_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ar_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ar_000 was recorded"
+  },
+  {
+   "name": "as_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "as_000__missing",
+   "kind": "categorical",
+   "indicator_of": "as_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether as_000 was recorded"
+  },
+  {
+   "name": "at_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "at_000__missing",
+   "kind": "categorical",
+   "indicator_of": "at_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether at_000 was recorded"
+  },
+  {
+   "name": "au_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "au_000__missing",
+   "kind": "categorical",
+   "indicator_of": "au_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether au_000 was recorded"
+  },
+  {
+   "name": "av_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 118.0,
+   "description": ""
+  },
+  {
+   "name": "av_000__missing",
+   "kind": "categorical",
+   "indicator_of": "av_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether av_000 was recorded"
+  },
+  {
+   "name": "ax_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 66.0,
+   "description": ""
+  },
+  {
+   "name": "ax_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ax_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ax_000 was recorded"
+  },
+  {
+   "name": "ay_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_000 was recorded"
+  },
+  {
+   "name": "ay_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_001__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_001 was recorded"
+  },
+  {
+   "name": "ay_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_002__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_002 was recorded"
+  },
+  {
+   "name": "ay_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_003__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_003 was recorded"
+  },
+  {
+   "name": "ay_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_004__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_004 was recorded"
+  },
+  {
+   "name": "ay_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_005__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_005 was recorded"
+  },
+  {
+   "name": "ay_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 170081.0,
+   "description": ""
+  },
+  {
+   "name": "ay_006__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_006 was recorded"
+  },
+  {
+   "name": "ay_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 351154.0,
+   "description": ""
+  },
+  {
+   "name": "ay_007__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_007 was recorded"
+  },
+  {
+   "name": "ay_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 97358.0,
+   "description": ""
+  },
+  {
+   "name": "ay_008__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_008 was recorded"
+  },
+  {
+   "name": "ay_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ay_009__missing",
+   "kind": "categorical",
+   "indicator_of": "ay_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ay_009 was recorded"
+  },
+  {
+   "name": "az_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2118.0,
+   "description": ""
+  },
+  {
+   "name": "az_000__missing",
+   "kind": "categorical",
+   "indicator_of": "az_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_000 was recorded"
+  },
+  {
+   "name": "az_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 652.0,
+   "description": ""
+  },
+  {
+   "name": "az_001__missing",
+   "kind": "categorical",
+   "indicator_of": "az_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_001 was recorded"
+  },
+  {
+   "name": "az_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1036.0,
+   "description": ""
+  },
+  {
+   "name": "az_002__missing",
+   "kind": "categorical",
+   "indicator_of": "az_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_002 was recorded"
+  },
+  {
+   "name": "az_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3669.0,
+   "description": ""
+  },
+  {
+   "name": "az_003__missing",
+   "kind": "categorical",
+   "indicator_of": "az_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_003 was recorded"
+  },
+  {
+   "name": "az_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 85949.0,
+   "description": ""
+  },
+  {
+   "name": "az_004__missing",
+   "kind": "categorical",
+   "indicator_of": "az_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_004 was recorded"
+  },
+  {
+   "name": "az_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 534015.0,
+   "description": ""
+  },
+  {
+   "name": "az_005__missing",
+   "kind": "categorical",
+   "indicator_of": "az_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_005 was recorded"
+  },
+  {
+   "name": "az_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 294.0,
+   "description": ""
+  },
+  {
+   "name": "az_006__missing",
+   "kind": "categorical",
+   "indicator_of": "az_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_006 was recorded"
+  },
+  {
+   "name": "az_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "az_007__missing",
+   "kind": "categorical",
+   "indicator_of": "az_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_007 was recorded"
+  },
+  {
+   "name": "az_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "az_008__missing",
+   "kind": "categorical",
+   "indicator_of": "az_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_008 was recorded"
+  },
+  {
+   "name": "az_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "az_009__missing",
+   "kind": "categorical",
+   "indicator_of": "az_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether az_009 was recorded"
+  },
+  {
+   "name": "ba_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 684782.0,
+   "description": ""
+  },
+  {
+   "name": "ba_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_000 was recorded"
+  },
+  {
+   "name": "ba_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 448055.0,
+   "description": ""
+  },
+  {
+   "name": "ba_001__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_001 was recorded"
+  },
+  {
+   "name": "ba_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 188232.0,
+   "description": ""
+  },
+  {
+   "name": "ba_002__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_002 was recorded"
+  },
+  {
+   "name": "ba_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 135834.0,
+   "description": ""
+  },
+  {
+   "name": "ba_003__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_003 was recorded"
+  },
+  {
+   "name": "ba_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 103104.0,
+   "description": ""
+  },
+  {
+   "name": "ba_004__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_004 was recorded"
+  },
+  {
+   "name": "ba_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 84792.0,
+   "description": ""
+  },
+  {
+   "name": "ba_005__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_005 was recorded"
+  },
+  {
+   "name": "ba_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 71820.0,
+   "description": ""
+  },
+  {
+   "name": "ba_006__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_006 was recorded"
+  },
+  {
+   "name": "ba_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5079.0,
+   "description": ""
+  },
+  {
+   "name": "ba_007__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_007 was recorded"
+  },
+  {
+   "name": "ba_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 22.0,
+   "description": ""
+  },
+  {
+   "name": "ba_008__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_008 was recorded"
+  },
+  {
+   "name": "ba_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ba_009__missing",
+   "kind": "categorical",
+   "indicator_of": "ba_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ba_009 was recorded"
+  },
+  {
+   "name": "bb_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2378168.0,
+   "description": ""
+  },
+  {
+   "name": "bb_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bb_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bb_000 was recorded"
+  },
+  {
+   "name": "bc_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 16.0,
+   "description": ""
+  },
+  {
+   "name": "bc_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bc_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bc_000 was recorded"
+  },
+  {
+   "name": "bd_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 68.0,
+   "description": ""
+  },
+  {
+   "name": "bd_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bd_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bd_000 was recorded"
+  },
+  {
+   "name": "be_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 182.0,
+   "description": ""
+  },
+  {
+   "name": "be_000__missing",
+   "kind": "categorical",
+   "indicator_of": "be_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether be_000 was recorded"
+  },
+  {
+   "name": "bf_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "bf_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bf_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bf_000 was recorded"
+  },
+  {
+   "name": "bg_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1010174.0,
+   "description": ""
+  },
+  {
+   "name": "bg_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bg_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bg_000 was recorded"
+  },
+  {
+   "name": "bh_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 26656.0,
+   "description": ""
+  },
+  {
+   "name": "bh_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bh_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bh_000 was recorded"
+  },
+  {
+   "name": "bi_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 182008.0,
+   "description": ""
+  },
+  {
+   "name": "bj_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 156166.0,
+   "description": ""
+  },
+  {
+   "name": "bk_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 211110.0,
+   "description": ""
+  },
+  {
+   "name": "bk_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bk_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bk_000 was recorded"
+  },
+  {
+   "name": "bl_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 222910.0,
+   "description": ""
+  },
+  {
+   "name": "bl_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bl_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bl_000 was recorded"
+  },
+  {
+   "name": "bm_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 238980.0,
+   "description": ""
+  },
+  {
+   "name": "bm_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bm_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bm_000 was recorded"
+  },
+  {
+   "name": "bn_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 251280.0,
+   "description": ""
+  },
+  {
+   "name": "bn_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bn_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bn_000 was recorded"
+  },
+  {
+   "name": "bo_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 269180.0,
+   "description": ""
+  },
+  {
+   "name": "bo_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bo_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bo_000 was recorded"
+  },
+  {
+   "name": "bp_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 288170.0,
+   "description": ""
+  },
+  {
+   "name": "bp_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bp_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bp_000 was recorded"
+  },
+  {
+   "name": "bq_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 303120.0,
+   "description": ""
+  },
+  {
+   "name": "bq_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bq_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bq_000 was recorded"
+  },
+  {
+   "name": "br_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 316780.0,
+   "description": ""
+  },
+  {
+   "name": "br_000__missing",
+   "kind": "categorical",
+   "indicator_of": "br_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether br_000 was recorded"
+  },
+  {
+   "name": "bs_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 51430.0,
+   "description": ""
+  },
+  {
+   "name": "bs_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bs_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bs_000 was recorded"
+  },
+  {
+   "name": "bt_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 30964.35,
+   "description": ""
+  },
+  {
+   "name": "bu_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2377282.0,
+   "description": ""
+  },
+  {
+   "name": "bu_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bu_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bu_000 was recorded"
+  },
+  {
+   "name": "bv_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2377282.0,
+   "description": ""
+  },
+  {
+   "name": "bv_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bv_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bv_000 was recorded"
+  },
+  {
+   "name": "bx_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2281020.0,
+   "description": ""
+  },
+  {
+   "name": "bx_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bx_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bx_000 was recorded"
+  },
+  {
+   "name": "by_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 12713.0,
+   "description": ""
+  },
+  {
+   "name": "bz_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1062.0,
+   "description": ""
+  },
+  {
+   "name": "bz_000__missing",
+   "kind": "categorical",
+   "indicator_of": "bz_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether bz_000 was recorded"
+  },
+  {
+   "name": "ca_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25756.0,
+   "description": ""
+  },
+  {
+   "name": "ca_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ca_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ca_000 was recorded"
+  },
+  {
+   "name": "cb_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 282080.0,
+   "description": ""
+  },
+  {
+   "name": "cb_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cb_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cb_000 was recorded"
+  },
+  {
+   "name": "cc_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2130231.0,
+   "description": ""
+  },
+  {
+   "name": "cc_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cc_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cc_000 was recorded"
+  },
+  {
+   "name": "cd_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1209600.0,
+   "description": ""
+  },
+  {
+   "name": "cd_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cd_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cd_000 was recorded"
+  },
+  {
+   "name": "ce_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3478.0,
+   "description": ""
+  },
+  {
+   "name": "ce_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ce_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ce_000 was recorded"
+  },
+  {
+   "name": "cf_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "cf_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cf_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cf_000 was recorded"
+  },
+  {
+   "name": "cg_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 46.0,
+   "description": ""
+  },
+  {
+   "name": "cg_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cg_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cg_000 was recorded"
+  },
+  {
+   "name": "ch_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ch_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ch_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ch_000 was recorded"
+  },
+  {
+   "name": "ci_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1873092.0,
+   "description": ""
+  },
+  {
+   "name": "cj_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ck_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 252986.40000000002,
+   "description": ""
+  },
+  {
+   "name": "cl_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cl_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cl_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cl_000 was recorded"
+  },
+  {
+   "name": "cm_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "cm_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cm_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cm_000 was recorded"
+  },
+  {
+   "name": "cn_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cn_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_000 was recorded"
+  },
+  {
+   "name": "cn_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cn_001__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_001 was recorded"
+  },
+  {
+   "name": "cn_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cn_002__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_002 was recorded"
+  },
+  {
+   "name": "cn_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 35280.0,
+   "description": ""
+  },
+  {
+   "name": "cn_003__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_003 was recorded"
+  },
+  {
+   "name": "cn_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 522986.0,
+   "description": ""
+  },
+  {
+   "name": "cn_004__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_004 was recorded"
+  },
+  {
+   "name": "cn_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 708582.0,
+   "description": ""
+  },
+  {
+   "name": "cn_005__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_005 was recorded"
+  },
+  {
+   "name": "cn_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 97684.0,
+   "description": ""
+  },
+  {
+   "name": "cn_006__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_006 was recorded"
+  },
+  {
+   "name": "cn_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10090.0,
+   "description": ""
+  },
+  {
+   "name": "cn_007__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_007 was recorded"
+  },
+  {
+   "name": "cn_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1876.0,
+   "description": ""
+  },
+  {
+   "name": "cn_008__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_008 was recorded"
+  },
+  {
+   "name": "cn_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 26.0,
+   "description": ""
+  },
+  {
+   "name": "cn_009__missing",
+   "kind": "categorical",
+   "indicator_of": "cn_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cn_009 was recorded"
+  },
+  {
+   "name": "co_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "co_000__missing",
+   "kind": "categorical",
+   "indicator_of": "co_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether co_000 was recorded"
+  },
+  {
+   "name": "cp_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "cp_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cp_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cp_000 was recorded"
+  },
+  {
+   "name": "cq_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2377282.0,
+   "description": ""
+  },
+  {
+   "name": "cq_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cq_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cq_000 was recorded"
+  },
+  {
+   "name": "cr_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cr_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cr_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cr_000 was recorded"
+  },
+  {
+   "name": "cs_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3226.0,
+   "description": ""
+  },
+  {
+   "name": "cs_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_000 was recorded"
+  },
+  {
+   "name": "cs_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 366.0,
+   "description": ""
+  },
+  {
+   "name": "cs_001__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_001 was recorded"
+  },
+  {
+   "name": "cs_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 21196.0,
+   "description": ""
+  },
+  {
+   "name": "cs_002__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_002 was recorded"
+  },
+  {
+   "name": "cs_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 123420.0,
+   "description": ""
+  },
+  {
+   "name": "cs_003__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_003 was recorded"
+  },
+  {
+   "name": "cs_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 91818.0,
+   "description": ""
+  },
+  {
+   "name": "cs_004__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_004 was recorded"
+  },
+  {
+   "name": "cs_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1230464.0,
+   "description": ""
+  },
+  {
+   "name": "cs_005__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_005 was recorded"
+  },
+  {
+   "name": "cs_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 245456.0,
+   "description": ""
+  },
+  {
+   "name": "cs_006__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_006 was recorded"
+  },
+  {
+   "name": "cs_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6242.0,
+   "description": ""
+  },
+  {
+   "name": "cs_007__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_007 was recorded"
+  },
+  {
+   "name": "cs_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 48.0,
+   "description": ""
+  },
+  {
+   "name": "cs_008__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_008 was recorded"
+  },
+  {
+   "name": "cs_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cs_009__missing",
+   "kind": "categorical",
+   "indicator_of": "cs_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cs_009 was recorded"
+  },
+  {
+   "name": "ct_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 214.0,
+   "description": ""
+  },
+  {
+   "name": "ct_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ct_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ct_000 was recorded"
+  },
+  {
+   "name": "cu_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 282.0,
+   "description": ""
+  },
+  {
+   "name": "cu_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cu_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cu_000 was recorded"
+  },
+  {
+   "name": "cv_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1206420.0,
+   "description": ""
+  },
+  {
+   "name": "cv_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cv_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cv_000 was recorded"
+  },
+  {
+   "name": "cx_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 44908.0,
+   "description": ""
+  },
+  {
+   "name": "cx_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cx_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cx_000 was recorded"
+  },
+  {
+   "name": "cy_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "cy_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cy_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cy_000 was recorded"
+  },
+  {
+   "name": "cz_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 208.0,
+   "description": ""
+  },
+  {
+   "name": "cz_000__missing",
+   "kind": "categorical",
+   "indicator_of": "cz_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether cz_000 was recorded"
+  },
+  {
+   "name": "da_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "da_000__missing",
+   "kind": "categorical",
+   "indicator_of": "da_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether da_000 was recorded"
+  },
+  {
+   "name": "db_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "db_000__missing",
+   "kind": "categorical",
+   "indicator_of": "db_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether db_000 was recorded"
+  },
+  {
+   "name": "dc_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1753462.0,
+   "description": ""
+  },
+  {
+   "name": "dc_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dc_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dc_000 was recorded"
+  },
+  {
+   "name": "dd_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1374.0,
+   "description": ""
+  },
+  {
+   "name": "dd_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dd_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dd_000 was recorded"
+  },
+  {
+   "name": "de_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 144.0,
+   "description": ""
+  },
+  {
+   "name": "de_000__missing",
+   "kind": "categorical",
+   "indicator_of": "de_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether de_000 was recorded"
+  },
+  {
+   "name": "df_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "df_000__missing",
+   "kind": "categorical",
+   "indicator_of": "df_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether df_000 was recorded"
+  },
+  {
+   "name": "dg_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dg_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dg_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dg_000 was recorded"
+  },
+  {
+   "name": "dh_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dh_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dh_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dh_000 was recorded"
+  },
+  {
+   "name": "di_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "di_000__missing",
+   "kind": "categorical",
+   "indicator_of": "di_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether di_000 was recorded"
+  },
+  {
+   "name": "dj_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dj_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dj_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dj_000 was recorded"
+  },
+  {
+   "name": "dk_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dk_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dk_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dk_000 was recorded"
+  },
+  {
+   "name": "dl_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dl_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dl_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dl_000 was recorded"
+  },
+  {
+   "name": "dm_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dm_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dm_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dm_000 was recorded"
+  },
+  {
+   "name": "dn_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14484.0,
+   "description": ""
+  },
+  {
+   "name": "dn_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dn_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dn_000 was recorded"
+  },
+  {
+   "name": "do_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10850.0,
+   "description": ""
+  },
+  {
+   "name": "do_000__missing",
+   "kind": "categorical",
+   "indicator_of": "do_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether do_000 was recorded"
+  },
+  {
+   "name": "dp_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2594.0,
+   "description": ""
+  },
+  {
+   "name": "dp_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dp_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dp_000 was recorded"
+  },
+  {
+   "name": "dq_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dq_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dq_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dq_000 was recorded"
+  },
+  {
+   "name": "dr_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dr_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dr_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dr_000 was recorded"
+  },
+  {
+   "name": "ds_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 48672.0,
+   "description": ""
+  },
+  {
+   "name": "ds_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ds_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ds_000 was recorded"
+  },
+  {
+   "name": "dt_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8462.0,
+   "description": ""
+  },
+  {
+   "name": "dt_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dt_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dt_000 was recorded"
+  },
+  {
+   "name": "du_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 190030.0,
+   "description": ""
+  },
+  {
+   "name": "du_000__missing",
+   "kind": "categorical",
+   "indicator_of": "du_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether du_000 was recorded"
+  },
+  {
+   "name": "dv_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 31570.0,
+   "description": ""
+  },
+  {
+   "name": "dv_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dv_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dv_000 was recorded"
+  },
+  {
+   "name": "dx_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dx_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dx_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dx_000 was recorded"
+  },
+  {
+   "name": "dy_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dy_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dy_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dy_000 was recorded"
+  },
+  {
+   "name": "dz_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "dz_000__missing",
+   "kind": "categorical",
+   "indicator_of": "dz_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether dz_000 was recorded"
+  },
+  {
+   "name": "ea_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ea_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ea_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ea_000 was recorded"
+  },
+  {
+   "name": "eb_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 635560.0,
+   "description": ""
+  },
+  {
+   "name": "eb_000__missing",
+   "kind": "categorical",
+   "indicator_of": "eb_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether eb_000 was recorded"
+  },
+  {
+   "name": "ec_00",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 765.3299999999999,
+   "description": ""
+  },
+  {
+   "name": "ec_00__missing",
+   "kind": "categorical",
+   "indicator_of": "ec_00",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ec_00 was recorded"
+  },
+  {
+   "name": "ed_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 843.0,
+   "description": ""
+  },
+  {
+   "name": "ed_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ed_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ed_000 was recorded"
+  },
+  {
+   "name": "ee_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 263558.0,
+   "description": ""
+  },
+  {
+   "name": "ee_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_000 was recorded"
+  },
+  {
+   "name": "ee_001",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 350018.0,
+   "description": ""
+  },
+  {
+   "name": "ee_001__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_001",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_001 was recorded"
+  },
+  {
+   "name": "ee_002",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 237183.0,
+   "description": ""
+  },
+  {
+   "name": "ee_002__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_002",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_002 was recorded"
+  },
+  {
+   "name": "ee_003",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 113507.0,
+   "description": ""
+  },
+  {
+   "name": "ee_003__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_003",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_003 was recorded"
+  },
+  {
+   "name": "ee_004",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 226102.0,
+   "description": ""
+  },
+  {
+   "name": "ee_004__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_004",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_004 was recorded"
+  },
+  {
+   "name": "ee_005",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 192733.0,
+   "description": ""
+  },
+  {
+   "name": "ee_005__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_005",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_005 was recorded"
+  },
+  {
+   "name": "ee_006",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 95048.0,
+   "description": ""
+  },
+  {
+   "name": "ee_006__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_006",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_006 was recorded"
+  },
+  {
+   "name": "ee_007",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 41743.0,
+   "description": ""
+  },
+  {
+   "name": "ee_007__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_007",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_007 was recorded"
+  },
+  {
+   "name": "ee_008",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4086.0,
+   "description": ""
+  },
+  {
+   "name": "ee_008__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_008",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_008 was recorded"
+  },
+  {
+   "name": "ee_009",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ee_009__missing",
+   "kind": "categorical",
+   "indicator_of": "ee_009",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ee_009 was recorded"
+  },
+  {
+   "name": "ef_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ef_000__missing",
+   "kind": "categorical",
+   "indicator_of": "ef_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ef_000 was recorded"
+  },
+  {
+   "name": "eg_000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "eg_000__missing",
+   "kind": "categorical",
+   "indicator_of": "eg_000",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether eg_000 was recorded"
+  }
+ ],
+ "dropped": {}
+}

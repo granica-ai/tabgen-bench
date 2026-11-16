@@ -1,0 +1,21 @@
+{
+ "table": "homesite_quote_conversion",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "7c319b3dca50fb5bde26c26f86f48c8a8cf99d131e1a93979dfd185dbd18fafb",
+ "raw_file": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dataset.parquet",
+ "raw_sha256": "02480c946ab1c90ee59ab36d81982d7682936b3c0d1c89e1292e8e795a1556e0",
+ "raw_rows": 260753,
+ "rows": {
+  "train": 208603,
+  "validation": 26075,
+  "test": 26075
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

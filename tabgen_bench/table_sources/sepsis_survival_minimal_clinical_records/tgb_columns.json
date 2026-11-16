@@ -1,0 +1,44 @@
+{
+ "table": "sepsis_survival_minimal_clinical_records",
+ "column_order": [
+  "age_years",
+  "episode_number",
+  "gender",
+  "sepsis_outcome_after9pt5_days_in_hospital"
+ ],
+ "columns": [
+  {
+   "name": "age_years",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 69.0,
+   "description": ""
+  },
+  {
+   "name": "episode_number",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "gender",
+   "kind": "categorical",
+   "categories": [
+    "Female",
+    "Male"
+   ],
+   "description": ""
+  },
+  {
+   "name": "sepsis_outcome_after9pt5_days_in_hospital",
+   "kind": "categorical",
+   "categories": [
+    "Alive",
+    "Dead"
+   ],
+   "description": "the prediction target, binary classification"
+  }
+ ],
+ "dropped": {}
+}

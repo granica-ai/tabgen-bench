@@ -1,0 +1,21 @@
+{
+ "table": "mercari_price_suggestion",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "0b39203680e1666909358fc44f7bfd05ddedfe23c2e5466f80fc05104b18359b",
+ "raw_file": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dataset.parquet",
+ "raw_sha256": "f23b889fc4291a4c160130e5898c487c286e4b15f8be43c3b18fa15d76ffb83a",
+ "raw_rows": 1250000,
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

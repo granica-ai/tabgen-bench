@@ -1,0 +1,13 @@
+{
+ "unique_name": "video_transcoding_time_prediction",
+ "domain": "technology & internet",
+ "year": "2015",
+ "original_source": "UCI",
+ "original_link": "https://doi.org/10.24432/C58C9K",
+ "license": "CC BY 4.0",
+ "reference_key": "deneke2014video",
+ "task_type": "regression",
+ "target": "log_transcoding_time",
+ "rows": 68784,
+ "columns": 20
+}

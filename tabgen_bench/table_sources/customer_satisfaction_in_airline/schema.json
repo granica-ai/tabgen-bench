@@ -1,0 +1,115 @@
+{
+ "rows": 129880,
+ "columns": [
+  {
+   "name": "satisfied",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Customer Type",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Age",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Type of Travel",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Class",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Flight Distance",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Seat comfort",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Departure/Arrival time convenient",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Food and drink",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Gate location",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Inflight wifi service",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Inflight entertainment",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Online support",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Ease of Online booking",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "On-board service",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Leg room service",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Baggage handling",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Checkin service",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Cleanliness",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Online boarding",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Departure Delay in Minutes",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Arrival Delay in Minutes",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

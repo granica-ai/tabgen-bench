@@ -1,0 +1,14 @@
+{
+ "table": "kickstarter",
+ "host": "huggingface.co",
+ "repo_id": "TabArena/BeyondArena",
+ "repo_type": "dataset",
+ "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+ "revision_date": "2026-06-30T07:12:25+00:00",
+ "revision_title": "add paper info",
+ "directory": "kickstarter/019db497-6b35-71e0-9c6b-f4a7286f8f6f",
+ "container_uuid": "019db497-6b35-71e0-9c6b-f4a7286f8f6f",
+ "version_comment": null,
+ "url": "https://huggingface.co/datasets/TabArena/BeyondArena/tree/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/kickstarter/019db497-6b35-71e0-9c6b-f4a7286f8f6f",
+ "repo_license_tag": "other"
+}

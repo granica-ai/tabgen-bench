@@ -1,0 +1,2195 @@
+{
+ "table": "allstate_claims_severity",
+ "column_order": [
+  "cat1",
+  "cat2",
+  "cat3",
+  "cat4",
+  "cat5",
+  "cat6",
+  "cat7",
+  "cat8",
+  "cat9",
+  "cat10",
+  "cat11",
+  "cat12",
+  "cat13",
+  "cat14",
+  "cat15",
+  "cat16",
+  "cat17",
+  "cat18",
+  "cat19",
+  "cat20",
+  "cat21",
+  "cat22",
+  "cat23",
+  "cat24",
+  "cat25",
+  "cat26",
+  "cat27",
+  "cat28",
+  "cat29",
+  "cat30",
+  "cat31",
+  "cat32",
+  "cat33",
+  "cat34",
+  "cat35",
+  "cat36",
+  "cat37",
+  "cat38",
+  "cat39",
+  "cat40",
+  "cat41",
+  "cat42",
+  "cat43",
+  "cat44",
+  "cat45",
+  "cat46",
+  "cat47",
+  "cat48",
+  "cat49",
+  "cat50",
+  "cat51",
+  "cat52",
+  "cat53",
+  "cat54",
+  "cat55",
+  "cat56",
+  "cat57",
+  "cat58",
+  "cat59",
+  "cat60",
+  "cat61",
+  "cat62",
+  "cat63",
+  "cat64",
+  "cat65",
+  "cat66",
+  "cat67",
+  "cat68",
+  "cat69",
+  "cat70",
+  "cat71",
+  "cat72",
+  "cat73",
+  "cat74",
+  "cat75",
+  "cat76",
+  "cat77",
+  "cat78",
+  "cat79",
+  "cat80",
+  "cat81",
+  "cat82",
+  "cat83",
+  "cat84",
+  "cat85",
+  "cat86",
+  "cat87",
+  "cat88",
+  "cat89",
+  "cat90",
+  "cat91",
+  "cat92",
+  "cat93",
+  "cat94",
+  "cat95",
+  "cat96",
+  "cat97",
+  "cat98",
+  "cat99",
+  "cat100",
+  "cat101",
+  "cat102",
+  "cat103",
+  "cat104",
+  "cat105",
+  "cat106",
+  "cat107",
+  "cat108",
+  "cat109",
+  "cat110",
+  "cat111",
+  "cat112",
+  "cat113",
+  "cat114",
+  "cat115",
+  "cat116",
+  "cont1",
+  "cont2",
+  "cont3",
+  "cont4",
+  "cont5",
+  "cont6",
+  "cont7",
+  "cont8",
+  "cont9",
+  "cont10",
+  "cont11",
+  "cont12",
+  "cont13",
+  "cont14",
+  "loss"
+ ],
+ "columns": [
+  {
+   "name": "cat1",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat2",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat3",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat4",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat5",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat6",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat7",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat8",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat9",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat10",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat11",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat12",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat13",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat14",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat15",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat16",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat17",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat18",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat19",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat20",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat21",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat22",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat23",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat24",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat25",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat26",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat27",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat28",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat29",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat30",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat31",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat32",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat33",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat34",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat35",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat36",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat37",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat38",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat39",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat40",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat41",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat42",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat43",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat44",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat45",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat46",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat47",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat48",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat49",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat50",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat51",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat52",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat53",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat54",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat55",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat56",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat57",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat58",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat59",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat60",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat61",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat62",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat63",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat64",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat65",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat66",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat67",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat68",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat69",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat70",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat71",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat72",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat73",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat74",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat75",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat76",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat77",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat78",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat79",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat80",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat81",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat82",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat83",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat84",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat85",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat86",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat87",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat88",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "D",
+    "E"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat89",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "G",
+    "H",
+    "I"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat90",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat91",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat92",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "F",
+    "H",
+    "I"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat93",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat94",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat95",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat96",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "I"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat97",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat98",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat99",
+   "kind": "categorical",
+   "categories": [
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R",
+    "S",
+    "T"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat100",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat101",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "Q",
+    "R",
+    "S",
+    "U"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat102",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "J"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat103",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "N"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat104",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat105",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat106",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "R"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat107",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "U"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat108",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat109",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "AA",
+    "AB",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN",
+    "AO",
+    "AP",
+    "AQ",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "AV",
+    "AW",
+    "AX",
+    "AY",
+    "B",
+    "BA",
+    "BB",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BH",
+    "BI",
+    "BJ",
+    "BK",
+    "BL",
+    "BM",
+    "BN",
+    "BO",
+    "BP",
+    "BQ",
+    "BR",
+    "BS",
+    "BT",
+    "BU",
+    "BV",
+    "BX",
+    "BY",
+    "C",
+    "CA",
+    "CB",
+    "CC",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CJ",
+    "CK",
+    "CL",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "X",
+    "Y",
+    "ZZ"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat110",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN",
+    "AO",
+    "AP",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "AV",
+    "AW",
+    "AX",
+    "AY",
+    "B",
+    "BA",
+    "BB",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BI",
+    "BJ",
+    "BK",
+    "BL",
+    "BM",
+    "BN",
+    "BO",
+    "BP",
+    "BQ",
+    "BR",
+    "BS",
+    "BT",
+    "BU",
+    "BV",
+    "BW",
+    "BX",
+    "BY",
+    "C",
+    "CB",
+    "CC",
+    "CD",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CJ",
+    "CK",
+    "CL",
+    "CM",
+    "CN",
+    "CO",
+    "CP",
+    "CQ",
+    "CR",
+    "CS",
+    "CT",
+    "CU",
+    "CV",
+    "CW",
+    "CX",
+    "CY",
+    "D",
+    "DA",
+    "DB",
+    "DC",
+    "DD",
+    "DE",
+    "DF",
+    "DG",
+    "DH",
+    "DI",
+    "DJ",
+    "DK",
+    "DL",
+    "DM",
+    "DN",
+    "DO",
+    "DP",
+    "DQ",
+    "DR",
+    "DS",
+    "DT",
+    "DU",
+    "DV",
+    "DW",
+    "DX",
+    "DY",
+    "E",
+    "EA",
+    "EB",
+    "ED",
+    "EE",
+    "EF",
+    "EG",
+    "EH",
+    "EI",
+    "EJ",
+    "EK",
+    "EL",
+    "EM",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat111",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "I",
+    "K",
+    "M",
+    "O",
+    "Q",
+    "S",
+    "U",
+    "W",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat112",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN",
+    "AO",
+    "AP",
+    "AQ",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "AV",
+    "AW",
+    "AX",
+    "AY",
+    "B",
+    "BA",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat113",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN",
+    "AO",
+    "AP",
+    "AQ",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "AV",
+    "AW",
+    "AX",
+    "AY",
+    "B",
+    "BA",
+    "BB",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BH",
+    "BI",
+    "BJ",
+    "BK",
+    "BL",
+    "BM",
+    "BN",
+    "BO",
+    "C",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "S",
+    "T",
+    "U",
+    "V",
+    "X",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat114",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "I",
+    "J",
+    "L",
+    "N",
+    "O",
+    "Q",
+    "R",
+    "S",
+    "U",
+    "V",
+    "W",
+    "X"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat115",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "W",
+    "X"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cat116",
+   "kind": "categorical",
+   "categories": [
+    "AA",
+    "AB",
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN",
+    "AO",
+    "AP",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "AV",
+    "AW",
+    "AX",
+    "AY",
+    "B",
+    "BA",
+    "BB",
+    "BC",
+    "BD",
+    "BF",
+    "BG",
+    "BI",
+    "BK",
+    "BL",
+    "BM",
+    "BO",
+    "BP",
+    "BQ",
+    "BS",
+    "BT",
+    "BU",
+    "BV",
+    "BW",
+    "BX",
+    "BY",
+    "C",
+    "CA",
+    "CB",
+    "CC",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CJ",
+    "CK",
+    "CL",
+    "CM",
+    "CN",
+    "CO",
+    "CP",
+    "CQ",
+    "CR",
+    "CS",
+    "CT",
+    "CU",
+    "CV",
+    "CW",
+    "CX",
+    "CY",
+    "D",
+    "DA",
+    "DC",
+    "DD",
+    "DE",
+    "DF",
+    "DG",
+    "DH",
+    "DI",
+    "DJ",
+    "DK",
+    "DL",
+    "DM",
+    "DN",
+    "DO",
+    "DP",
+    "DQ",
+    "DR",
+    "DS",
+    "DT",
+    "DU",
+    "DV",
+    "DW",
+    "DX",
+    "DY",
+    "E",
+    "EA",
+    "EB",
+    "EC",
+    "ED",
+    "EE",
+    "EF",
+    "EG",
+    "EH",
+    "EI",
+    "EJ",
+    "EK",
+    "EL",
+    "EN",
+    "EO",
+    "EP",
+    "EQ",
+    "ES",
+    "EU",
+    "EV",
+    "EW",
+    "EY",
+    "F",
+    "FA",
+    "FB",
+    "FC",
+    "FD",
+    "FE",
+    "FF",
+    "FG",
+    "FH",
+    "FI",
+    "FJ",
+    "FK",
+    "FL",
+    "FM",
+    "FN",
+    "FO",
+    "FP",
+    "FQ",
+    "FR",
+    "FS",
+    "FT",
+    "FU",
+    "FV",
+    "FW",
+    "FX",
+    "G",
+    "GA",
+    "GB",
+    "GC",
+    "GD",
+    "GE",
+    "GF",
+    "GG",
+    "GH",
+    "GI",
+    "GJ",
+    "GK",
+    "GL",
+    "GM",
+    "GN",
+    "GO",
+    "GP",
+    "GQ",
+    "GR",
+    "GS",
+    "GT",
+    "GU",
+    "GV",
+    "GW",
+    "GX",
+    "GY",
+    "H",
+    "HA",
+    "HB",
+    "HC",
+    "HD",
+    "HE",
+    "HF",
+    "HG",
+    "HH",
+    "HI",
+    "HJ",
+    "HK",
+    "HL",
+    "HM",
+    "HN",
+    "HO",
+    "HP",
+    "HQ",
+    "HR",
+    "HT",
+    "HU",
+    "HV",
+    "HW",
+    "HX",
+    "HY",
+    "I",
+    "IA",
+    "IB",
+    "IC",
+    "ID",
+    "IE",
+    "IF",
+    "IG",
+    "IH",
+    "II",
+    "IJ",
+    "IK",
+    "IL",
+    "IM",
+    "IN",
+    "IO",
+    "IP",
+    "IQ",
+    "IR",
+    "IT",
+    "IU",
+    "IV",
+    "IX",
+    "IY",
+    "J",
+    "JA",
+    "JB",
+    "JC",
+    "JD",
+    "JE",
+    "JF",
+    "JG",
+    "JH",
+    "JI",
+    "JJ",
+    "JK",
+    "JL",
+    "JM",
+    "JN",
+    "JO",
+    "JP",
+    "JQ",
+    "JR",
+    "JT",
+    "JU",
+    "JV",
+    "JW",
+    "JX",
+    "JY",
+    "K",
+    "KA",
+    "KB",
+    "KC",
+    "KD",
+    "KE",
+    "KF",
+    "KG",
+    "KH",
+    "KI",
+    "KJ",
+    "KK",
+    "KL",
+    "KM",
+    "KN",
+    "KP",
+    "KQ",
+    "KR",
+    "KS",
+    "KT",
+    "KU",
+    "KV",
+    "KW",
+    "KX",
+    "KY",
+    "L",
+    "LA",
+    "LB",
+    "LC",
+    "LD",
+    "LE",
+    "LF",
+    "LG",
+    "LH",
+    "LI",
+    "LJ",
+    "LK",
+    "LL",
+    "LM",
+    "LN",
+    "LO",
+    "LQ",
+    "LR",
+    "LT",
+    "LU",
+    "LV",
+    "LW",
+    "LX",
+    "LY",
+    "M",
+    "MA",
+    "MB",
+    "MC",
+    "MD",
+    "ME",
+    "MF",
+    "MG",
+    "MH",
+    "MI",
+    "MJ",
+    "MK",
+    "ML",
+    "MM",
+    "MN",
+    "MO",
+    "MP",
+    "MQ",
+    "MR",
+    "MS",
+    "MT",
+    "MU",
+    "MV",
+    "MW",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "cont1",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.475784,
+   "description": ""
+  },
+  {
+   "name": "cont2",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.555782,
+   "description": ""
+  },
+  {
+   "name": "cont3",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.527991,
+   "description": ""
+  },
+  {
+   "name": "cont4",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.452887,
+   "description": ""
+  },
+  {
+   "name": "cont5",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.422268,
+   "description": ""
+  },
+  {
+   "name": "cont6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.439786,
+   "description": ""
+  },
+  {
+   "name": "cont7",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.438285,
+   "description": ""
+  },
+  {
+   "name": "cont8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.44106,
+   "description": ""
+  },
+  {
+   "name": "cont9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.43938,
+   "description": ""
+  },
+  {
+   "name": "cont10",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.46119,
+   "description": ""
+  },
+  {
+   "name": "cont11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.457203,
+   "description": ""
+  },
+  {
+   "name": "cont12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.462286,
+   "description": ""
+  },
+  {
+   "name": "cont13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.363547,
+   "description": ""
+  },
+  {
+   "name": "cont14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.408085,
+   "description": ""
+  },
+  {
+   "name": "loss",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.6570984659721075,
+   "description": "the prediction target, regression"
+  }
+ ],
+ "dropped": {}
+}

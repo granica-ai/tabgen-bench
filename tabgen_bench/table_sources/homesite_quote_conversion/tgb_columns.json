@@ -1,0 +1,2937 @@
+{
+ "table": "homesite_quote_conversion",
+ "column_order": [
+  "Original_Quote_Date",
+  "QuoteConversion_Flag",
+  "Field6",
+  "Field7",
+  "Field8",
+  "Field9",
+  "Field10",
+  "Field11",
+  "Field12",
+  "CoverageField1A",
+  "CoverageField1B",
+  "CoverageField2A",
+  "CoverageField2B",
+  "CoverageField3A",
+  "CoverageField3B",
+  "CoverageField4A",
+  "CoverageField4B",
+  "CoverageField5A",
+  "CoverageField5B",
+  "CoverageField6A",
+  "CoverageField6B",
+  "CoverageField8",
+  "CoverageField9",
+  "CoverageField11A",
+  "CoverageField11B",
+  "SalesField1A",
+  "SalesField1B",
+  "SalesField2A",
+  "SalesField2B",
+  "SalesField3",
+  "SalesField4",
+  "SalesField5",
+  "SalesField6",
+  "SalesField7",
+  "SalesField8",
+  "SalesField9",
+  "SalesField10",
+  "SalesField11",
+  "SalesField12",
+  "SalesField13",
+  "SalesField14",
+  "SalesField15",
+  "PersonalField1",
+  "PersonalField2",
+  "PersonalField4A",
+  "PersonalField4A__missing",
+  "PersonalField4B",
+  "PersonalField4B__missing",
+  "PersonalField5",
+  "PersonalField6",
+  "PersonalField7",
+  "PersonalField8",
+  "PersonalField9",
+  "PersonalField10A",
+  "PersonalField10A__missing",
+  "PersonalField10B",
+  "PersonalField10B__missing",
+  "PersonalField11",
+  "PersonalField12",
+  "PersonalField13",
+  "PersonalField14",
+  "PersonalField15",
+  "PersonalField16",
+  "PersonalField17",
+  "PersonalField18",
+  "PersonalField19",
+  "PersonalField22",
+  "PersonalField23",
+  "PersonalField24",
+  "PersonalField25",
+  "PersonalField26",
+  "PersonalField27",
+  "PersonalField28",
+  "PersonalField29",
+  "PersonalField30",
+  "PersonalField31",
+  "PersonalField32",
+  "PersonalField33",
+  "PersonalField34",
+  "PersonalField35",
+  "PersonalField36",
+  "PersonalField37",
+  "PersonalField38",
+  "PersonalField39",
+  "PersonalField40",
+  "PersonalField41",
+  "PersonalField42",
+  "PersonalField43",
+  "PersonalField44",
+  "PersonalField45",
+  "PersonalField46",
+  "PersonalField47",
+  "PersonalField48",
+  "PersonalField49",
+  "PersonalField50",
+  "PersonalField51",
+  "PersonalField52",
+  "PersonalField53",
+  "PersonalField54",
+  "PersonalField55",
+  "PersonalField56",
+  "PersonalField57",
+  "PersonalField58",
+  "PersonalField59",
+  "PersonalField60",
+  "PersonalField61",
+  "PersonalField62",
+  "PersonalField63",
+  "PersonalField64",
+  "PersonalField65",
+  "PersonalField66",
+  "PersonalField67",
+  "PersonalField68",
+  "PersonalField69",
+  "PersonalField70",
+  "PersonalField71",
+  "PersonalField72",
+  "PersonalField73",
+  "PersonalField74",
+  "PersonalField75",
+  "PersonalField76",
+  "PersonalField77",
+  "PersonalField78",
+  "PersonalField79",
+  "PersonalField80",
+  "PersonalField81",
+  "PersonalField82",
+  "PersonalField83",
+  "PersonalField84",
+  "PersonalField84__missing",
+  "PropertyField1A",
+  "PropertyField1B",
+  "PropertyField2A",
+  "PropertyField2A__missing",
+  "PropertyField2B",
+  "PropertyField3",
+  "PropertyField4",
+  "PropertyField5",
+  "PropertyField6",
+  "PropertyField7",
+  "PropertyField8",
+  "PropertyField9",
+  "PropertyField10",
+  "PropertyField11A",
+  "PropertyField11A__missing",
+  "PropertyField11B",
+  "PropertyField12",
+  "PropertyField13",
+  "PropertyField14",
+  "PropertyField15",
+  "PropertyField16A",
+  "PropertyField16B",
+  "PropertyField17",
+  "PropertyField18",
+  "PropertyField19",
+  "PropertyField20",
+  "PropertyField21A",
+  "PropertyField21B",
+  "PropertyField22",
+  "PropertyField23",
+  "PropertyField24A",
+  "PropertyField24B",
+  "PropertyField25",
+  "PropertyField26A",
+  "PropertyField26B",
+  "PropertyField27",
+  "PropertyField28",
+  "PropertyField29",
+  "PropertyField29__missing",
+  "PropertyField30",
+  "PropertyField31",
+  "PropertyField32",
+  "PropertyField33",
+  "PropertyField34",
+  "PropertyField35",
+  "PropertyField36",
+  "PropertyField37",
+  "PropertyField38",
+  "PropertyField39A",
+  "PropertyField39B",
+  "GeographicField1A",
+  "GeographicField1B",
+  "GeographicField2A",
+  "GeographicField2B",
+  "GeographicField3A",
+  "GeographicField3B",
+  "GeographicField4A",
+  "GeographicField4B",
+  "GeographicField5A",
+  "GeographicField5A__missing",
+  "GeographicField5B",
+  "GeographicField6A",
+  "GeographicField6B",
+  "GeographicField7A",
+  "GeographicField7B",
+  "GeographicField8A",
+  "GeographicField8B",
+  "GeographicField9A",
+  "GeographicField9B",
+  "GeographicField11A",
+  "GeographicField11B",
+  "GeographicField12A",
+  "GeographicField12B",
+  "GeographicField13A",
+  "GeographicField13B",
+  "GeographicField14A",
+  "GeographicField14A__missing",
+  "GeographicField14B",
+  "GeographicField15A",
+  "GeographicField15B",
+  "GeographicField16A",
+  "GeographicField16B",
+  "GeographicField17A",
+  "GeographicField17B",
+  "GeographicField18A",
+  "GeographicField18A__missing",
+  "GeographicField18B",
+  "GeographicField19A",
+  "GeographicField19B",
+  "GeographicField20A",
+  "GeographicField20B",
+  "GeographicField21A",
+  "GeographicField21A__missing",
+  "GeographicField21B",
+  "GeographicField22A",
+  "GeographicField22A__missing",
+  "GeographicField22B",
+  "GeographicField23A",
+  "GeographicField23A__missing",
+  "GeographicField23B",
+  "GeographicField24A",
+  "GeographicField24B",
+  "GeographicField25A",
+  "GeographicField25B",
+  "GeographicField26A",
+  "GeographicField26B",
+  "GeographicField27A",
+  "GeographicField27B",
+  "GeographicField28A",
+  "GeographicField28B",
+  "GeographicField29A",
+  "GeographicField29B",
+  "GeographicField30A",
+  "GeographicField30B",
+  "GeographicField31A",
+  "GeographicField31B",
+  "GeographicField32A",
+  "GeographicField32B",
+  "GeographicField33A",
+  "GeographicField33B",
+  "GeographicField34A",
+  "GeographicField34B",
+  "GeographicField35A",
+  "GeographicField35B",
+  "GeographicField36A",
+  "GeographicField36B",
+  "GeographicField37A",
+  "GeographicField37A__missing",
+  "GeographicField37B",
+  "GeographicField37B__missing",
+  "GeographicField38A",
+  "GeographicField38B",
+  "GeographicField39A",
+  "GeographicField39B",
+  "GeographicField40A",
+  "GeographicField40B",
+  "GeographicField41A",
+  "GeographicField41B",
+  "GeographicField42A",
+  "GeographicField42B",
+  "GeographicField43A",
+  "GeographicField43B",
+  "GeographicField44A",
+  "GeographicField44B",
+  "GeographicField45A",
+  "GeographicField45B",
+  "GeographicField46A",
+  "GeographicField46B",
+  "GeographicField47A",
+  "GeographicField47B",
+  "GeographicField48A",
+  "GeographicField48B",
+  "GeographicField49A",
+  "GeographicField49B",
+  "GeographicField50A",
+  "GeographicField50B",
+  "GeographicField51A",
+  "GeographicField51B",
+  "GeographicField52A",
+  "GeographicField52B",
+  "GeographicField53A",
+  "GeographicField53B",
+  "GeographicField54A",
+  "GeographicField54B",
+  "GeographicField55A",
+  "GeographicField55B",
+  "GeographicField56A",
+  "GeographicField56A__missing",
+  "GeographicField56B",
+  "GeographicField57A",
+  "GeographicField57B",
+  "GeographicField58A",
+  "GeographicField58B",
+  "GeographicField59A",
+  "GeographicField59B",
+  "GeographicField60A",
+  "GeographicField60A__missing",
+  "GeographicField60B",
+  "GeographicField61A",
+  "GeographicField61A__missing",
+  "GeographicField61B",
+  "GeographicField62A",
+  "GeographicField62A__missing",
+  "GeographicField62B",
+  "GeographicField63",
+  "GeographicField64"
+ ],
+ "columns": [
+  {
+   "name": "Original_Quote_Date",
+   "kind": "numerical",
+   "source": "datetime",
+   "fill": 16140.0,
+   "description": "Original_Quote_Date, in days since 1970-01-01"
+  },
+  {
+   "name": "QuoteConversion_Flag",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": "the prediction target, binary classification"
+  },
+  {
+   "name": "Field6",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "J",
+    "K"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Field7",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 23.0,
+   "description": ""
+  },
+  {
+   "name": "Field8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.9403,
+   "description": ""
+  },
+  {
+   "name": "Field9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0006,
+   "description": ""
+  },
+  {
+   "name": "Field10",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 965.0,
+   "description": ""
+  },
+  {
+   "name": "Field11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.1886,
+   "description": ""
+  },
+  {
+   "name": "Field12",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "CoverageField1A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField1B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField2A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField2B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField3A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField3B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField4A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField4B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField5A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField5B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 22.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField6A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField6B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 23.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField8",
+   "kind": "categorical",
+   "categories": [
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+   ],
+   "description": ""
+  },
+  {
+   "name": "CoverageField9",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+   ],
+   "description": ""
+  },
+  {
+   "name": "CoverageField11A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.0,
+   "description": ""
+  },
+  {
+   "name": "CoverageField11B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField1A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField1B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField2A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField2B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField3",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField4",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField5",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField7",
+   "kind": "categorical",
+   "categories": [
+    "K",
+    "M",
+    "P",
+    "Q",
+    "R",
+    "T",
+    "V"
+   ],
+   "description": ""
+  },
+  {
+   "name": "SalesField8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 33886.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField10",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "SalesField15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField1",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField2",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField4A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField4A__missing",
+   "kind": "categorical",
+   "indicator_of": "PersonalField4A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PersonalField4A was recorded"
+  },
+  {
+   "name": "PersonalField4B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField4B__missing",
+   "kind": "categorical",
+   "indicator_of": "PersonalField4B",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PersonalField4B was recorded"
+  },
+  {
+   "name": "PersonalField5",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField7",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PersonalField8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField10A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField10A__missing",
+   "kind": "categorical",
+   "indicator_of": "PersonalField10A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PersonalField10A was recorded"
+  },
+  {
+   "name": "PersonalField10B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField10B__missing",
+   "kind": "categorical",
+   "indicator_of": "PersonalField10B",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PersonalField10B was recorded"
+  },
+  {
+   "name": "PersonalField11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 18.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField16",
+   "kind": "categorical",
+   "categories": [
+    "XB",
+    "XC",
+    "XD",
+    "XE",
+    "XF",
+    "XH",
+    "XI",
+    "XJ",
+    "XK",
+    "XL",
+    "XM",
+    "XN",
+    "XO",
+    "XP",
+    "XQ",
+    "XR",
+    "XS",
+    "XT",
+    "XU",
+    "XV",
+    "XW",
+    "XX",
+    "XY",
+    "XZ",
+    "YE",
+    "YF",
+    "YH",
+    "YI",
+    "ZA",
+    "ZB",
+    "ZC",
+    "ZD",
+    "ZE",
+    "ZF",
+    "ZG",
+    "ZH",
+    "ZI",
+    "ZJ",
+    "ZK",
+    "ZL",
+    "ZN",
+    "ZO",
+    "ZP",
+    "ZQ",
+    "ZR",
+    "ZS",
+    "ZT",
+    "ZU",
+    "ZV",
+    "ZW"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PersonalField17",
+   "kind": "categorical",
+   "categories": [
+    "XB",
+    "XC",
+    "XD",
+    "XE",
+    "XG",
+    "XH",
+    "XI",
+    "XJ",
+    "XK",
+    "XL",
+    "XM",
+    "XN",
+    "XO",
+    "XP",
+    "XQ",
+    "XR",
+    "XS",
+    "XT",
+    "XU",
+    "XV",
+    "XW",
+    "XX",
+    "XY",
+    "YE",
+    "YF",
+    "YG",
+    "YH",
+    "YI",
+    "YJ",
+    "YK",
+    "YL",
+    "YM",
+    "YN",
+    "YP",
+    "YQ",
+    "YR",
+    "YS",
+    "YT",
+    "YU",
+    "YV",
+    "YW",
+    "YX",
+    "YY",
+    "YZ",
+    "ZA",
+    "ZB",
+    "ZC",
+    "ZD",
+    "ZE",
+    "ZF",
+    "ZG",
+    "ZH",
+    "ZI",
+    "ZK",
+    "ZL",
+    "ZM",
+    "ZN",
+    "ZO",
+    "ZP",
+    "ZQ",
+    "ZR",
+    "ZS",
+    "ZT",
+    "ZU",
+    "ZV",
+    "ZW"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PersonalField18",
+   "kind": "categorical",
+   "categories": [
+    "XC",
+    "XD",
+    "XE",
+    "XF",
+    "XG",
+    "XH",
+    "XI",
+    "XJ",
+    "XK",
+    "XL",
+    "XM",
+    "XN",
+    "XO",
+    "XP",
+    "XQ",
+    "XR",
+    "XS",
+    "XT",
+    "XU",
+    "XV",
+    "XW",
+    "XX",
+    "XY",
+    "XZ",
+    "YE",
+    "YF",
+    "YG",
+    "YH",
+    "YI",
+    "YJ",
+    "YK",
+    "YL",
+    "YM",
+    "YN",
+    "YO",
+    "YP",
+    "YQ",
+    "YR",
+    "ZA",
+    "ZB",
+    "ZC",
+    "ZD",
+    "ZE",
+    "ZF",
+    "ZG",
+    "ZH",
+    "ZI",
+    "ZJ",
+    "ZK",
+    "ZL",
+    "ZM",
+    "ZN",
+    "ZO",
+    "ZP",
+    "ZQ",
+    "ZR",
+    "ZS",
+    "ZT",
+    "ZU",
+    "ZV",
+    "ZW"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PersonalField19",
+   "kind": "categorical",
+   "categories": [
+    "XB",
+    "XC",
+    "XD",
+    "XE",
+    "XF",
+    "XG",
+    "XH",
+    "XI",
+    "XJ",
+    "XK",
+    "XL",
+    "XM",
+    "XN",
+    "XO",
+    "XP",
+    "XQ",
+    "XR",
+    "XS",
+    "XT",
+    "XU",
+    "XV",
+    "XW",
+    "XX",
+    "XY",
+    "XZ",
+    "YE",
+    "YF",
+    "YG",
+    "YH",
+    "YI",
+    "YJ",
+    "YK",
+    "YL",
+    "YM",
+    "YN",
+    "ZA",
+    "ZB",
+    "ZC",
+    "ZD",
+    "ZE",
+    "ZF",
+    "ZG",
+    "ZH",
+    "ZI",
+    "ZJ",
+    "ZK",
+    "ZL",
+    "ZM",
+    "ZN",
+    "ZO",
+    "ZP",
+    "ZQ",
+    "ZR",
+    "ZT",
+    "ZU",
+    "ZV",
+    "ZW"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PersonalField22",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField23",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField24",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField25",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField26",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField27",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField28",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField29",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField30",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField31",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField32",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField33",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField34",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField35",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField36",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField37",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField38",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField39",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField40",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField41",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField42",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField43",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField44",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField45",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField46",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField47",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField48",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField49",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField50",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField51",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField52",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField53",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField54",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField55",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField56",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField57",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField58",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField59",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField60",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField61",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField62",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField63",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField64",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField65",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField66",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField67",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField68",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField69",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField70",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField71",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField72",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField73",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField74",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField75",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField76",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField77",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField78",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField79",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField80",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField81",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField82",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField83",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField84",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PersonalField84__missing",
+   "kind": "categorical",
+   "indicator_of": "PersonalField84",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PersonalField84 was recorded"
+  },
+  {
+   "name": "PropertyField1A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField1B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField2A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField2A__missing",
+   "kind": "categorical",
+   "indicator_of": "PropertyField2A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PropertyField2A was recorded"
+  },
+  {
+   "name": "PropertyField2B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField3",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField4",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField5",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField7",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField10",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField11A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField11A__missing",
+   "kind": "categorical",
+   "indicator_of": "PropertyField11A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PropertyField11A was recorded"
+  },
+  {
+   "name": "PropertyField11B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 21.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField14",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField16A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField16B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField17",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField18",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField19",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField20",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField21A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField21B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField22",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField23",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField24A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField24B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField25",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.5,
+   "description": ""
+  },
+  {
+   "name": "PropertyField26A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField26B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField27",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField28",
+   "kind": "categorical",
+   "categories": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField29",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField29__missing",
+   "kind": "categorical",
+   "indicator_of": "PropertyField29",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether PropertyField29 was recorded"
+  },
+  {
+   "name": "PropertyField30",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField31",
+   "kind": "categorical",
+   "categories": [
+    "K",
+    "M",
+    "N",
+    "O"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField32",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField33",
+   "kind": "categorical",
+   "categories": [
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField34",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField35",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField36",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField37",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField38",
+   "kind": "categorical",
+   "categories": [
+    "N",
+    "Y",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "PropertyField39A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "PropertyField39B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField1A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField1B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField2A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField2B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField3A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 12.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField3B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField4A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField4B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField5A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField5A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField5A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField5A was recorded"
+  },
+  {
+   "name": "GeographicField5B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField6A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField6B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField7A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField7B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField8A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField8B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField9A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField9B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField11A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField11B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 15.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField12A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField12B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField13A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField13B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField14A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField14A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField14A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField14A was recorded"
+  },
+  {
+   "name": "GeographicField14B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField15A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField15B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField16A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField16B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField17A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField17B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField18A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField18A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField18A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField18A was recorded"
+  },
+  {
+   "name": "GeographicField18B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField19A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField19B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField20A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField20B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField21A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField21A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField21A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField21A was recorded"
+  },
+  {
+   "name": "GeographicField21B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField22A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField22A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField22A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField22A was recorded"
+  },
+  {
+   "name": "GeographicField22B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 15.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField23A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField23A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField23A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField23A was recorded"
+  },
+  {
+   "name": "GeographicField23B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField24A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 16.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField24B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField25A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 15.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField25B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField26A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField26B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField27A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 16.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField27B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField28A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField28B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField29A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField29B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField30A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField30B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField31A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField31B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField32A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField32B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField33A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField33B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField34A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField34B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField35A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField35B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField36A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField36B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField37A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField37A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField37A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField37A was recorded"
+  },
+  {
+   "name": "GeographicField37B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField37B__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField37B",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField37B was recorded"
+  },
+  {
+   "name": "GeographicField38A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField38B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField39A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField39B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField40A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField40B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField41A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 15.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField41B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField42A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField42B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField43A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField43B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField44A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField44B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField45A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField45B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField46A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField46B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField47A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField47B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField48A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 15.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField48B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField49A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 17.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField49B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField50A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 16.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField50B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField51A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField51B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField52A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField52B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField53A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 17.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField53B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField54A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 14.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField54B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField55A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField55B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField56A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField56A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField56A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField56A was recorded"
+  },
+  {
+   "name": "GeographicField56B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField57A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField57B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField58A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField58B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField59A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField59B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField60A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField60A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField60A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField60A was recorded"
+  },
+  {
+   "name": "GeographicField60B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField61A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField61A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField61A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField61A was recorded"
+  },
+  {
+   "name": "GeographicField61B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField62A",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 25.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField62A__missing",
+   "kind": "categorical",
+   "indicator_of": "GeographicField62A",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether GeographicField62A was recorded"
+  },
+  {
+   "name": "GeographicField62B",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 13.0,
+   "description": ""
+  },
+  {
+   "name": "GeographicField63",
+   "kind": "categorical",
+   "categories": [
+    " ",
+    "N",
+    "Y"
+   ],
+   "description": ""
+  },
+  {
+   "name": "GeographicField64",
+   "kind": "categorical",
+   "categories": [
+    "CA",
+    "IL",
+    "NJ",
+    "TX"
+   ],
+   "description": ""
+  }
+ ],
+ "dropped": {}
+}

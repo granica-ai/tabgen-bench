@@ -1,0 +1,40 @@
+{
+ "rows": 1250000,
+ "columns": [
+  {
+   "name": "name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "item_condition_id",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "category_name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "brand_name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "price",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "shipping",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "item_description",
+   "dtype": "string",
+   "storage": "string"
+  }
+ ]
+}

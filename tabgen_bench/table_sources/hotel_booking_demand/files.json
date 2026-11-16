@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/container_metadata.json",
+  "size": 162,
+  "sha256": "cd88846826c5437076c917d6cb5ab7aaaf041dadf63e70e1c6e88b1da56769dc",
+  "git_blob_id": "da28b941645a62a627a576d7561e8f3bd961ccf6",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dataset.parquet",
+  "size": 1004507,
+  "sha256": "55d7abcbfd9b296c8b825db7d67b503475b1dd65847bb5d256777c9dcca8539c",
+  "git_blob_id": "ae30a76b8b475581bcd45027148ca285fac6d409",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dataset_metadata.dataset-mold-v1.json",
+  "size": 3879,
+  "sha256": "c37cbdfde948a2fcc9aadf4812e2d57d03b7c2dc3eb102df3151125cc5a34be7",
+  "git_blob_id": "cce66d94c2cfc1bc9dfea85571ea2fb612e51360",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dtypes.json",
+  "size": 973,
+  "sha256": "b43b8cf5e41cec0d1a3bcac12fff6acb31c9a5b3a2c35d7e4bf80c6ebd18a91c",
+  "git_blob_id": "ef8e3929f8b8b9f8e1b79fea50c79aa85b40d536",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 3471313,
+  "sha256": "ecc68a9dd4a8770d5589edfa2c387467772ec892a3527d9c23dee8493562f042",
+  "git_blob_id": "22b0c652f4b749655a9ca90126122ac9b3315f52",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 301,
+  "sha256": "727d23aaa1974a5762ee6c70e6837e777d19c796af6f1e10c2de7a3c56caf853",
+  "git_blob_id": "c740ad53154e6657be2dfa53476fb3658a7ba726",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

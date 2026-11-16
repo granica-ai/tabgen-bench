@@ -1,0 +1,21 @@
+{
+ "table": "video_transcoding_time_prediction",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "3229f99710749da5df56ca2b751cac36653f55e0b2e9b1f84152022e22aeed7b",
+ "raw_file": "video_transcoding_time_prediction/019d7392-553f-7bb2-b0f4-0d80ea446f63/dataset.parquet",
+ "raw_sha256": "a46bd309a1f7eb1c62ac53516c5afe51459a486fc6542654935e141284f4c246",
+ "raw_rows": 68784,
+ "rows": {
+  "train": 55028,
+  "validation": 6878,
+  "test": 6878
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

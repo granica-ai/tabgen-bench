@@ -1,0 +1,13 @@
+{
+ "unique_name": "mercari_price_suggestion_1m",
+ "domain": "business & marketing",
+ "year": "2018",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/mercari-price-suggestion-challenge",
+ "license": "Kaggle Competition Rules",
+ "reference_key": "Howard2017MercariPriceSuggestionChallenge",
+ "task_type": "regression",
+ "target": "price",
+ "rows": 1250000,
+ "columns": 7
+}

@@ -1,0 +1,21 @@
+{
+ "table": "cooking_time",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "ef858885413c4b2af06ea551420736664fc48a87974f45c5e0423d64a33e1ebf",
+ "raw_file": "cooking_time/versions/019d737d-b4b1-7c24-8930-70a2c242b3f9/dataset.parquet",
+ "raw_sha256": "01c528502d911f8b53d39de014bde7d41fc47a60e16327a6eeb616afaf12e977",
+ "raw_rows": 1250000,
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

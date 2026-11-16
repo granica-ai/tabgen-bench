@@ -1,0 +1,490 @@
+{
+ "rows": 1064751,
+ "columns": [
+  {
+   "name": "issue_d",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "annual_inc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dti_n",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "loan_amnt",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "fico_n",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "emp_length",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "purpose",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "home_ownership_n",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "addr_state",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "zip_code",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Default",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "title",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "desc",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "emp_title",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "disbursement_method",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "acc_now_delinq",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "acc_open_past_24mths",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "all_util",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_fico_n",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "application_type",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "avg_cur_bal",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bc_open_to_buy",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bc_util",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "chargeoff_within_12_mths",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "collections_12_mths_ex_med",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "delinq_2yrs",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "delinq_amnt",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "earliest_cr_line",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "il_util",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "inq_fi",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "inq_last_12m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "inq_last_6mths",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "max_bal_bc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mo_sin_old_il_acct",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mo_sin_old_rev_tl_op",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mo_sin_rcnt_rev_tl_op",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mo_sin_rcnt_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mort_acc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_last_delinq",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_last_major_derog",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_last_record",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_rcnt_il",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_recent_bc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_recent_bc_dlq",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_recent_inq",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "mths_since_recent_revol_delinq",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_accts_ever_120_pd",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_actv_bc_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_actv_rev_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_bc_sats",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_bc_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_il_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_op_rev_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_rev_accts",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_rev_tl_bal_gt_0",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_sats",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_tl_120dpd_2m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_tl_30dpd",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_tl_90g_dpd_24m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "num_tl_op_past_12m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_acc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_acc_6m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_il_12m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_il_24m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_act_il",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_rv_12m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "open_rv_24m",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "pct_tl_nvr_dlq",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "percent_bc_gt_75",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "pub_rec",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "pub_rec_bankruptcies",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "revol_bal",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "revol_util",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "tax_liens",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "tot_coll_amt",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "tot_cur_bal",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "tot_hi_cred_lim",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_acc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_bal_ex_mort",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_bal_il",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_bc_limit",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_cu_tl",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_il_high_credit_limit",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "total_rev_hi_lim",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "revol_bal_joint",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_earliest_cr_line",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "sec_app_inq_last_6mths",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_mort_acc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_open_acc",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_revol_util",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_open_act_il",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_num_rev_accts",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_chargeoff_within_12_mths",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_collections_12_mths_ex_med",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_mths_since_last_major_derog",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_fico_range_low",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sec_app_fico_range_high",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

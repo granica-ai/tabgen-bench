@@ -1,0 +1,85 @@
+{
+ "rows": 844392,
+ "columns": [
+  {
+   "name": "Store",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "DayOfWeek",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Date",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "Sales",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Promo",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "StateHoliday",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "SchoolHoliday",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "StoreType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Assortment",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "CompetitionDistance",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "CompetitionOpenSinceMonth",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "CompetitionOpenSinceYear",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Promo2",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Promo2SinceWeek",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Promo2SinceYear",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PromoInterval",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  }
+ ]
+}

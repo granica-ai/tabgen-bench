@@ -1,0 +1,25 @@
+{
+ "rows": 110204,
+ "columns": [
+  {
+   "name": "age_years",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "episode_number",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "gender",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "sepsis_outcome_after9pt5_days_in_hospital",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  }
+ ]
+}

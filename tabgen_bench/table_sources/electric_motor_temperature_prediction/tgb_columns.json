@@ -1,0 +1,965 @@
+{
+ "table": "electric_motor_temperature_prediction",
+ "column_order": [
+  "u_q",
+  "coolant",
+  "u_d",
+  "motor_speed",
+  "i_d",
+  "i_q",
+  "permanent_magnet_temperature",
+  "ambient",
+  "profile_id",
+  "profile_time_index",
+  "u_s",
+  "i_s",
+  "S_el",
+  "i_s_omega",
+  "S_el_omega",
+  "u_d_ewma_500",
+  "u_d_ewms_500",
+  "u_d_ewma_2000",
+  "u_d_ewms_2000",
+  "u_d_ewma_4000",
+  "u_d_ewms_4000",
+  "u_d_ewma_8000",
+  "u_d_ewms_8000",
+  "u_q_ewma_500",
+  "u_q_ewms_500",
+  "u_q_ewma_2000",
+  "u_q_ewms_2000",
+  "u_q_ewma_4000",
+  "u_q_ewms_4000",
+  "u_q_ewma_8000",
+  "u_q_ewms_8000",
+  "i_d_ewma_500",
+  "i_d_ewms_500",
+  "i_d_ewma_2000",
+  "i_d_ewms_2000",
+  "i_d_ewma_4000",
+  "i_d_ewms_4000",
+  "i_d_ewma_8000",
+  "i_d_ewms_8000",
+  "i_q_ewma_500",
+  "i_q_ewms_500",
+  "i_q_ewma_2000",
+  "i_q_ewms_2000",
+  "i_q_ewma_4000",
+  "i_q_ewms_4000",
+  "i_q_ewma_8000",
+  "i_q_ewms_8000",
+  "coolant_ewma_500",
+  "coolant_ewms_500",
+  "coolant_ewma_2000",
+  "coolant_ewms_2000",
+  "coolant_ewma_4000",
+  "coolant_ewms_4000",
+  "coolant_ewma_8000",
+  "coolant_ewms_8000",
+  "motor_speed_ewma_500",
+  "motor_speed_ewms_500",
+  "motor_speed_ewma_2000",
+  "motor_speed_ewms_2000",
+  "motor_speed_ewma_4000",
+  "motor_speed_ewms_4000",
+  "motor_speed_ewma_8000",
+  "motor_speed_ewms_8000",
+  "ambient_ewma_500",
+  "ambient_ewms_500",
+  "ambient_ewma_2000",
+  "ambient_ewms_2000",
+  "ambient_ewma_4000",
+  "ambient_ewms_4000",
+  "ambient_ewma_8000",
+  "ambient_ewms_8000",
+  "u_s_ewma_500",
+  "u_s_ewms_500",
+  "u_s_ewma_2000",
+  "u_s_ewms_2000",
+  "u_s_ewma_4000",
+  "u_s_ewms_4000",
+  "u_s_ewma_8000",
+  "u_s_ewms_8000",
+  "i_s_ewma_500",
+  "i_s_ewms_500",
+  "i_s_ewma_2000",
+  "i_s_ewms_2000",
+  "i_s_ewma_4000",
+  "i_s_ewms_4000",
+  "i_s_ewma_8000",
+  "i_s_ewms_8000",
+  "S_el_ewma_500",
+  "S_el_ewms_500",
+  "S_el_ewma_2000",
+  "S_el_ewms_2000",
+  "S_el_ewma_4000",
+  "S_el_ewms_4000",
+  "S_el_ewma_8000",
+  "S_el_ewms_8000",
+  "i_s_omega_ewma_500",
+  "i_s_omega_ewms_500",
+  "i_s_omega_ewma_2000",
+  "i_s_omega_ewms_2000",
+  "i_s_omega_ewma_4000",
+  "i_s_omega_ewms_4000",
+  "i_s_omega_ewma_8000",
+  "i_s_omega_ewms_8000",
+  "S_el_omega_ewma_500",
+  "S_el_omega_ewms_500",
+  "S_el_omega_ewma_2000",
+  "S_el_omega_ewms_2000",
+  "S_el_omega_ewma_4000",
+  "S_el_omega_ewms_4000",
+  "S_el_omega_ewma_8000",
+  "S_el_omega_ewms_8000"
+ ],
+ "columns": [
+  {
+   "name": "u_q",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 48.895944595336914,
+   "description": ""
+  },
+  {
+   "name": "coolant",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 26.93393193277113,
+   "description": ""
+  },
+  {
+   "name": "u_d",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -6.44213080406189,
+   "description": ""
+  },
+  {
+   "name": "motor_speed",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1999.9759521484373,
+   "description": ""
+  },
+  {
+   "name": "i_d",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -50.72807693481445,
+   "description": ""
+  },
+  {
+   "name": "i_q",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 15.773578643798828,
+   "description": ""
+  },
+  {
+   "name": "permanent_magnet_temperature",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 60.85727986739943,
+   "description": "the prediction target, regression"
+  },
+  {
+   "name": "ambient",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 24.80379617845857,
+   "description": ""
+  },
+  {
+   "name": "profile_id",
+   "kind": "categorical",
+   "categories": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "23",
+    "24",
+    "26",
+    "27",
+    "29",
+    "30",
+    "31",
+    "32",
+    "36",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "78",
+    "79",
+    "80",
+    "81"
+   ],
+   "description": ""
+  },
+  {
+   "name": "profile_time_index",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10504.0,
+   "description": ""
+  },
+  {
+   "name": "u_s",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 105.8289016138829,
+   "description": ""
+  },
+  {
+   "name": "i_s",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 108.24952730349,
+   "description": ""
+  },
+  {
+   "name": "S_el",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9237.164786192272,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 184212.75302080266,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 18425095.712142397,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -8.297057430364521,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9.050612573843118,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -10.751853613020657,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 31.358965971037435,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -11.242630269176683,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 41.80455886933282,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -10.621782440443457,
+   "description": ""
+  },
+  {
+   "name": "u_d_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 48.73362481548852,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 53.34870534440344,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.221641555761996,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 53.393996581067505,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 23.52133312489369,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 49.79881374555263,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 32.028547322018106,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 44.45051966046549,
+   "description": ""
+  },
+  {
+   "name": "u_q_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 37.30054613363619,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -62.83917320529929,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 11.262711387432162,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -63.89786420560562,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 37.73317481271859,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -60.266925343022,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 49.896028827584715,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -53.948302845030966,
+   "description": ""
+  },
+  {
+   "name": "i_d_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 55.75640048501421,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 17.555952045118783,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 12.802660035361868,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 19.95879608927492,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 42.51007237493009,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 20.533847491595402,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 57.32555305493496,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 24.575939555549972,
+   "description": ""
+  },
+  {
+   "name": "i_q_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 66.60514983428607,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 27.11252032136167,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.2748946182462204,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 28.170508202496322,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.48803229546045435,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 28.806211864097683,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.7917290675444848,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 29.086276414196448,
+   "description": ""
+  },
+  {
+   "name": "coolant_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.1333645869621993,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1999.9791099922754,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 201.16143491852472,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2023.8339496837712,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 740.9351272553502,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1990.5443965331497,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1133.6816174073963,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1805.6127854983295,
+   "description": ""
+  },
+  {
+   "name": "motor_speed_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1468.8643740987357,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 24.73917795929422,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.22775292628121738,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 24.657420543032977,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.29323284837726565,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 24.57001254536205,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.35266535197007454,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 24.42546538610113,
+   "description": ""
+  },
+  {
+   "name": "ambient_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.4490318162066108,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 96.518904416796,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.501504030120579,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 89.05141035606667,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 22.901062241041608,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 81.78109397686282,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 34.266061859465054,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 70.78476780267005,
+   "description": ""
+  },
+  {
+   "name": "u_s_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 45.91805483159902,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 117.35808417383711,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 17.69965946398488,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 112.81325294093743,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 52.75218200351493,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 105.49176031873488,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 66.28922399021313,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 95.25097229411983,
+   "description": ""
+  },
+  {
+   "name": "i_s_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 76.0363210544033,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10754.75389036128,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2006.0178466144016,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10614.820045891089,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6234.683721101601,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 10060.590397344553,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7978.286233877765,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9014.60023096966,
+   "description": ""
+  },
+  {
+   "name": "S_el_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 9038.521616852891,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 235981.23931137467,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 49465.128223496955,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 256270.33488070953,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 160553.11524111993,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 248229.27841333346,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 224298.67811614316,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 228982.30819442775,
+   "description": ""
+  },
+  {
+   "name": "i_s_omega_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 257500.76723083755,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewma_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 26330121.337236013,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewms_500",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5957422.8876385,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewma_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 30956564.646558456,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewms_2000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 21337551.43798341,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewma_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 30249202.41112851,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewms_4000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 29496973.38480641,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewma_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 28042206.00479743,
+   "description": ""
+  },
+  {
+   "name": "S_el_omega_ewms_8000",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 34007755.153518975,
+   "description": ""
+  }
+ ],
+ "dropped": {}
+}

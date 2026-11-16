@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/container_metadata.json",
+  "size": 162,
+  "sha256": "a948791f4a9ba199f54e842575cf84cd512dcd4ac6e0161ac034a48f881ed4db",
+  "git_blob_id": "5b597bbe18e29ebf10ecf0408d4baf72df9763cf",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dataset.parquet",
+  "size": 31893668,
+  "sha256": "02480c946ab1c90ee59ab36d81982d7682936b3c0d1c89e1292e8e795a1556e0",
+  "git_blob_id": "26fa71bc08b590cc11a93793674317589d8da628",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dataset_metadata.dataset-mold-v1.json",
+  "size": 2249,
+  "sha256": "d1dcf7a82b45ae0ebea0737093b4e31215503acad9d8b1f13f846dccee60108b",
+  "git_blob_id": "cda34925171542d56eaa507a7e119306bceaecd6",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dtypes.json",
+  "size": 9511,
+  "sha256": "9d69f54b605e35d2503368169421880d1388c71a27bb4bc2a172f5a40142d892",
+  "git_blob_id": "ce27dcd4a126d2a57e094a94cd44b425a23b3843",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 17774508,
+  "sha256": "24916545a692a045818ed728656aed66565154a41d7d333ba603705998e14129",
+  "git_blob_id": "81b896660580c7b4137eb113812cc8fc95841a66",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 311,
+  "sha256": "5e43cff998315b0c048b171c624a72bee988a0850242bb4dec4e093dac2bcb28",
+  "git_blob_id": "d768b4711f8c50e60dab557ed0eed222570cd5c6",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/homesite_quote_conversion/019d736d-c045-7597-b0e9-665db9c61dac/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

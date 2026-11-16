@@ -1,0 +1,27 @@
+{
+ "table": "aps_failure",
+ "columns_sha256": "8d75993cffc7cc7ab9f98d860342098623c309d6ef0b389b65b606d054fb53c4",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "30d8a907fb97b4972df52f542d37e89db0be78fc52deddb7eff8b72baa54c1a1",
+  "validation": "809fa2bb9e48c5f0ecefcaac95653e2443dc83a0884eba1381011dc8305e8295",
+  "test": "ef6873de5686a64a4b4cb2ecf5a8d44d857ab91819a249954c3406d6addb852c"
+ },
+ "rows": {
+  "train": 60800,
+  "validation": 7600,
+  "test": 7600
+ },
+ "columns": 331,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

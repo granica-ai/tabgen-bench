@@ -1,0 +1,27 @@
+{
+ "table": "hotel_booking_demand",
+ "columns_sha256": "2f36e35e9223ac8decaf491fe0c77a66f8ee196c4faf282d204d2955c3a7e8f3",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "7bd3cf265fa0eb0be829112b0df9f91a5b24e41342f9d0d7bfed5c03c86127c2",
+  "validation": "db027fccff68ecd893be42b571e3f909a315743fba8c49542ad09041d9926732",
+  "test": "adf3bad28cf8ec66a713d73df6003ab639489a450685b9230530d094b714327b"
+ },
+ "rows": {
+  "train": 65134,
+  "validation": 8142,
+  "test": 8142
+ },
+ "columns": 32,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

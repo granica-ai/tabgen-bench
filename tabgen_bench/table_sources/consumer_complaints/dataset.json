@@ -1,0 +1,13 @@
+{
+ "unique_name": "consumer_complaints_1m",
+ "domain": "finance",
+ "year": "2025",
+ "original_source": "GOV Website",
+ "original_link": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+ "license": "U.S. Government Works",
+ "reference_key": "cfpb2025ConsumerComplaintDatabase",
+ "task_type": "multiclass_classification",
+ "target": "Company response to consumer",
+ "rows": 1226140,
+ "columns": 13
+}

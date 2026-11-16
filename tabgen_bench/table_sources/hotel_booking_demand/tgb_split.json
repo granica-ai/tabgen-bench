@@ -1,0 +1,21 @@
+{
+ "table": "hotel_booking_demand",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "8899c4eaaa4981732818d662c06bddfcc219173775485ead19d8e06db4cb32d7",
+ "raw_file": "hotel_booking_demand/019db498-7402-74ea-a334-69938355ae2c/dataset.parquet",
+ "raw_sha256": "55d7abcbfd9b296c8b825db7d67b503475b1dd65847bb5d256777c9dcca8539c",
+ "raw_rows": 81418,
+ "rows": {
+  "train": 65134,
+  "validation": 8142,
+  "test": 8142
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

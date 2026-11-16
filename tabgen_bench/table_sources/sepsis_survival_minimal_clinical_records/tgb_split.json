@@ -1,0 +1,21 @@
+{
+ "table": "sepsis_survival_minimal_clinical_records",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "d70390b13655930d8036d7ffaf032c20573bf6d85ec86152f2e83fea73a42ff5",
+ "raw_file": "sepsis_survival_minimal_clinical_records/019d7373-e475-7208-bd58-accca4615b01/dataset.parquet",
+ "raw_sha256": "ad3c2774d86fc4678e8a0447c30271d846ffcd4bed3c45c942aaf5da839035fc",
+ "raw_rows": 110204,
+ "rows": {
+  "train": 88164,
+  "validation": 11020,
+  "test": 11020
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

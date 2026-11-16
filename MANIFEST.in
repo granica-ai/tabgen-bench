@@ -1,0 +1,3 @@
+include docs/downstream-tasks.md
+include docs/downstream-mask-size.json
+include tests/conftest.py

@@ -1,0 +1,13 @@
+{
+ "unique_name": "hotel_booking_demand",
+ "domain": "business & marketing",
+ "year": "2019",
+ "original_source": "Other",
+ "original_link": "https://www.sciencedirect.com/science/article/pii/S2352340918315191#s0005",
+ "license": "CC BY 4.0",
+ "reference_key": "antonio2019hotel",
+ "task_type": "binary_classification",
+ "target": "IsCanceled",
+ "rows": 81418,
+ "columns": 32
+}

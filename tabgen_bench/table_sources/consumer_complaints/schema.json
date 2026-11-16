@@ -1,0 +1,70 @@
+{
+ "rows": 1226140,
+ "columns": [
+  {
+   "name": "Date received",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "Product",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Sub-product",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Issue",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Sub-issue",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "Consumer complaint narrative",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Company",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "State",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "ZIP code",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Company response to consumer",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Low population area",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Tag: Older American",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Tag: Servicemember",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  }
+ ]
+}

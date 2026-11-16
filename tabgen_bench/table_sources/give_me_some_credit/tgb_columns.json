@@ -1,0 +1,120 @@
+{
+ "table": "give_me_some_credit",
+ "column_order": [
+  "FinancialDistressNextTwoYears",
+  "RevolvingUtilizationOfUnsecuredLines",
+  "age",
+  "NumberOfTime30-59DaysPastDueNotWorse",
+  "DebtRatio",
+  "MonthlyIncome",
+  "MonthlyIncome__missing",
+  "NumberOfOpenCreditLinesAndLoans",
+  "NumberOfTimes90DaysLate",
+  "NumberRealEstateLoansOrLines",
+  "NumberOfTime60-89DaysPastDueNotWorse",
+  "NumberOfDependents",
+  "NumberOfDependents__missing"
+ ],
+ "columns": [
+  {
+   "name": "FinancialDistressNextTwoYears",
+   "kind": "categorical",
+   "categories": [
+    "No",
+    "Yes"
+   ],
+   "description": "the prediction target, binary classification"
+  },
+  {
+   "name": "RevolvingUtilizationOfUnsecuredLines",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.1538058005,
+   "description": ""
+  },
+  {
+   "name": "age",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 52.0,
+   "description": ""
+  },
+  {
+   "name": "NumberOfTime30-59DaysPastDueNotWorse",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "DebtRatio",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.366476241,
+   "description": ""
+  },
+  {
+   "name": "MonthlyIncome",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 5400.0,
+   "description": ""
+  },
+  {
+   "name": "MonthlyIncome__missing",
+   "kind": "categorical",
+   "indicator_of": "MonthlyIncome",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether MonthlyIncome was recorded"
+  },
+  {
+   "name": "NumberOfOpenCreditLinesAndLoans",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 8.0,
+   "description": ""
+  },
+  {
+   "name": "NumberOfTimes90DaysLate",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "NumberRealEstateLoansOrLines",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "NumberOfTime60-89DaysPastDueNotWorse",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "NumberOfDependents",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "NumberOfDependents__missing",
+   "kind": "categorical",
+   "indicator_of": "NumberOfDependents",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether NumberOfDependents was recorded"
+  }
+ ],
+ "dropped": {}
+}

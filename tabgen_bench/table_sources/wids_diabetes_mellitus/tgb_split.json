@@ -1,0 +1,21 @@
+{
+ "table": "wids_diabetes_mellitus",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "1ce7b5f02ca7f27c9b8cd1ddfe3491dcee1f5b6a0524a2939282a4817e463b70",
+ "raw_file": "wids_diabetes_mellitus/019d7374-50ba-7416-9d10-a526040930ee/dataset.parquet",
+ "raw_sha256": "f1965b3072a4cc8bf8621369179e21c61c4f3178f0f3cee130c0565d3df5bd49",
+ "raw_rows": 127358,
+ "rows": {
+  "train": 101886,
+  "validation": 12736,
+  "test": 12736
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

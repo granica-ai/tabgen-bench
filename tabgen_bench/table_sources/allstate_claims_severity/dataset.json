@@ -1,0 +1,13 @@
+{
+ "unique_name": "allstate_claims_severity",
+ "domain": "insurance",
+ "year": "2016",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/allstate-claims-severity",
+ "license": "Kaggle Competition Rules",
+ "reference_key": "Ferguson2016AllstateClaimsSeverity",
+ "task_type": "regression",
+ "target": "loss",
+ "rows": 188317,
+ "columns": 131
+}

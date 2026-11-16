@@ -1,0 +1,1135 @@
+{
+ "rows": 1250000,
+ "columns": [
+  {
+   "name": "num_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_1",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_2",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_3",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_4",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_5",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_6",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_7",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_8",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_9",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_10",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_11",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_12",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_13",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_14",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_15",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_16",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_17",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_18",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_19",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_20",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_21",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_22",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_23",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_24",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_25",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_26",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_27",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_28",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_29",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_30",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_31",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_32",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_33",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_34",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_35",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_36",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_37",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_38",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_39",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_40",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_41",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_42",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_43",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_44",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_45",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_46",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_47",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_48",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_49",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_50",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_51",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_52",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_53",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_54",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_55",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_56",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_57",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_58",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_59",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_60",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_61",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_62",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_63",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_64",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_65",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_66",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_67",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_68",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_69",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_70",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_71",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_72",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_73",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_74",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_75",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_76",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_77",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_78",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_79",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_80",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_81",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_82",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_83",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_84",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_85",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_86",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_87",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_88",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_89",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_90",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_91",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_92",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_93",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_94",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_95",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_96",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_97",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_98",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_99",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_100",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_101",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_102",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_103",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_104",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_105",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_106",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_107",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_108",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_109",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_110",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_111",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_112",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_113",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_114",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_115",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_116",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_117",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_118",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_119",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_120",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_121",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_122",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_123",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_124",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_125",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_126",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_127",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_128",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_129",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_130",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_131",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_132",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_133",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_134",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_135",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_136",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_137",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_138",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_139",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_140",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_141",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_142",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_143",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_144",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_145",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_146",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_147",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_148",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_149",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_150",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_151",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_152",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_153",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_154",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_155",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_156",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_157",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_158",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_159",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_160",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_161",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_162",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_163",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_164",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_165",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_166",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_167",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_168",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_169",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_170",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_171",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_172",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_173",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_174",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_175",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_176",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_177",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_178",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_179",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_180",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_181",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_182",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_183",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_184",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_185",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_186",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_187",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_188",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_189",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_190",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_191",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_192",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_193",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_194",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_195",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_196",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_197",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_198",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_199",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_200",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_201",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_202",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_203",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_204",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_205",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_206",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_207",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_208",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_209",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_210",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_211",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_212",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_213",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_214",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_215",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_216",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_217",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_218",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_219",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "num_220",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "bin_0",
+   "dtype": "category",
+   "storage": "float"
+  },
+  {
+   "name": "cat_0",
+   "dtype": "category",
+   "storage": "uint32"
+  },
+  {
+   "name": "cat_1",
+   "dtype": "category",
+   "storage": "uint32"
+  },
+  {
+   "name": "timestamp",
+   "dtype": "datetime64[us]",
+   "storage": "timestamp[us]"
+  },
+  {
+   "name": "delivery_eta_minutes",
+   "dtype": "float32",
+   "storage": "float"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "rows": 78053,
+ "columns": [
+  {
+   "name": "alpha",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "delta",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "g",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "r",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "z",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cam_col",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ObjectType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "redshift",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "plate",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "fiber_ID",
+   "dtype": "category",
+   "storage": "int64"
+  }
+ ]
+}

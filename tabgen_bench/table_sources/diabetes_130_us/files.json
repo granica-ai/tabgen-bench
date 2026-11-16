@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/container_metadata.json",
+  "size": 162,
+  "sha256": "595eddbceaee156184051a8be3962448b5dad17e19146360b6f93ea96622e772",
+  "git_blob_id": "5c9d1adcfb7745cabdc19f5514c4a55ad844bbcd",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dataset.parquet",
+  "size": 1014536,
+  "sha256": "211c1ac03c827f7e66d2fc1fd2f44013249355ba2f9c29d849fadf34ce5020d8",
+  "git_blob_id": "37c2df20ea85f17619570abb88d519863de59e52",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dataset_metadata.dataset-mold-v1.json",
+  "size": 2444,
+  "sha256": "f2c62ccf605134a1b9719b9aa1819a0dc1d0671bb76c8988c9d7724552fd5543",
+  "git_blob_id": "05c1832de9193951a345b8de875e04f82b696d32",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dtypes.json",
+  "size": 1346,
+  "sha256": "6e1e453c9944c8a2ac244e8c63e3ae799f4e8cf935121fce64e970dfe8d9e5e3",
+  "git_blob_id": "edc9ff6e645c49ecc51b65682bc1adb0c950c959",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 4405926,
+  "sha256": "435153f33b30883bb3171426d190bc6e8a9c2489a8515b181a48ee0d0d44a81f",
+  "git_blob_id": "fbdbf9524fd2f560a935d569c743e71d53b69a74",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 303,
+  "sha256": "877758f08605f396cf593920911eaf3789a1c48cf73ba0218b34d7753d2194ce",
+  "git_blob_id": "7fe6a594a33f90d220290f26696939b26169457a",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

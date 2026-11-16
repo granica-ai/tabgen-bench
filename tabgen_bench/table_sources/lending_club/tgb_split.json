@@ -1,0 +1,21 @@
+{
+ "table": "lending_club",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "4d25072b51520fd61b8407cc33b4c6289fc5c1a2f3ffca26266f9f50ff507ddb",
+ "raw_file": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dataset.parquet",
+ "raw_sha256": "ff296b954ba7d324e7442c5f545193b1798e3c6c727c46c4eab006de4ab587c0",
+ "raw_rows": 1064751,
+ "rows": {
+  "train": 851801,
+  "validation": 106475,
+  "test": 106475
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/container_metadata.json",
+  "size": 162,
+  "sha256": "2f2769faeeca7d6199d567965352b23f974cf104a53be41c112eef37c3ed09c5",
+  "git_blob_id": "d69d2c9a5ae6fe790d97ff6ab2614665f10d4fd3",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dataset.parquet",
+  "size": 393455964,
+  "sha256": "20cab78454c53ec7030fbda4d240bedd929c0f943993a89d50397d92638ca092",
+  "git_blob_id": "2fa9826939f5501620d4d2a541445754cb9e42a8",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dataset_metadata.dataset-mold-v1.json",
+  "size": 1925,
+  "sha256": "ad0239b2ebe234bb9c8c765fa62410065fad3261352c583bc6219f18775cdd2b",
+  "git_blob_id": "8ed4b2c00456ac636e0f8a4fecf36c9a7b89f7cc",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dtypes.json",
+  "size": 3375,
+  "sha256": "91f417fc17ed86c762c337d4274f41789414946a5a4d72e929e29d122962f3ee",
+  "git_blob_id": "c87926558f76facb579fc5e16f7b84b739c8bb28",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 10139108,
+  "sha256": "b53ce03021713eb48ee92d218a2ca7d7fcc00b21d386b34cc24072a11494fb07",
+  "git_blob_id": "0c1cffc7fea280d6eb6193342b4fc17f76c78f0a",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 282,
+  "sha256": "0ac2382dfadaab63a4fc1320e7d5f9798a7395002adabd1e0da4c5aaff73d36f",
+  "git_blob_id": "e91c3d65914196566ff694a289aa109ecb627c8a",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

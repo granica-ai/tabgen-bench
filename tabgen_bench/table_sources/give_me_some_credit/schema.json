@@ -1,0 +1,60 @@
+{
+ "rows": 150000,
+ "columns": [
+  {
+   "name": "FinancialDistressNextTwoYears",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "RevolvingUtilizationOfUnsecuredLines",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "age",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "NumberOfTime30-59DaysPastDueNotWorse",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "DebtRatio",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MonthlyIncome",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "NumberOfOpenCreditLinesAndLoans",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "NumberOfTimes90DaysLate",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "NumberRealEstateLoansOrLines",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "NumberOfTime60-89DaysPastDueNotWorse",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "NumberOfDependents",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

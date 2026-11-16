@@ -1,0 +1,14 @@
+{
+ "table": "kick",
+ "host": "huggingface.co",
+ "repo_id": "TabArena/BeyondArena",
+ "repo_type": "dataset",
+ "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+ "revision_date": "2026-06-30T07:12:25+00:00",
+ "revision_title": "add paper info",
+ "directory": "kick/019d744f-147d-721e-affc-94b58645c0ad",
+ "container_uuid": "019d744f-147d-721e-affc-94b58645c0ad",
+ "version_comment": null,
+ "url": "https://huggingface.co/datasets/TabArena/BeyondArena/tree/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/kick/019d744f-147d-721e-affc-94b58645c0ad",
+ "repo_license_tag": "other"
+}

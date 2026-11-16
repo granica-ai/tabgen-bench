@@ -1,0 +1,27 @@
+{
+ "table": "kick",
+ "columns_sha256": "ee81551bc03a769a12f2e13a697e74caa428238cac3dfc4e3f6faf44ee81c5fa",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "d81a917ba9cd584cfa22936b1b51c2fcc6513e9d9838de2fb0c11bdfc62e5fde",
+  "validation": "8d588569cea834d957b2991813f4bde408820359cbb6e963b28e0ebf1768408d",
+  "test": "192de7976a76b2a837f4c5375a5b49d4ad7052d182ec20bd51d110bc8576268d"
+ },
+ "rows": {
+  "train": 58387,
+  "validation": 7298,
+  "test": 7298
+ },
+ "columns": 33,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

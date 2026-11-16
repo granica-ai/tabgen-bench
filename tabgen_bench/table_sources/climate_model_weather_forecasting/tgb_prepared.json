@@ -1,0 +1,27 @@
+{
+ "table": "climate_model_weather_forecasting",
+ "columns_sha256": "5dd7d89b78cc9200ec98e9ae420e8cd215fade4bfb08c2664670a0d3219f2351",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "37fd5093cc2945b98402a920a847219dd5d0acd2c5dc164bcc7d74bb964534b2",
+  "validation": "91c1e236cfff0705608b84ea2f52adaa4ad6568f2f53c9ded9d67739de93e62b",
+  "test": "6265a46c9b66620afdc60a26d034a2553516983fda9953943c3f260e749cadc4"
+ },
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "columns": 145,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

@@ -1,0 +1,510 @@
+{
+ "rows": 1250000,
+ "columns": [
+  {
+   "name": "apply_time_rl",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "climate_pressure",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "climate_temperature",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_1000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_2",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_2_grad",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_2_interpolated",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_2_next",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_700",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_850",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_0_925",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_6_2",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_7_1000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_7_2",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_7_500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_7_700",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_7_850",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_0_7_925",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_1_0_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_1_11_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_1_65_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_1_7_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_2_10",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_2_1000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_2_500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_2_700",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_2_850",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_2_925",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_3_10",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_3_1000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_3_500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_3_700",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_3_850",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_2_3_925",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_0_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_0_0_next",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_1_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_5_1000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_5_500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_5_700",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_5_850",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_3_5_925",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_0_6_1_0",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_available",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "cmc_horizon_h",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cmc_precipitations",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "cmc_timedelta_s",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "fact_latitude",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "fact_longitude",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "fact_station_id",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "fact_temperature",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "fact_time",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "gfs_2m_dewpoint",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_a_vorticity",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_available",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "gfs_cloudness",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_clouds_sea",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_horizon_h",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "gfs_humidity",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_precipitable_water",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_precipitations",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_pressure",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_r_velocity",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_soil_temperature",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_soil_temperature_available",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "gfs_temperature_10000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_15000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_20000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_25000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_30000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_35000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_40000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_45000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_5000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_50000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_55000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_60000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_65000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_7000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_70000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_75000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_80000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_85000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_90000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_92500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_95000",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_97500",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_sea",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_sea_grad",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_sea_interpolated",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_temperature_sea_next",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_timedelta_s",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_total_clouds_cover_high",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_total_clouds_cover_low",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_total_clouds_cover_middle",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_u_wind",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_v_wind",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "gfs_wind_speed",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "sun_elevation",
+   "dtype": "float32",
+   "storage": "float"
+  },
+  {
+   "name": "topography_bathymetry",
+   "dtype": "float32",
+   "storage": "float"
+  }
+ ]
+}

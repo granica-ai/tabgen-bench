@@ -1,0 +1,13 @@
+{
+ "unique_name": "give_me_some_credit",
+ "domain": "finance",
+ "year": "2011",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/GiveMeSomeCredit/overview",
+ "license": "Public",
+ "reference_key": "cukierski2011credit",
+ "task_type": "binary_classification",
+ "target": "FinancialDistressNextTwoYears",
+ "rows": 150000,
+ "columns": 11
+}

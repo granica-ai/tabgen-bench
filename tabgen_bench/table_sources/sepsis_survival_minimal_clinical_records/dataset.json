@@ -1,0 +1,13 @@
+{
+ "unique_name": "sepsis_survival_minimal_clinical_records",
+ "domain": "medical & healthcare",
+ "year": "2020",
+ "original_source": "UCI",
+ "original_link": "https://doi.org/10.24432/C53C8N",
+ "license": "CC BY 4.0",
+ "reference_key": "hicco2020survival",
+ "task_type": "binary_classification",
+ "target": "sepsis_outcome_after9pt5_days_in_hospital",
+ "rows": 110204,
+ "columns": 4
+}

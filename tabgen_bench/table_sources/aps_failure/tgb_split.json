@@ -1,0 +1,21 @@
+{
+ "table": "aps_failure",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "eb11e716c13c84aebab0eed9361ec1894acb151593f15b350d082a7cb2833c46",
+ "raw_file": "aps_failure/019d7366-7373-7942-9438-aa122a6ca492/dataset.parquet",
+ "raw_sha256": "2879ed0c7dbaeca809b43dcefd5e94820bf0109482a8100a5d170a4f5a1fbb24",
+ "raw_rows": 76000,
+ "rows": {
+  "train": 60800,
+  "validation": 7600,
+  "test": 7600
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

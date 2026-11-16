@@ -1,0 +1,165 @@
+{
+ "rows": 81418,
+ "columns": [
+  {
+   "name": "IsCanceled",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "LeadTime",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ArrivalDateYear",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ArrivalDateMonth",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "ArrivalDateWeekNumber",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ArrivalDateDayOfMonth",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "StaysInWeekendNights",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "StaysInWeekNights",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Adults",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Children",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Babies",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Meal",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Country",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "MarketSegment",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "DistributionChannel",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "IsRepeatedGuest",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PreviousCancellations",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PreviousBookingsNotCanceled",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ReservedRoomType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "AssignedRoomType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "BookingChanges",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "DepositType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Agent",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "Company",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "DaysInWaitingList",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CustomerType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "ADR",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "RequiredCarParkingSpaces",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "TotalOfSpecialRequests",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "hotel",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "arrival_date",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "booking_date",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  }
+ ]
+}

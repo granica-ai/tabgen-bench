@@ -1,0 +1,13 @@
+{
+ "unique_name": "climate_model_weather_forecasting_1m",
+ "domain": "environmental science & climate",
+ "year": "2024",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/datasets/pcovkrd84mejm/tabred-weather",
+ "license": "CC-BY-NC-SA-4.0",
+ "reference_key": "rubachev2025tabred",
+ "task_type": "regression",
+ "target": "fact_temperature",
+ "rows": 1250000,
+ "columns": 101
+}

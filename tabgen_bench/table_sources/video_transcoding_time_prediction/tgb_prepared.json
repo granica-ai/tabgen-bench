@@ -1,0 +1,27 @@
+{
+ "table": "video_transcoding_time_prediction",
+ "columns_sha256": "7fc6bdff797bd2690b03d08010440fbcaeceace3e1f4aeebf80abe6d754941a6",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "a3ed9dfdfd009a8ab93c23de76aa587d0f4ef189feb050a0f4676f0315233e8c",
+  "validation": "cc7bc625e880a371771cf82159c2a00c9633d3951067811e1bace0e1efa04695",
+  "test": "ba0831fc2562daa74c5c1f46bbb8b7d3fe64db061e18d4ed921270221c2250c2"
+ },
+ "rows": {
+  "train": 55028,
+  "validation": 6878,
+  "test": 6878
+ },
+ "columns": 20,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

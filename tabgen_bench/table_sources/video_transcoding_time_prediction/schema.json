@@ -1,0 +1,105 @@
+{
+ "rows": 68784,
+ "columns": [
+  {
+   "name": "video_id",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "duration",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "codec",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "width",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "height",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "bitrate",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "framerate",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "p",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "b",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "frames",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "i_size",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "p_size",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "size",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "o_codec",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "o_bitrate",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "o_framerate",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "o_width",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "o_height",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "log_transcoding_time",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "table": "sdss_17",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "4fe0dfa2b6a93639d98830656934c710cf21e3968ec8d61c4b5dd65580d879a2",
+ "raw_file": "sdss_17/019d7369-942d-72c0-b327-e812c4b56b7e/dataset.parquet",
+ "raw_sha256": "5d93cfbe6ca5f4a29ada76d145c17f72515f8cc486d328493e0b39c453d49a74",
+ "raw_rows": 78053,
+ "rows": {
+  "train": 62443,
+  "validation": 7805,
+  "test": 7805
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

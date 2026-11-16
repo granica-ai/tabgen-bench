@@ -1,0 +1,27 @@
+{
+ "table": "diabetes_130_us",
+ "columns_sha256": "7fbaf8241f17741043dd264bf2b87178e1617079d37e8e56e82882be9098b74c",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "78a1f82a0344b10cbf1cd5767f64fd16908a48aef4a9c28784990ba21621e572",
+  "validation": "62e680fb73435f861e5edfce9a52e77895b3b7c8c87550c2a51c985682e4f1c1",
+  "test": "57e79266a4ba4c38ce75554132dec1b296a7a57ca6adf10475c4345749ec3d6e"
+ },
+ "rows": {
+  "train": 57214,
+  "validation": 7152,
+  "test": 7152
+ },
+ "columns": 45,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

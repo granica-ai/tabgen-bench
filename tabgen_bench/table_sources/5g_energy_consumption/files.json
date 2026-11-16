@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/container_metadata.json",
+  "size": 162,
+  "sha256": "68cf7fe3766aa2fe60d25a8f06d8c9192855e45408a789e9215ed855efae4012",
+  "git_blob_id": "9013a9e8dc5f419add2c9e429d43e3b0027ca88e",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset.parquet",
+  "size": 1384420,
+  "sha256": "c4d4a20c8ff72fca12ffe83eda9e2324eadc7596ffa76471ec4ba6743cd5d83e",
+  "git_blob_id": "afc2d2c2d90ed7d568d37f63716518fa51800c44",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset_metadata.dataset-mold-v1.json",
+  "size": 2994,
+  "sha256": "39699add5bc78849bc3b72fbbe74fcdeae863d2bf4a0beeed075295cc838c895",
+  "git_blob_id": "86ece785c4598f6341523bac1ffc9937d30f06d8",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dtypes.json",
+  "size": 542,
+  "sha256": "64e5630fdf018ea0ed5ec115a7b464927e4f549162c696f0e36578ca16159ead",
+  "git_blob_id": "26b34a289bb178f510bf4addbdf073b47f8467da",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 5735923,
+  "sha256": "dedb1a8df2669b72e19618b6b30b633a273d211516ed2f4ca3341c84ea4b8c19",
+  "git_blob_id": "2fc4b4e5bdf879478a57590a46ad2517147ff8ef",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 273,
+  "sha256": "e0089220145f48fad235b1f41f6e1c2ba9ee1f83511945f4ec943e8149996e05",
+  "git_blob_id": "9fd848c7da0fddd7eed01e3a163bf94d962999b6",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/5g_energy_consumption/019db4c5-d45f-7c07-80c9-bdd75ea01338/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

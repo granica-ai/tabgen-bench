@@ -1,0 +1,13 @@
+{
+ "unique_name": "kickstarter",
+ "domain": "business & marketing",
+ "year": "2025",
+ "original_source": "Other",
+ "original_link": "https://webrobots.io/kickstarter-datasets/",
+ "license": "None",
+ "reference_key": "webrobots2026kickstarter",
+ "task_type": "binary_classification",
+ "target": "state",
+ "rows": 187118,
+ "columns": 16
+}

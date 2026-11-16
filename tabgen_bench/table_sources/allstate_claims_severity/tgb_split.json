@@ -1,0 +1,21 @@
+{
+ "table": "allstate_claims_severity",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "6a0688287b1b92c22026c6a670de9ed089b0cb1ffa0c6c93e8a03813e4db7cb5",
+ "raw_file": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dataset.parquet",
+ "raw_sha256": "93f493e8c0f0b5a9922aab4d427a0c62e6d37af4b36bcb1656680e1b5fd6bbcf",
+ "raw_rows": 188317,
+ "rows": {
+  "train": 150653,
+  "validation": 18832,
+  "test": 18832
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

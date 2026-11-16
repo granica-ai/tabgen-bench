@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/container_metadata.json",
+  "size": 162,
+  "sha256": "12aee1a78960a1fb9d0ce5bd6e3697d3a0eaaab71dd40fa152787eef5a59d49f",
+  "git_blob_id": "2a7baf1ca35d82af2389327d68d3949c260c0939",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/dataset.parquet",
+  "size": 1386109,
+  "sha256": "bd7eba95d0c1a27e3ce641e69e745b07acf2bda5ed98b30cf5c3c06e22e0b320",
+  "git_blob_id": "76f76ab9b25e20c8d66703fe8a3d3542a6eaacc5",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/dataset_metadata.dataset-mold-v1.json",
+  "size": 1549,
+  "sha256": "7dd0639d5b147c7ed7fb5bfd80df87680f55af4bd24dee6cccf852c3eb20feb7",
+  "git_blob_id": "c19ad34201e31c8022a604ccc3c3003d4a42053d",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/dtypes.json",
+  "size": 737,
+  "sha256": "75e2199f4ac485f57cc813ed199198130f7360a455c98564f60efc517a9a240f",
+  "git_blob_id": "8f414922d4a393d1a9b32ea61fe1d13e8cbbb4ad",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 8351652,
+  "sha256": "d2834fa25806bf81c3a04872035924e7999d62ee9aff22a738565d2f01ee4dcd",
+  "git_blob_id": "8f2ad177b494183193d9f4a638c10a37b108b4ab",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 289,
+  "sha256": "165010900abbaee7d1a23e7106840aae94fe1ed6011463ff75f1dcfbfc505fef",
+  "git_blob_id": "3bd6d67403181c4d042e009779fb4f1e924e6805",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/customer_satisfaction_in_airline/019d7367-4d56-7274-a470-1609f3a3d6fe/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

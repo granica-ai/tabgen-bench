@@ -1,0 +1,21 @@
+{
+ "table": "electric_motor_temperature_prediction",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "07340f102a667df4c6aa1bff09ea4438f80f018cad98dde5da46433a1563a740",
+ "raw_file": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dataset.parquet",
+ "raw_sha256": "a9c9120ad915dd3da259474b5c89080839c3fd2310a94be371fc7513d69b76de",
+ "raw_rows": 1296316,
+ "rows": {
+  "train": 1037052,
+  "validation": 129632,
+  "test": 129632
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

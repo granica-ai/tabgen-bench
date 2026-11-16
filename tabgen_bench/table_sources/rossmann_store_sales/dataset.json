@@ -1,0 +1,13 @@
+{
+ "unique_name": "rossmann_store_sales",
+ "domain": "business & marketing",
+ "year": "2015",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/rossmann-store-sales/overview",
+ "license": "Kaggle License",
+ "reference_key": "kaggle_rossmann_store_sales",
+ "task_type": "regression",
+ "target": "Sales",
+ "rows": 844392,
+ "columns": 16
+}

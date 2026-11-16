@@ -1,0 +1,27 @@
+{
+ "table": "porto_seguro",
+ "columns_sha256": "b0e4b716789d131bc28e775f9217b44b6f1b556895c251463716a6f75ed96b61",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "488a99122198e969533ec16dcada64799622b6e3625cae866018c8c891405bc5",
+  "validation": "3255417c71415b44d66033813c2e529c10843606d66a8fbac3bc52e52e046b47",
+  "test": "66bd212b8e9553072c173737ac1c4fd42100f78bbb1e7443a1283a4c78a9e35d"
+ },
+ "rows": {
+  "train": 476164,
+  "validation": 59521,
+  "test": 59521
+ },
+ "columns": 40,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

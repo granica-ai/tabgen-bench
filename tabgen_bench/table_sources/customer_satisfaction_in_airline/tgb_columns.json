@@ -1,0 +1,276 @@
+{
+ "table": "customer_satisfaction_in_airline",
+ "column_order": [
+  "satisfied",
+  "Customer Type",
+  "Age",
+  "Type of Travel",
+  "Class",
+  "Flight Distance",
+  "Seat comfort",
+  "Departure/Arrival time convenient",
+  "Food and drink",
+  "Gate location",
+  "Inflight wifi service",
+  "Inflight entertainment",
+  "Online support",
+  "Ease of Online booking",
+  "On-board service",
+  "Leg room service",
+  "Baggage handling",
+  "Checkin service",
+  "Cleanliness",
+  "Online boarding",
+  "Departure Delay in Minutes",
+  "Arrival Delay in Minutes"
+ ],
+ "columns": [
+  {
+   "name": "satisfied",
+   "kind": "categorical",
+   "categories": [
+    "No",
+    "Yes"
+   ],
+   "description": "the prediction target, binary classification"
+  },
+  {
+   "name": "Customer Type",
+   "kind": "categorical",
+   "categories": [
+    "Loyal Customer",
+    "disloyal Customer"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Age",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 40.0,
+   "description": ""
+  },
+  {
+   "name": "Type of Travel",
+   "kind": "categorical",
+   "categories": [
+    "Business travel",
+    "Personal Travel"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Class",
+   "kind": "categorical",
+   "categories": [
+    "Business",
+    "Eco",
+    "Eco Plus"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Flight Distance",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1925.0,
+   "description": ""
+  },
+  {
+   "name": "Seat comfort",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Departure/Arrival time convenient",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Food and drink",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Gate location",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Inflight wifi service",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Inflight entertainment",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Online support",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Ease of Online booking",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "On-board service",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Leg room service",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Baggage handling",
+   "kind": "categorical",
+   "categories": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Checkin service",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Cleanliness",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Online boarding",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "Departure Delay in Minutes",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "Arrival Delay in Minutes",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  }
+ ],
+ "dropped": {}
+}

@@ -1,0 +1,27 @@
+{
+ "table": "acquire_valued_shoppers_challenge",
+ "columns_sha256": "1cbb2a048274cc2c85172dd17cfa51bf0d119afdbef85ade6476ef4a597e57fa",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "e199d9079144a48eb3037cde652f2cb942b056f18b282d99f4c319e93fcaf4a1",
+  "validation": "2a18d0c04d2162583be402b3a44fc5c6d19be2096cecadbba8e20700d097ad8e",
+  "test": "085c22feaeca49ceee027f8174c5d964a834b76b26c3275c15cfa1295f794cfc"
+ },
+ "rows": {
+  "train": 128045,
+  "validation": 16006,
+  "test": 16006
+ },
+ "columns": 112,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

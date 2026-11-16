@@ -1,0 +1,13 @@
+{
+ "unique_name": "lending_club_1m",
+ "domain": "finance",
+ "year": "2018",
+ "original_source": "Kaggle",
+ "original_link": "https://zenodo.org/records/11295916",
+ "license": "CC0: Public Domain",
+ "reference_key": "sanz2025credit",
+ "task_type": "binary_classification",
+ "target": "Default",
+ "rows": 1064751,
+ "columns": 97
+}

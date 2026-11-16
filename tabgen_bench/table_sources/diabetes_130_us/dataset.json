@@ -1,0 +1,13 @@
+{
+ "unique_name": "diabetes_130_us",
+ "domain": "medical & healthcare",
+ "year": "2014",
+ "original_source": "UCI",
+ "original_link": "https://doi.org/10.24432/C5230J",
+ "license": "CC BY 4.0",
+ "reference_key": "strack2014impact",
+ "task_type": "binary_classification",
+ "target": "EarlyReadmission",
+ "rows": 71518,
+ "columns": 45
+}

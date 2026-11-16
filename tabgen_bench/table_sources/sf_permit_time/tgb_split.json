@@ -1,0 +1,21 @@
+{
+ "table": "sf_permit_time",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "10be1011099e37c13c5eb63c0de2b72cfc6f0c0100c583dc3889655f45393835",
+ "raw_file": "sf_permit_time/019d738d-80c6-71a6-99f0-e3e0955ce2d0/dataset.parquet",
+ "raw_sha256": "8707cf0fd8020cffcdb080daa8d02fc2425cfcc706d9c531f3c671ab024dfe5d",
+ "raw_rows": 116954,
+ "rows": {
+  "train": 93564,
+  "validation": 11695,
+  "test": 11695
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

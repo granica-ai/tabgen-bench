@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/container_metadata.json",
+  "size": 162,
+  "sha256": "8cf6cc3eb34587851a48a8cfd3e6a864f5dac22384ab6642e577d3f78eb55464",
+  "git_blob_id": "181e6ce71c1aa015044d352598af1af5f08e143b",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dataset.parquet",
+  "size": 8871373,
+  "sha256": "93f493e8c0f0b5a9922aab4d427a0c62e6d37af4b36bcb1656680e1b5fd6bbcf",
+  "git_blob_id": "7cfab2e6f5ed6123a8d3dff901a047a7ce9f99ed",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dataset_metadata.dataset-mold-v1.json",
+  "size": 1545,
+  "sha256": "2dd0bba30362c174ffdf52e1a87de60d5a0c02acd42bef54d87e44e320e6b41e",
+  "git_blob_id": "eeba5bd1567d8f0160e6f3152a2543d31dd961ff",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dtypes.json",
+  "size": 3012,
+  "sha256": "c4898b6964a03d92ec1baa4b3f5897730020ef6491cc4d45a806bf6b0c3365fe",
+  "git_blob_id": "85ca2ea087952cd2e61043016105c856ce814554",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 12559116,
+  "sha256": "1f218f58396e875911cb02f75246ddbc7c23cc24e08aa203f2d2266ef5f49002",
+  "git_blob_id": "938b3ad87e9e6313c52207c73d45b2d20a3fd2bb",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 262,
+  "sha256": "fed51908a4aeaef1169e7f24f75722c78c57f92590e105178042a0877ddf705c",
+  "git_blob_id": "f8a472cee83a2ced9281364002a2ecd85193abee",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/allstate_claims_severity/019d736a-2321-76da-a36a-ddc5e1fbf7b6/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

@@ -1,0 +1,1485 @@
+{
+ "rows": 260753,
+ "columns": [
+  {
+   "name": "Original_Quote_Date",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "QuoteConversion_Flag",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Field6",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Field7",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Field8",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Field9",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Field10",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Field11",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Field12",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "CoverageField1A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "CoverageField1B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "CoverageField2A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField2B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField3A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField3B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField4A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField4B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField5A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField5B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField6A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField6B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "CoverageField8",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "CoverageField9",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "CoverageField11A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "CoverageField11B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "SalesField1A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField1B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField2A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "SalesField2B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "SalesField3",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField4",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField5",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField6",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField7",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "SalesField8",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField9",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField10",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField11",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField12",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField13",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField14",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SalesField15",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField1",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField2",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField4A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PersonalField4B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PersonalField5",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField6",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField7",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PersonalField8",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField9",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField10A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PersonalField10B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PersonalField11",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField12",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField13",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField14",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField15",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField16",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PersonalField17",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PersonalField18",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PersonalField19",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PersonalField22",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField23",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField24",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField25",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField26",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField27",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField28",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField29",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField30",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField31",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField32",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField33",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField34",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField35",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField36",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField37",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField38",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField39",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField40",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField41",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField42",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField43",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField44",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField45",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField46",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField47",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField48",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField49",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField50",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField51",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField52",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField53",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField54",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField55",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField56",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField57",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField58",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField59",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField60",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField61",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField62",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField63",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField64",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField65",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField66",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField67",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField68",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField69",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField70",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField71",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField72",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField73",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField74",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField75",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField76",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField77",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField78",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField79",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField80",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField81",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField82",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField83",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PersonalField84",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField1A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField1B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField2A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField2B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField3",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField4",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField5",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField6",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField7",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField8",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField9",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField10",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField11A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField11B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField12",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField13",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField14",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField15",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField16A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField16B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField17",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField18",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField19",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField20",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField21A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField21B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField22",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField23",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField24A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField24B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField25",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField26A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField26B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField27",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField28",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField29",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField30",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField31",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField32",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField33",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField34",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField35",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "PropertyField36",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField37",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField38",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "PropertyField39A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PropertyField39B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField1A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField1B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField2A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField2B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField3A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "GeographicField3B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "GeographicField4A",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "GeographicField4B",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "GeographicField5A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField5B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField6A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField6B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField7A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField7B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField8A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField8B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField9A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField9B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField11A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField11B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField12A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField12B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField13A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField13B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField14A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField14B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField15A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField15B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField16A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField16B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField17A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField17B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField18A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField18B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField19A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField19B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField20A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField20B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField21A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField21B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField22A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField22B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField23A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField23B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField24A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField24B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField25A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField25B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField26A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField26B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField27A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField27B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField28A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField28B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField29A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField29B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField30A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField30B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField31A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField31B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField32A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField32B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField33A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField33B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField34A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField34B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField35A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField35B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField36A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField36B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField37A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField37B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField38A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField38B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField39A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField39B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField40A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField40B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField41A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField41B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField42A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField42B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField43A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField43B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField44A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField44B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField45A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField45B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField46A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField46B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField47A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField47B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField48A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField48B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField49A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField49B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField50A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField50B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField51A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField51B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField52A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField52B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField53A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField53B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField54A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField54B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField55A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField55B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField56A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField56B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField57A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField57B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField58A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField58B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField59A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField59B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField60A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField60B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField61A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField61B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField62A",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField62B",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "GeographicField63",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "GeographicField64",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  }
+ ]
+}

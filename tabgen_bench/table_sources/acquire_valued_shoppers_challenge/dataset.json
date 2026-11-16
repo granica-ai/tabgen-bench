@@ -1,0 +1,13 @@
+{
+ "unique_name": "acquire_valued_shoppers_challenge",
+ "domain": "business & marketing",
+ "year": "2014",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/c/acquire-valued-shoppers-challenge",
+ "license": "Kaggle Competition Rules",
+ "reference_key": "DMDave2014AcquireValuedShoppersChallenge",
+ "task_type": "binary_classification",
+ "target": "target",
+ "rows": 160057,
+ "columns": 112
+}

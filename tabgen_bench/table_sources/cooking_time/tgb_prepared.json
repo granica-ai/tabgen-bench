@@ -1,0 +1,27 @@
+{
+ "table": "cooking_time",
+ "columns_sha256": "02c1388005bef118cee8b76f35972f879e38dc0dde14d00b0ad451b7a7744f34",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "c32f1d4e8b240a9491ea97ced486cd3d31efc8675e06f2fb88576be5842c20db",
+  "validation": "0a7737a025591686fc69eae5b761a66274a58f184362b51b0228c3a0bc50f26a",
+  "test": "9f16c014f1a1c1d37584c78df9438a86fd79f5b95bee740c60d43b6f3d167729"
+ },
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "columns": 240,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

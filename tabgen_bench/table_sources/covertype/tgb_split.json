@@ -1,0 +1,21 @@
+{
+ "table": "covertype",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "70b8265e2f078f3a23912382a963b287ec3fa70783e7c17ffa983458d9dc628b",
+ "raw_file": "covertype/019d7391-8e33-757b-b38a-79ec188fa001/dataset.parquet",
+ "raw_sha256": "6e18ec6b7333e1eb159275282cd95bdf2ecdffc315d3e8128a69516a6053d651",
+ "raw_rows": 512625,
+ "rows": {
+  "train": 410100,
+  "validation": 51263,
+  "test": 51262
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

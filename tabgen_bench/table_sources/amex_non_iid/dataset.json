@@ -1,0 +1,13 @@
+{
+ "unique_name": "amex_non_iid_1m",
+ "domain": "finance",
+ "year": "2022",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/amex-default-prediction/",
+ "license": "Kaggle Competition License",
+ "reference_key": "howard2022amex",
+ "task_type": "binary_classification",
+ "target": "target",
+ "rows": 1249605,
+ "columns": 191
+}

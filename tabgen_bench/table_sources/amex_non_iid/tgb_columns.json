@@ -1,0 +1,2016 @@
+{
+ "table": "amex_non_iid",
+ "column_order": [
+  "S_2",
+  "P_2",
+  "D_39",
+  "B_1",
+  "B_2",
+  "R_1",
+  "S_3",
+  "S_3__missing",
+  "D_41",
+  "B_3",
+  "D_42",
+  "D_42__missing",
+  "D_43",
+  "D_43__missing",
+  "D_44",
+  "B_4",
+  "D_45",
+  "B_5",
+  "R_2",
+  "D_46",
+  "D_46__missing",
+  "D_47",
+  "D_48",
+  "D_48__missing",
+  "D_49",
+  "B_6",
+  "B_7",
+  "B_8",
+  "D_50",
+  "D_50__missing",
+  "D_51",
+  "B_9",
+  "R_3",
+  "D_52",
+  "P_3",
+  "P_3__missing",
+  "B_10",
+  "D_53",
+  "D_53__missing",
+  "S_5",
+  "B_11",
+  "S_6",
+  "D_54",
+  "R_4",
+  "S_7",
+  "S_7__missing",
+  "B_12",
+  "S_8",
+  "D_55",
+  "D_55__missing",
+  "D_56",
+  "D_56__missing",
+  "B_13",
+  "R_5",
+  "D_58",
+  "S_9",
+  "S_9__missing",
+  "B_14",
+  "D_59",
+  "D_60",
+  "D_61",
+  "D_61__missing",
+  "B_15",
+  "S_11",
+  "D_62",
+  "D_62__missing",
+  "D_63",
+  "D_64",
+  "D_65",
+  "B_16",
+  "B_17",
+  "B_17__missing",
+  "B_18",
+  "B_19",
+  "D_66",
+  "B_20",
+  "D_68",
+  "S_12",
+  "R_6",
+  "S_13",
+  "B_21",
+  "D_69",
+  "D_69__missing",
+  "B_22",
+  "D_70",
+  "D_71",
+  "D_72",
+  "S_15",
+  "B_23",
+  "D_73",
+  "D_73__missing",
+  "P_4",
+  "D_74",
+  "D_75",
+  "D_76",
+  "D_76__missing",
+  "B_24",
+  "R_7",
+  "D_77",
+  "D_77__missing",
+  "B_25",
+  "B_26",
+  "D_78",
+  "D_79",
+  "R_8",
+  "R_9",
+  "S_16",
+  "D_80",
+  "R_10",
+  "R_11",
+  "B_27",
+  "D_81",
+  "D_82",
+  "S_17",
+  "R_12",
+  "B_28",
+  "R_13",
+  "D_83",
+  "R_14",
+  "R_15",
+  "D_84",
+  "R_16",
+  "B_29",
+  "B_29__missing",
+  "B_30",
+  "S_18",
+  "D_86",
+  "D_87",
+  "R_17",
+  "R_18",
+  "D_88",
+  "D_88__missing",
+  "B_31",
+  "S_19",
+  "R_19",
+  "B_32",
+  "S_20",
+  "R_20",
+  "R_21",
+  "B_33",
+  "D_89",
+  "R_22",
+  "R_23",
+  "D_91",
+  "D_92",
+  "D_93",
+  "D_94",
+  "R_24",
+  "R_25",
+  "D_96",
+  "S_22",
+  "S_23",
+  "S_24",
+  "S_25",
+  "S_26",
+  "D_102",
+  "D_103",
+  "D_104",
+  "D_104__missing",
+  "D_105",
+  "D_105__missing",
+  "D_106",
+  "D_107",
+  "B_36",
+  "B_37",
+  "R_26",
+  "R_27",
+  "R_27__missing",
+  "B_38",
+  "D_108",
+  "D_109",
+  "D_110",
+  "D_110__missing",
+  "D_111",
+  "B_39",
+  "B_39__missing",
+  "D_112",
+  "B_40",
+  "S_27",
+  "S_27__missing",
+  "D_113",
+  "D_114",
+  "D_115",
+  "D_115__missing",
+  "D_116",
+  "D_117",
+  "D_118",
+  "D_118__missing",
+  "D_119",
+  "D_119__missing",
+  "D_120",
+  "D_121",
+  "D_121__missing",
+  "D_122",
+  "D_123",
+  "D_124",
+  "D_125",
+  "D_126",
+  "D_127",
+  "D_128",
+  "D_128__missing",
+  "D_129",
+  "B_41",
+  "B_42",
+  "B_42__missing",
+  "D_130",
+  "D_130__missing",
+  "D_131",
+  "D_131__missing",
+  "D_132",
+  "D_132__missing",
+  "D_133",
+  "R_28",
+  "D_134",
+  "D_134__missing",
+  "D_135",
+  "D_136",
+  "D_137",
+  "D_138",
+  "D_139",
+  "D_140",
+  "D_141",
+  "D_141__missing",
+  "D_142",
+  "D_142__missing",
+  "D_143",
+  "D_144",
+  "D_145",
+  "target"
+ ],
+ "columns": [
+  {
+   "name": "S_2",
+   "kind": "numerical",
+   "source": "datetime",
+   "fill": 17432.0,
+   "description": "S_2, in days since 1970-01-01"
+  },
+  {
+   "name": "P_2",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.693842351436615,
+   "description": ""
+  },
+  {
+   "name": "D_39",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_1",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.03151203319430351,
+   "description": ""
+  },
+  {
+   "name": "B_2",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.8142848610877991,
+   "description": ""
+  },
+  {
+   "name": "R_1",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005789686227217317,
+   "description": ""
+  },
+  {
+   "name": "S_3",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.16379710286855698,
+   "description": ""
+  },
+  {
+   "name": "S_3__missing",
+   "kind": "categorical",
+   "indicator_of": "S_3",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether S_3 was recorded"
+  },
+  {
+   "name": "D_41",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_3",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.009807957336306572,
+   "description": ""
+  },
+  {
+   "name": "D_42",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.12061832845211029,
+   "description": ""
+  },
+  {
+   "name": "D_42__missing",
+   "kind": "categorical",
+   "indicator_of": "D_42",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_42 was recorded"
+  },
+  {
+   "name": "D_43",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.08833939209580421,
+   "description": ""
+  },
+  {
+   "name": "D_43__missing",
+   "kind": "categorical",
+   "indicator_of": "D_43",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_43 was recorded"
+  },
+  {
+   "name": "D_44",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_4",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "D_45",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.17999228835105896,
+   "description": ""
+  },
+  {
+   "name": "B_5",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.015437661670148373,
+   "description": ""
+  },
+  {
+   "name": "R_2",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_46",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.4597509056329727,
+   "description": ""
+  },
+  {
+   "name": "D_46__missing",
+   "kind": "categorical",
+   "indicator_of": "D_46",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_46 was recorded"
+  },
+  {
+   "name": "D_47",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.38121069967746735,
+   "description": ""
+  },
+  {
+   "name": "D_48",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.28680387139320374,
+   "description": ""
+  },
+  {
+   "name": "D_48__missing",
+   "kind": "categorical",
+   "indicator_of": "D_48",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_48 was recorded"
+  },
+  {
+   "name": "D_49",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "B_6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.08326437324285507,
+   "description": ""
+  },
+  {
+   "name": "B_7",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.07608193904161453,
+   "description": ""
+  },
+  {
+   "name": "B_8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_50",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.11001186072826385,
+   "description": ""
+  },
+  {
+   "name": "D_50__missing",
+   "kind": "categorical",
+   "indicator_of": "D_50",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_50 was recorded"
+  },
+  {
+   "name": "D_51",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.02681500557810068,
+   "description": ""
+  },
+  {
+   "name": "R_3",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_52",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.1442287489771843,
+   "description": ""
+  },
+  {
+   "name": "P_3",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.618177056312561,
+   "description": ""
+  },
+  {
+   "name": "P_3__missing",
+   "kind": "categorical",
+   "indicator_of": "P_3",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether P_3 was recorded"
+  },
+  {
+   "name": "B_10",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.1102803684771061,
+   "description": ""
+  },
+  {
+   "name": "D_53",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.013271849602460861,
+   "description": ""
+  },
+  {
+   "name": "D_53__missing",
+   "kind": "categorical",
+   "indicator_of": "D_53",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_53 was recorded"
+  },
+  {
+   "name": "S_5",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.013625992927700281,
+   "description": ""
+  },
+  {
+   "name": "B_11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.01962751429527998,
+   "description": ""
+  },
+  {
+   "name": "S_6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_54",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "R_4",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "S_7",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.13901131600141525,
+   "description": ""
+  },
+  {
+   "name": "S_7__missing",
+   "kind": "categorical",
+   "indicator_of": "S_7",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether S_7 was recorded"
+  },
+  {
+   "name": "B_12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.019442622549831867,
+   "description": ""
+  },
+  {
+   "name": "S_8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 996.0,
+   "description": ""
+  },
+  {
+   "name": "D_55",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.18139180541038513,
+   "description": ""
+  },
+  {
+   "name": "D_55__missing",
+   "kind": "categorical",
+   "indicator_of": "D_55",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_55 was recorded"
+  },
+  {
+   "name": "D_56",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.14956044405698776,
+   "description": ""
+  },
+  {
+   "name": "D_56__missing",
+   "kind": "categorical",
+   "indicator_of": "D_56",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_56 was recorded"
+  },
+  {
+   "name": "B_13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.029557333327829838,
+   "description": ""
+  },
+  {
+   "name": "R_5",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_58",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.106637142598629,
+   "description": ""
+  },
+  {
+   "name": "S_9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.01938589382916689,
+   "description": ""
+  },
+  {
+   "name": "S_9__missing",
+   "kind": "categorical",
+   "indicator_of": "S_9",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether S_9 was recorded"
+  },
+  {
+   "name": "B_14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.02876230888068676,
+   "description": ""
+  },
+  {
+   "name": "D_59",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 23.0,
+   "description": ""
+  },
+  {
+   "name": "D_60",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.2386787235736847,
+   "description": ""
+  },
+  {
+   "name": "D_61",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.3728981018066406,
+   "description": ""
+  },
+  {
+   "name": "D_61__missing",
+   "kind": "categorical",
+   "indicator_of": "D_61",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_61 was recorded"
+  },
+  {
+   "name": "B_15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.006229849066585302,
+   "description": ""
+  },
+  {
+   "name": "S_11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 12.0,
+   "description": ""
+  },
+  {
+   "name": "D_62",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.09366430714726448,
+   "description": ""
+  },
+  {
+   "name": "D_62__missing",
+   "kind": "categorical",
+   "indicator_of": "D_62",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_62 was recorded"
+  },
+  {
+   "name": "D_63",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_64",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_65",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_16",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "B_17",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.9322373867034912,
+   "description": ""
+  },
+  {
+   "name": "B_17__missing",
+   "kind": "categorical",
+   "indicator_of": "B_17",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether B_17 was recorded"
+  },
+  {
+   "name": "B_18",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.6464534401893616,
+   "description": ""
+  },
+  {
+   "name": "B_19",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_66",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "B_20",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_68",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "description": ""
+  },
+  {
+   "name": "S_12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.1908416822552681,
+   "description": ""
+  },
+  {
+   "name": "R_6",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005190108437091112,
+   "description": ""
+  },
+  {
+   "name": "S_13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_21",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005099540110677481,
+   "description": ""
+  },
+  {
+   "name": "D_69",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005171496421098709,
+   "description": ""
+  },
+  {
+   "name": "D_69__missing",
+   "kind": "categorical",
+   "indicator_of": "D_69",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_69 was recorded"
+  },
+  {
+   "name": "B_22",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_70",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_71",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.012774647679179907,
+   "description": ""
+  },
+  {
+   "name": "D_72",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "S_15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.0,
+   "description": ""
+  },
+  {
+   "name": "B_23",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.05986401066184044,
+   "description": ""
+  },
+  {
+   "name": "D_73",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.10043235868215561,
+   "description": ""
+  },
+  {
+   "name": "D_73__missing",
+   "kind": "categorical",
+   "indicator_of": "D_73",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_73 was recorded"
+  },
+  {
+   "name": "P_4",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_74",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "D_75",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "D_76",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.059135619550943375,
+   "description": ""
+  },
+  {
+   "name": "D_76__missing",
+   "kind": "categorical",
+   "indicator_of": "D_76",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_76 was recorded"
+  },
+  {
+   "name": "B_24",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0051760144997388124,
+   "description": ""
+  },
+  {
+   "name": "R_7",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_77",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.20547868311405182,
+   "description": ""
+  },
+  {
+   "name": "D_77__missing",
+   "kind": "categorical",
+   "indicator_of": "D_77",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_77 was recorded"
+  },
+  {
+   "name": "B_25",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.020369315519928932,
+   "description": ""
+  },
+  {
+   "name": "B_26",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005242978688329458,
+   "description": ""
+  },
+  {
+   "name": "D_78",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_79",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_8",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_9",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "S_16",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0051021696999669075,
+   "description": ""
+  },
+  {
+   "name": "D_80",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_10",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_27",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0050043510273098946,
+   "description": ""
+  },
+  {
+   "name": "D_81",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_82",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "S_17",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0053759797010570765,
+   "description": ""
+  },
+  {
+   "name": "R_12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "B_28",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.07706758752465248,
+   "description": ""
+  },
+  {
+   "name": "R_13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_83",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_84",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_16",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_29",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005077223293483257,
+   "description": ""
+  },
+  {
+   "name": "B_29__missing",
+   "kind": "categorical",
+   "indicator_of": "B_29",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether B_29 was recorded"
+  },
+  {
+   "name": "B_30",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1",
+    "2"
+   ],
+   "description": ""
+  },
+  {
+   "name": "S_18",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_86",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_87",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "R_17",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_18",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_88",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.09508547186851501,
+   "description": ""
+  },
+  {
+   "name": "D_88__missing",
+   "kind": "categorical",
+   "indicator_of": "D_88",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_88 was recorded"
+  },
+  {
+   "name": "B_31",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "S_19",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0050150626339018345,
+   "description": ""
+  },
+  {
+   "name": "R_19",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_32",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "S_20",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_20",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_21",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_33",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "D_89",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_22",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_23",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_91",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_92",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_93",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_94",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_24",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "R_25",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_96",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "S_22",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.9423492550849915,
+   "description": ""
+  },
+  {
+   "name": "S_23",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.13622364401817322,
+   "description": ""
+  },
+  {
+   "name": "S_24",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.9494855403900146,
+   "description": ""
+  },
+  {
+   "name": "S_25",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.9736788868904114,
+   "description": ""
+  },
+  {
+   "name": "S_26",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.006769700441509485,
+   "description": ""
+  },
+  {
+   "name": "D_102",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.008879035711288452,
+   "description": ""
+  },
+  {
+   "name": "D_103",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_104",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_104__missing",
+   "kind": "categorical",
+   "indicator_of": "D_104",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_104 was recorded"
+  },
+  {
+   "name": "D_105",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.3334050178527832,
+   "description": ""
+  },
+  {
+   "name": "D_105__missing",
+   "kind": "categorical",
+   "indicator_of": "D_105",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_105 was recorded"
+  },
+  {
+   "name": "D_106",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "D_107",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_36",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005032762885093689,
+   "description": ""
+  },
+  {
+   "name": "B_37",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.03132546693086624,
+   "description": ""
+  },
+  {
+   "name": "R_26",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "R_27",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.004351019859314,
+   "description": ""
+  },
+  {
+   "name": "R_27__missing",
+   "kind": "categorical",
+   "indicator_of": "R_27",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether R_27 was recorded"
+  },
+  {
+   "name": "B_38",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_108",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "D_109",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_110",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.8886846303939819,
+   "description": ""
+  },
+  {
+   "name": "D_110__missing",
+   "kind": "categorical",
+   "indicator_of": "D_110",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_110 was recorded"
+  },
+  {
+   "name": "D_111",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "B_39",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.15412767231464386,
+   "description": ""
+  },
+  {
+   "name": "B_39__missing",
+   "kind": "categorical",
+   "indicator_of": "B_39",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether B_39 was recorded"
+  },
+  {
+   "name": "D_112",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "B_40",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.05821084976196289,
+   "description": ""
+  },
+  {
+   "name": "S_27",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.2914921045303345,
+   "description": ""
+  },
+  {
+   "name": "S_27__missing",
+   "kind": "categorical",
+   "indicator_of": "S_27",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether S_27 was recorded"
+  },
+  {
+   "name": "D_113",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_114",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_115",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.1986866444349289,
+   "description": ""
+  },
+  {
+   "name": "D_115__missing",
+   "kind": "categorical",
+   "indicator_of": "D_115",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_115 was recorded"
+  },
+  {
+   "name": "D_116",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_117",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_118",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.21889252960681915,
+   "description": ""
+  },
+  {
+   "name": "D_118__missing",
+   "kind": "categorical",
+   "indicator_of": "D_118",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_118 was recorded"
+  },
+  {
+   "name": "D_119",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.21202826499938965,
+   "description": ""
+  },
+  {
+   "name": "D_119__missing",
+   "kind": "categorical",
+   "indicator_of": "D_119",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_119 was recorded"
+  },
+  {
+   "name": "D_120",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_121",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.5927157402038574,
+   "description": ""
+  },
+  {
+   "name": "D_121__missing",
+   "kind": "categorical",
+   "indicator_of": "D_121",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_121 was recorded"
+  },
+  {
+   "name": "D_122",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 2.0,
+   "description": ""
+  },
+  {
+   "name": "D_123",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_124",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 6.0,
+   "description": ""
+  },
+  {
+   "name": "D_125",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_126",
+   "kind": "categorical",
+   "categories": [
+    "-1",
+    "0",
+    "1",
+    "2"
+   ],
+   "description": ""
+  },
+  {
+   "name": "D_127",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_128",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0003666877746582,
+   "description": ""
+  },
+  {
+   "name": "D_128__missing",
+   "kind": "categorical",
+   "indicator_of": "D_128",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_128 was recorded"
+  },
+  {
+   "name": "D_129",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_41",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "B_42",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.019554078578948975,
+   "description": ""
+  },
+  {
+   "name": "B_42__missing",
+   "kind": "categorical",
+   "indicator_of": "B_42",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether B_42 was recorded"
+  },
+  {
+   "name": "D_130",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_130__missing",
+   "kind": "categorical",
+   "indicator_of": "D_130",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_130 was recorded"
+  },
+  {
+   "name": "D_131",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_131__missing",
+   "kind": "categorical",
+   "indicator_of": "D_131",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_131 was recorded"
+  },
+  {
+   "name": "D_132",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.16167248785495758,
+   "description": ""
+  },
+  {
+   "name": "D_132__missing",
+   "kind": "categorical",
+   "indicator_of": "D_132",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_132 was recorded"
+  },
+  {
+   "name": "D_133",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005437035812065005,
+   "description": ""
+  },
+  {
+   "name": "R_28",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_134",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.22593443095684052,
+   "description": ""
+  },
+  {
+   "name": "D_134__missing",
+   "kind": "categorical",
+   "indicator_of": "D_134",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_134 was recorded"
+  },
+  {
+   "name": "D_135",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "D_136",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "D_137",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "D_138",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": -1.0,
+   "description": ""
+  },
+  {
+   "name": "D_139",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_140",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_141",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_141__missing",
+   "kind": "categorical",
+   "indicator_of": "D_141",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_141 was recorded"
+  },
+  {
+   "name": "D_142",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.3800290673971176,
+   "description": ""
+  },
+  {
+   "name": "D_142__missing",
+   "kind": "categorical",
+   "indicator_of": "D_142",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether D_142 was recorded"
+  },
+  {
+   "name": "D_143",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "D_144",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.005519993137568235,
+   "description": ""
+  },
+  {
+   "name": "D_145",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "target",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": "the prediction target, binary classification"
+  }
+ ],
+ "dropped": {
+  "customer_ID": "high cardinality: 103402 labels in 999684 training rows, ratio 0.103 above 0.1"
+ }
+}

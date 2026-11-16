@@ -1,0 +1,27 @@
+{
+ "table": "wids_diabetes_mellitus",
+ "columns_sha256": "54accf244c4edacc7433f613095778feed60d6830550dce242f7cdfaa4273c0f",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "8502fffe2f6e74807d3d695e4a4135d6668dc7b48f11ff30b4fcea291115ee05",
+  "validation": "63cd0ba0ef45a767a50238955ccee155bab51def93cc6414c8afd8a8c8b1b52a",
+  "test": "cd5bdc6e2351e6aa44bd5256edbc80127be90ef5e499f970ccf8c35fdbf19773"
+ },
+ "rows": {
+  "train": 101886,
+  "validation": 12736,
+  "test": 12736
+ },
+ "columns": 317,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

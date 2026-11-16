@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/container_metadata.json",
+  "size": 162,
+  "sha256": "2870a2d49c5d5d7b2b4207900f531b745c16f1ea9f0f9f8f36d2bd848705ea6b",
+  "git_blob_id": "82c73273522ffc42a402a457caeba2d53f6e1440",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dataset.parquet",
+  "size": 160406679,
+  "sha256": "f23b889fc4291a4c160130e5898c487c286e4b15f8be43c3b18fa15d76ffb83a",
+  "git_blob_id": "2640d560489e50125a28936ba807961fc774694b",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dataset_metadata.dataset-mold-v1.json",
+  "size": 1850,
+  "sha256": "4096b41ef0a1d5034fe4084b7883601dafff5a77442c60178b034a36cce6603d",
+  "git_blob_id": "a452acbe2b585b4592ab60157eeb818e13ddfe11",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dtypes.json",
+  "size": 192,
+  "sha256": "87d3d9e9c6ce84f6975e4fd5f02e8f65200082468a23997d2e95e8932a842da9",
+  "git_blob_id": "32c5af18fbe0de3b6817c83d85c1aef0a4d2ed6f",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 10139070,
+  "sha256": "12f753811385dac10ff78c38885e0bb90fbd2096b940947389c4a070e87c3316",
+  "git_blob_id": "da9fc462290cb50f35c95d5c6ee4b9492e84d89e",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 264,
+  "sha256": "6362b66c25fef37db9e484b0dbea18f4064f04cc35c3278e2f5a0f9344eb7c43",
+  "git_blob_id": "5a1ebe8494e1104bdd44daf87ed49b6a699d6d3d",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/mercari_price_suggestion/versions/019d736f-26fd-73bd-8853-dc219e5f4ed5/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

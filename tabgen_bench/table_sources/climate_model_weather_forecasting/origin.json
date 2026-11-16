@@ -1,0 +1,14 @@
+{
+ "table": "climate_model_weather_forecasting",
+ "host": "huggingface.co",
+ "repo_id": "TabArena/BeyondArena",
+ "repo_type": "dataset",
+ "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+ "revision_date": "2026-06-30T07:12:25+00:00",
+ "revision_title": "add paper info",
+ "directory": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1",
+ "container_uuid": "019d7379-7906-707e-95e9-f479afb2e2c1",
+ "version_comment": null,
+ "url": "https://huggingface.co/datasets/TabArena/BeyondArena/tree/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1",
+ "repo_license_tag": "other"
+}

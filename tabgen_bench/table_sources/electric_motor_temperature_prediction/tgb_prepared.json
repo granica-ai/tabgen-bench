@@ -1,0 +1,27 @@
+{
+ "table": "electric_motor_temperature_prediction",
+ "columns_sha256": "c787bac3acba0b94a52869217791d03b31f3aefdbe4667a76d1f9f1ab9f27b13",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "5f4efa871af9e5679725756e6775ab3c1ed8c398aae988ed1c197aee927ed6ce",
+  "validation": "9e4b14eef5b93e15dc80fac5933f31087ff55e6b334d5336797c890925a82b47",
+  "test": "5be7b49b555eb920cf04f7de89f93c4da0b4adea727e151281a8fdc31edc0528"
+ },
+ "rows": {
+  "train": 1037052,
+  "validation": 129632,
+  "test": 129632
+ },
+ "columns": 111,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

@@ -1,0 +1,13 @@
+{
+ "unique_name": "wids_diabetes_mellitus",
+ "domain": "medical & healthcare",
+ "year": "2021",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/widsdatathon2021",
+ "license": "Kaggle Competition Rules",
+ "reference_key": "Matthys2021WiDSDatathon2021",
+ "task_type": "binary_classification",
+ "target": "diabetes_mellitus",
+ "rows": 127358,
+ "columns": 182
+}

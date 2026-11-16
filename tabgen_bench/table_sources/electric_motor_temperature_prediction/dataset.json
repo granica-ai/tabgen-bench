@@ -1,0 +1,13 @@
+{
+ "unique_name": "electric_motor_temperature_prediction",
+ "domain": "industry & manufacturing",
+ "year": "2021",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature",
+ "license": "CC BY-SA 4.0",
+ "reference_key": "kirchgassner2020estimating",
+ "task_type": "regression",
+ "target": "permanent_magnet_temperature",
+ "rows": 1296316,
+ "columns": 111
+}

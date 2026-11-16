@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/container_metadata.json",
+  "size": 162,
+  "sha256": "0d23e587796158cdc3d8d778877ebe7d83709abafe3adbe5a7da4198295df381",
+  "git_blob_id": "fda719f4c01b452ed64f07fc49331e1fa020fa32",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dataset.parquet",
+  "size": 99612155,
+  "sha256": "ff296b954ba7d324e7442c5f545193b1798e3c6c727c46c4eab006de4ab587c0",
+  "git_blob_id": "1a3e34e0628c70277ac0532a4799c82ef99e726d",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dataset_metadata.dataset-mold-v1.json",
+  "size": 3194,
+  "sha256": "5191d5838c229c143b6651eaba9d2d667db9c64ec42cb46e4dbaacd0593477e8",
+  "git_blob_id": "8645740704411cb8d7b36b1e20db45281740f99d",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dtypes.json",
+  "size": 3104,
+  "sha256": "e5a6f2adf0fa78850045b6aca3ec6c728d921a3408ebdaeacd10e7ed98ad1844",
+  "git_blob_id": "5817c0ce9f40d2dece8b16311309d9175f5179c8",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 8472277,
+  "sha256": "c09aa279ba5c20cf03d513cfc6bb04b72202b4f4d48e07a03e8585fa3c803513",
+  "git_blob_id": "e2ccd731b9e8b14a5b24e02fef57556a8ecbc928",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 290,
+  "sha256": "fe11319f59afa0af670b87de99a525d04e969e127e0d694aa09e9de3ba03b383",
+  "git_blob_id": "c3434d4eb027fe6f8c78c269e72911d2a69438bf",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/lending_club/versions/019d738c-5edd-7437-9116-e3bc87a8b0c5/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

@@ -1,0 +1,27 @@
+{
+ "table": "amex_non_iid",
+ "columns_sha256": "30a1f01412f4952d0256f8ad9228d74c38545e440ab672cc64eaf262c991fb24",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "85e5d29b37adf993cfbececd70477c889a641d5694782e6d4d5c32d7243ef0d3",
+  "validation": "a08344d5e8d0dd00207c85e72efa87675c28e7f736038c1a00710772ad568e90",
+  "test": "f4d5dabea727d32667203868f985ddb00800ef62e1aeaed86fc7e14e53b72057"
+ },
+ "rows": {
+  "train": 999684,
+  "validation": 124961,
+  "test": 124960
+ },
+ "columns": 229,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

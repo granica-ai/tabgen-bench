@@ -1,0 +1,560 @@
+{
+ "rows": 1296316,
+ "columns": [
+  {
+   "name": "u_q",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "permanent_magnet_temperature",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "profile_id",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "profile_time_index",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "u_s",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_d_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_q_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_d_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_q_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "coolant_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "motor_speed_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ambient_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "u_s_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "i_s_omega_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewma_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewms_500",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewma_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewms_2000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewma_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewms_4000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewma_8000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "S_el_omega_ewms_8000",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

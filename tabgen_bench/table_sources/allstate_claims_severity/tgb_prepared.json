@@ -1,0 +1,27 @@
+{
+ "table": "allstate_claims_severity",
+ "columns_sha256": "934696962a3e1491cbab3f9a0e7ceafa79d1469877404e33883db65b2d398515",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "e4cbf4871912d1f90a592457c887cab46d6af59c8ec34ad5e56df514035d9c46",
+  "validation": "f86f81fa2d180ae958557802f054ae8ef15a2c434a22c980ec8af5bd9c34f720",
+  "test": "c629c214f599b823b6c81a5c0b8f85592b29ee6228b90f42db0a42ab0d69574c"
+ },
+ "rows": {
+  "train": 150653,
+  "validation": 18832,
+  "test": 18832
+ },
+ "columns": 131,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

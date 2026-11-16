@@ -1,0 +1,13 @@
+{
+ "unique_name": "delivery_eta_1m",
+ "domain": "industry & manufacturing",
+ "year": "2024",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/datasets/pcovkrd84mejm/delivery-eta",
+ "license": "CC-BY-NC-SA-4.0",
+ "reference_key": "rubachev2025tabred",
+ "task_type": "regression",
+ "target": "delivery_eta_minutes",
+ "rows": 1250000,
+ "columns": 226
+}

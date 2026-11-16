@@ -1,0 +1,542 @@
+{
+ "table": "porto_seguro",
+ "column_order": [
+  "target",
+  "ps_ind_01",
+  "ps_ind_02_cat",
+  "ps_ind_03",
+  "ps_ind_04_cat",
+  "ps_ind_05_cat",
+  "ps_ind_06_bin",
+  "ps_ind_07_bin",
+  "ps_ind_08_bin",
+  "ps_ind_09_bin",
+  "ps_ind_10_bin",
+  "ps_ind_11_bin",
+  "ps_ind_12_bin",
+  "ps_ind_13_bin",
+  "ps_ind_14",
+  "ps_ind_15",
+  "ps_ind_16_bin",
+  "ps_ind_17_bin",
+  "ps_ind_18_bin",
+  "ps_reg_01",
+  "ps_reg_02",
+  "ps_reg_03",
+  "ps_reg_03__missing",
+  "ps_car_01_cat",
+  "ps_car_02_cat",
+  "ps_car_03_cat",
+  "ps_car_04_cat",
+  "ps_car_05_cat",
+  "ps_car_06_cat",
+  "ps_car_07_cat",
+  "ps_car_08_cat",
+  "ps_car_09_cat",
+  "ps_car_10_cat",
+  "ps_car_11_cat",
+  "ps_car_11",
+  "ps_car_12",
+  "ps_car_13",
+  "ps_car_14",
+  "ps_car_14__missing",
+  "ps_car_15"
+ ],
+ "columns": [
+  {
+   "name": "target",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": "the prediction target, binary classification"
+  },
+  {
+   "name": "ps_ind_01",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 1.0,
+   "description": ""
+  },
+  {
+   "name": "ps_ind_02_cat",
+   "kind": "categorical",
+   "categories": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_03",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 4.0,
+   "description": ""
+  },
+  {
+   "name": "ps_ind_04_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_05_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_06_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_07_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_08_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_09_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_10_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_11_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_12_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_13_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.0,
+   "description": ""
+  },
+  {
+   "name": "ps_ind_15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 7.0,
+   "description": ""
+  },
+  {
+   "name": "ps_ind_16_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_17_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_ind_18_bin",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_reg_01",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.7,
+   "description": ""
+  },
+  {
+   "name": "ps_reg_02",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.3,
+   "description": ""
+  },
+  {
+   "name": "ps_reg_03",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.8015609771,
+   "description": ""
+  },
+  {
+   "name": "ps_reg_03__missing",
+   "kind": "categorical",
+   "indicator_of": "ps_reg_03",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ps_reg_03 was recorded"
+  },
+  {
+   "name": "ps_car_01_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_02_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_03_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_04_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_05_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_06_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_07_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_08_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_09_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "(missing)"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_10_cat",
+   "kind": "categorical",
+   "categories": [
+    "0",
+    "1",
+    "2"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_11_cat",
+   "kind": "categorical",
+   "categories": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "79",
+    "80",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "88",
+    "89",
+    "90",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99",
+    "100",
+    "101",
+    "102",
+    "103",
+    "104"
+   ],
+   "description": ""
+  },
+  {
+   "name": "ps_car_11",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3.0,
+   "description": ""
+  },
+  {
+   "name": "ps_car_12",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.3741657387,
+   "description": ""
+  },
+  {
+   "name": "ps_car_13",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.7658517648000001,
+   "description": ""
+  },
+  {
+   "name": "ps_car_14",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 0.3734969878999999,
+   "description": ""
+  },
+  {
+   "name": "ps_car_14__missing",
+   "kind": "categorical",
+   "indicator_of": "ps_car_14",
+   "categories": [
+    "present",
+    "missing"
+   ],
+   "description": "whether ps_car_14 was recorded"
+  },
+  {
+   "name": "ps_car_15",
+   "kind": "numerical",
+   "source": "numerical",
+   "fill": 3.3166247904,
+   "description": ""
+  }
+ ],
+ "dropped": {}
+}

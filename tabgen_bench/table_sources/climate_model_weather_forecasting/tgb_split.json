@@ -1,0 +1,21 @@
+{
+ "table": "climate_model_weather_forecasting",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "11e478e1424ee3530f47dfd5886c8f56060a66e7926fc05ad9c79709ab9bb7d2",
+ "raw_file": "climate_model_weather_forecasting/versions/019d7379-7906-707e-95e9-f479afb2e2c1/dataset.parquet",
+ "raw_sha256": "20cab78454c53ec7030fbda4d240bedd929c0f943993a89d50397d92638ca092",
+ "raw_rows": 1250000,
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

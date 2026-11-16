@@ -1,0 +1,225 @@
+{
+ "rows": 1228686,
+ "columns": [
+  {
+   "name": "Hour",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "HR",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "O2Sat",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Temp",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "SBP",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "MAP",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "DBP",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Resp",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "EtCO2",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "BaseExcess",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "HCO3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "FiO2",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "pH",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PaCO2",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "SaO2",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "AST",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "BUN",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Alkalinephos",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Calcium",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Chloride",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Creatinine",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Bilirubin_direct",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Glucose",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Lactate",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Magnesium",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Phosphate",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Potassium",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Bilirubin_total",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "TroponinI",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Hct",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Hgb",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "PTT",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "WBC",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Fibrinogen",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Platelets",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Age",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Gender",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Unit1",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "Unit2",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "HospAdmTime",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ICULOS",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "SepsisLabel",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Patient_ID",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "Hospital",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  }
+ ]
+}

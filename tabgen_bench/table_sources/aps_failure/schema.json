@@ -1,0 +1,860 @@
+{
+ "rows": 76000,
+ "columns": [
+  {
+   "name": "AirPressureSystemFailure",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "aa_000",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "ab_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ac_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ad_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ae_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "af_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ag_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ah_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ai_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "aj_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ak_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "al_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "am_0",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "an_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ao_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ap_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "aq_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ar_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "as_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "at_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "au_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "av_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ax_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ay_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "az_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ba_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bb_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bc_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bd_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "be_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bf_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bg_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bh_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bi_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bj_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bk_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bl_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bm_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bn_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bo_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bp_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bq_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "br_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bs_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bt_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bu_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bv_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bx_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "by_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bz_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ca_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cb_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cc_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cd_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ce_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cf_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cg_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ch_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ci_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cj_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ck_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cl_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cm_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cn_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "co_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cp_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cq_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cr_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cs_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ct_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cu_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cv_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cx_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cy_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "cz_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "da_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "db_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dc_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dd_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "de_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "df_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dg_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dh_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "di_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dj_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dk_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dl_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dm_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dn_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "do_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dp_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dq_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dr_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ds_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dt_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "du_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dv_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dx_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dy_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "dz_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ea_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "eb_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ec_00",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ed_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_001",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_002",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_003",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_004",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_005",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_006",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_007",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_008",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ee_009",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ef_000",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "eg_000",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "table": "consumer_complaints",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "08f3bcd1510779b46a065e3bc8a755d935181fd90525fb18d779c42cd7f94b88",
+ "raw_file": "consumer_complaints/versions/019d738b-4c6e-751f-972a-5f63b1508f70/dataset.parquet",
+ "raw_sha256": "17c42b44a9191b4ce3bd54559a3003b11ca86ee3de0b19d72088c5f727673cc6",
+ "raw_rows": 1226140,
+ "rows": {
+  "train": 980912,
+  "validation": 122614,
+  "test": 122614
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

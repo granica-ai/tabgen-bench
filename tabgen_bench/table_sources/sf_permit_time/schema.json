@@ -1,0 +1,195 @@
+{
+ "rows": 116954,
+ "columns": [
+  {
+   "name": "Permit Type Definition",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Block",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Lot",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Street Number",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Street Number Suffix",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Street Name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Street Suffix",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Unit",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Unit Suffix",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Description",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Filed Date",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "Structural Notification",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Number of Existing Stories",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Number of Proposed Stories",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Voluntary Soft-Story Retrofit",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Fire Only Permit",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Estimated Cost",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Existing Use",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Existing Units",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Proposed Use",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Proposed Units",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Plansets",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "TIDF Compliance",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Existing Occupancy",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Proposed Occupancy",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "Existing Construction Type Description",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Proposed Construction Type Description",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Site Permit",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Application Submission Method",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "supervisor_district",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "neighborhoods_analysis_boundaries",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Zipcode",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "point_source",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "reroof",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "DaysToIssue",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "DescriptionIsStandardPhrase",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "Location_Latitude",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Location_Longitude",
+   "dtype": "float64",
+   "storage": "double"
+  }
+ ]
+}

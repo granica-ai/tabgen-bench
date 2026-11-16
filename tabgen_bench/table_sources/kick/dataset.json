@@ -1,0 +1,13 @@
+{
+ "unique_name": "kick",
+ "domain": "business & marketing",
+ "year": "2011",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/competitions/DontGetKicked/overview",
+ "license": "Public Domain",
+ "reference_key": "DontGetKicked",
+ "task_type": "binary_classification",
+ "target": "IsBadBuy",
+ "rows": 72983,
+ "columns": 33
+}

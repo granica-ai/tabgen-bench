@@ -1,0 +1,21 @@
+{
+ "table": "diabetes_130_us",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "d68eab8e6f198ddddddd0e3400786826612cdfd99289d288bc8c1184c64b571b",
+ "raw_file": "diabetes_130_us/019d7367-64e4-7883-956d-9ba2fc8db41b/dataset.parquet",
+ "raw_sha256": "211c1ac03c827f7e66d2fc1fd2f44013249355ba2f9c29d849fadf34ce5020d8",
+ "raw_rows": 71518,
+ "rows": {
+  "train": 57214,
+  "validation": 7152,
+  "test": 7152
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

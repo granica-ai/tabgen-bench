@@ -1,0 +1,21 @@
+{
+ "table": "amex_non_iid",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "a5507c824c9f3344c282bd061cd7b9d990783769f4630c00825bc2cf47a4a035",
+ "raw_file": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dataset.parquet",
+ "raw_sha256": "591823d90d6b9860d07c30d815f000bd729202827ca17c2d6acf37e77ddd4664",
+ "raw_rows": 1249605,
+ "rows": {
+  "train": 999684,
+  "validation": 124961,
+  "test": 124960
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

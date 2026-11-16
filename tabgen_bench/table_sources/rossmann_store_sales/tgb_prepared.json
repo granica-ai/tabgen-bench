@@ -1,0 +1,27 @@
+{
+ "table": "rossmann_store_sales",
+ "columns_sha256": "7f7a27c15c699d8d9bdde467c9b6f258f6c6feb45e5bb31dad178b7abc3789d4",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "9c5f33a92ad3b5d427002bdee03002307aef52d35ade9b40ffcad120ad2ba5a6",
+  "validation": "dff688ff6273a1b02368c9250b62b80fc51ed01f430790abf0f4c56c36916f6a",
+  "test": "284ffb8d1aeeabe264321c45fe75e7b8ae0b7b2786237fdfc03606b8010dfdc1"
+ },
+ "rows": {
+  "train": 675514,
+  "validation": 84439,
+  "test": 84439
+ },
+ "columns": 20,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

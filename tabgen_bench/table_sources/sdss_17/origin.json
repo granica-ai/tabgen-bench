@@ -1,0 +1,14 @@
+{
+ "table": "sdss_17",
+ "host": "huggingface.co",
+ "repo_id": "TabArena/BeyondArena",
+ "repo_type": "dataset",
+ "revision": "2ecfe882ccfb814fc27c4de10a64ceefd5d7655c",
+ "revision_date": "2026-06-30T07:12:25+00:00",
+ "revision_title": "add paper info",
+ "directory": "sdss_17/019d7369-942d-72c0-b327-e812c4b56b7e",
+ "container_uuid": "019d7369-942d-72c0-b327-e812c4b56b7e",
+ "version_comment": null,
+ "url": "https://huggingface.co/datasets/TabArena/BeyondArena/tree/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/sdss_17/019d7369-942d-72c0-b327-e812c4b56b7e",
+ "repo_license_tag": "other"
+}

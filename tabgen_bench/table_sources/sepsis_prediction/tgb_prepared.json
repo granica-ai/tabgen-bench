@@ -1,0 +1,27 @@
+{
+ "table": "sepsis_prediction",
+ "columns_sha256": "1a41cc8f88ee32fa3de4d2ff8c313e40755aa4accfc2a5f6aa539cab65287974",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "b127d486f2edfe5cc203ee8369a318c4c609ab2e2de9b482f9cbaef134b103f0",
+  "validation": "f9ab0dde588f4d112e236ee6da1bbdd85cc6672eccee4bc6244fc54f4798a61f",
+  "test": "5e0e812c899976e945a7bca2ce9aa9867e3fc875e984b312669b1c4f075fe0db"
+ },
+ "rows": {
+  "train": 492324,
+  "validation": 61540,
+  "test": 61540
+ },
+ "columns": 78,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

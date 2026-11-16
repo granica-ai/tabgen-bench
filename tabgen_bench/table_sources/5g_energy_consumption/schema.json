@@ -1,0 +1,115 @@
+{
+ "rows": 92629,
+ "columns": [
+  {
+   "name": "BS",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "Energy",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "load",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode1",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode2",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode3",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode5",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode6",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "RUType",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Mode",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Frequency",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "Bandwidth",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Antennas",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "TXpower",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "load_Cell1",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode1_Cell1",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode2_Cell1",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode3_Cell1",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ESMode6_Cell1",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "day",
+   "dtype": "int32",
+   "storage": "int32"
+  },
+  {
+   "name": "weekday_number",
+   "dtype": "int32",
+   "storage": "int32"
+  },
+  {
+   "name": "hour",
+   "dtype": "int32",
+   "storage": "int32"
+  }
+ ]
+}

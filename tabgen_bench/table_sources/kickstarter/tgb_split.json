@@ -1,0 +1,21 @@
+{
+ "table": "kickstarter",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "ca8c256920dd4ac127e9ecfaaf061dfb5021b6b6cb930c25759f8e5abe16ef9d",
+ "raw_file": "kickstarter/019db497-6b35-71e0-9c6b-f4a7286f8f6f/dataset.parquet",
+ "raw_sha256": "8100f45afd093dd4b14e6185967a141b06c54affb0f4795d3bf05433b8c843a4",
+ "raw_rows": 187118,
+ "rows": {
+  "train": 149694,
+  "validation": 18712,
+  "test": 18712
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

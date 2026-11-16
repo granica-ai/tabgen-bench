@@ -1,0 +1,915 @@
+{
+ "rows": 127358,
+ "columns": [
+  {
+   "name": "hospital_id",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "age",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bmi",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "elective_surgery",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "ethnicity",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "gender",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "height",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "hospital_admit_source",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "icu_admit_source",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "icu_id",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "icu_stay_type",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "icu_type",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "pre_icu_los_days",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "weight",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "albumin_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "apache_2_diagnosis",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "apache_3j_diagnosis",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "apache_post_operative",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "arf_apache",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "bilirubin_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "bun_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "creatinine_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "fio2_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "gcs_eyes_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "gcs_motor_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "gcs_unable_apache",
+   "dtype": "category",
+   "storage": "double"
+  },
+  {
+   "name": "gcs_verbal_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "glucose_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "heart_rate_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "hematocrit_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "intubated_apache",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "map_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "paco2_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "pao2_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ph_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "resprate_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "sodium_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "temp_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "urineoutput_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "ventilated_apache",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "wbc_apache",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_diasbp_invasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_diasbp_invasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_diasbp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_diasbp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_diasbp_noninvasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_diasbp_noninvasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_heartrate_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_heartrate_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_mbp_invasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_mbp_invasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_mbp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_mbp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_mbp_noninvasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_mbp_noninvasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_resprate_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_resprate_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_spo2_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_spo2_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sysbp_invasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sysbp_invasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sysbp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sysbp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sysbp_noninvasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sysbp_noninvasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_temp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_temp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_diasbp_invasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_diasbp_invasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_diasbp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_diasbp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_diasbp_noninvasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_diasbp_noninvasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_heartrate_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_heartrate_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_mbp_invasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_mbp_invasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_mbp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_mbp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_mbp_noninvasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_mbp_noninvasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_resprate_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_resprate_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_spo2_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_spo2_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sysbp_invasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sysbp_invasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sysbp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sysbp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sysbp_noninvasive_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sysbp_noninvasive_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_temp_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_temp_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_albumin_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_albumin_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_bilirubin_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_bilirubin_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_bun_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_bun_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_calcium_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_calcium_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_creatinine_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_creatinine_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_glucose_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_glucose_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_hco3_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_hco3_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_hemaglobin_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_hemaglobin_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_hematocrit_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_hematocrit_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_inr_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_inr_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_lactate_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_lactate_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_platelets_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_platelets_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_potassium_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_potassium_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sodium_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_sodium_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_wbc_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_wbc_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_albumin_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_albumin_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_bilirubin_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_bilirubin_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_bun_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_bun_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_calcium_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_calcium_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_creatinine_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_creatinine_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_glucose_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_glucose_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_hco3_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_hco3_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_hemaglobin_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_hemaglobin_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_hematocrit_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_hematocrit_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_lactate_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_lactate_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_platelets_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_platelets_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_potassium_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_potassium_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sodium_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_sodium_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_wbc_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_wbc_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_arterial_pco2_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_arterial_pco2_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_arterial_ph_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_arterial_ph_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_arterial_po2_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_arterial_po2_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_pao2fio2ratio_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "d1_pao2fio2ratio_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_arterial_pco2_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_arterial_pco2_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_arterial_ph_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_arterial_ph_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_arterial_po2_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_arterial_po2_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_pao2fio2ratio_max",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "h1_pao2fio2ratio_min",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "aids",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "cirrhosis",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "hepatic_failure",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "immunosuppression",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "leukemia",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "lymphoma",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "solid_tumor_with_metastasis",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "diabetes_mellitus",
+   "dtype": "category",
+   "storage": "int64"
+  },
+  {
+   "name": "d1_sysbp_min_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "d1_sysbp_max_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "d1_heartrate_min_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "d1_heartrate_max_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "d1_diasbp_min_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "d1_diasbp_max_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "heart_rate_apache_clipped",
+   "dtype": "category",
+   "storage": "bool"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/container_metadata.json",
+  "size": 162,
+  "sha256": "c44e3d8ebeae5e1daf81c15ebb4aa6689f6e7cd49431609e3f9835a6e0125dd2",
+  "git_blob_id": "88b622994afb56d9a3b5def7408d8b988e2bed8c",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dataset.parquet",
+  "size": 1185554566,
+  "sha256": "a9c9120ad915dd3da259474b5c89080839c3fd2310a94be371fc7513d69b76de",
+  "git_blob_id": "b2edbfa048d9ff26e6fb78849a49043fa0f27924",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dataset_metadata.dataset-mold-v1.json",
+  "size": 2082,
+  "sha256": "c5c326eabaeab6def8e9261928f2645763712e85ec6e7c89d0bad04724c4e6d3",
+  "git_blob_id": "166f4645ae9e709bba9aabf6fedb18a458c5177b",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dtypes.json",
+  "size": 3474,
+  "sha256": "c274b7b4c90c8dde200176b25f42a1e12a620ee33b35214ee7e11950ea4b78ad",
+  "git_blob_id": "4053e1387318f00f1fa736c18f8f6e52dd6515cc",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 10555901,
+  "sha256": "42dfd256baf60e2888a033cda9dbb82b0a29f1cf9436696e314e4951ee23e6cf",
+  "git_blob_id": "358e162db44881e0d8cd8eef7b48f2de1feb0d53",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 319,
+  "sha256": "8204a3afd1e34a7bf72ba95457df8f497851f76474eab3c813dc74cf80cdf327",
+  "git_blob_id": "89c52171df2773dc283317a6330e77e0ecf8abe7",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/electric_motor_temperature_prediction/019d7392-e21f-7e60-9efb-2141c3513fd9/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

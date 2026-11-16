@@ -1,0 +1,27 @@
+{
+ "table": "mercari_price_suggestion",
+ "columns_sha256": "30d675c1790432af07d2f5a43964c66b01b6cf0a136a1425f297a13559752db0",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "1e6703a5f06c59faab1e39c7921f91a57498572a2caca67a2e862bf11d44ccbc",
+  "validation": "10ee4ad60d16e08d0ec86cb4b1ac9afe427a2d2151ae627a55e39882203d21d9",
+  "test": "eb467c53bb0b5b5216f50fcc103a7c79dfb337e6b738d45946402a133a8b09a4"
+ },
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "columns": 5,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

@@ -1,0 +1,13 @@
+{
+ "unique_name": "customer_satisfaction_in_airline",
+ "domain": "biology & life sciences",
+ "year": "2023",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/datasets/yakhyojon/customer-satisfaction-in-airline",
+ "license": "Public Domain",
+ "reference_key": "yakhyojon2023airlinesatisfaction",
+ "task_type": "binary_classification",
+ "target": "satisfied",
+ "rows": 129880,
+ "columns": 22
+}

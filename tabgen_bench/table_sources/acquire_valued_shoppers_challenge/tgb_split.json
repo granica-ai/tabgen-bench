@@ -1,0 +1,21 @@
+{
+ "table": "acquire_valued_shoppers_challenge",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "a2766c9462b82284210be1fa7e3c686fb3cda3ea4d5a69ae41d36f84800f39b6",
+ "raw_file": "acquire_valued_shoppers_challenge/019d7376-a3c5-7df7-88c0-ba4e87c3dfa0/dataset.parquet",
+ "raw_sha256": "32ae85b400aba07d90fad884ec06540ba9011e192156049b885239fe280cdb7f",
+ "raw_rows": 160057,
+ "rows": {
+  "train": 128045,
+  "validation": 16006,
+  "test": 16006
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

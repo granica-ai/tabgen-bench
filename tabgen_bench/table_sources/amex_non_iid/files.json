@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/container_metadata.json",
+  "size": 162,
+  "sha256": "4696e01430a534a384677e14a1fc38465eef69f20a3d941bb63fb5622fb69682",
+  "git_blob_id": "19eb1a1997ba72dc3c7673c451d114dca484f8e2",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dataset.parquet",
+  "size": 477856154,
+  "sha256": "591823d90d6b9860d07c30d815f000bd729202827ca17c2d6acf37e77ddd4664",
+  "git_blob_id": "4712d153d123785f958ab14ae58f17517253ed4b",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dataset_metadata.dataset-mold-v1.json",
+  "size": 1926,
+  "sha256": "e4526a873a4c575368c07d4fdb37ea5c72460ef9499fd1ec778fe852f87c3103",
+  "git_blob_id": "506f1e3b54096a29838cbcd1cd0f2556674f3433",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dtypes.json",
+  "size": 3815,
+  "sha256": "9685715c795b4e201983723e15e311fae5005b1321cd6288f6fcb8231d6b6292",
+  "git_blob_id": "4a7c379372ed410d2cbce9a0284e44bb6cb92fc4",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 10135618,
+  "sha256": "8e37ec4d8dc01838a4e84fe10f1cbdb45d64373edc665c0b5a301f66841af39f",
+  "git_blob_id": "b27800fc91d7063113fd94df2cd2d015a299c275",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 304,
+  "sha256": "530c0db2932d1aa02f20fa792691beeaf374138f98d5bd310f95d2f122612644",
+  "git_blob_id": "342fd703baa79ac9ab937b7d9fd1a9e402c07c8a",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/amex_non_iid/versions/019d7455-0e4e-7261-9842-93177684d486/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

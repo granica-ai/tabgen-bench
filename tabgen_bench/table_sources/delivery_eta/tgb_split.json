@@ -1,0 +1,21 @@
+{
+ "table": "delivery_eta",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "3ada66e6522d8b146ef077212bcfb83ffd39d874a0f65d082215cb6f37df0e49",
+ "raw_file": "delivery_eta/versions/019d7382-df54-7dd3-8198-0567d7499858/dataset.parquet",
+ "raw_sha256": "48962b4df952d27152ea1afb377190ba9c95919c2a5ddf2346e19814baf38559",
+ "raw_rows": 1250000,
+ "rows": {
+  "train": 1000000,
+  "validation": 125000,
+  "test": 125000
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

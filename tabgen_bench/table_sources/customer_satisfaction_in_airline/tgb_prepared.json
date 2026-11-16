@@ -1,0 +1,27 @@
+{
+ "table": "customer_satisfaction_in_airline",
+ "columns_sha256": "3c1bf2e0c79a72c66d662bbf624cfd76b153ce6ed6980eaa8d62e3dd2d35b443",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "1a30ea8b13b19a7d84bf3ba600c2d2b60ca463027e8da1057fe1b55b79c2536f",
+  "validation": "f1ef525f1a0defb5e2ed838d61357aa3bd0a4605bc6f30257c8bdf862c6b1951",
+  "test": "898247bdb4164cbf3c809ca00a5c57cf2b8a70770a1b13f0c62ba485ada0eda0"
+ },
+ "rows": {
+  "train": 103904,
+  "validation": 12988,
+  "test": 12988
+ },
+ "columns": 22,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

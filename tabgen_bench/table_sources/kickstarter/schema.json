@@ -1,0 +1,85 @@
+{
+ "rows": 187118,
+ "columns": [
+  {
+   "name": "blurb",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "country",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "created_at",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "deadline",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "goal",
+   "dtype": "float64",
+   "storage": "double"
+  },
+  {
+   "name": "launched_at",
+   "dtype": "datetime64[ns]",
+   "storage": "timestamp[ns]"
+  },
+  {
+   "name": "name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "prelaunch_activated",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "staff_pick",
+   "dtype": "category",
+   "storage": "bool"
+  },
+  {
+   "name": "state",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "main_category",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int16, ordered=0>"
+  },
+  {
+   "name": "sub_category",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "profile_blurb",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "creator_name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "location_displayable_name",
+   "dtype": "string",
+   "storage": "string"
+  },
+  {
+   "name": "year",
+   "dtype": "period[Y-DEC]",
+   "storage": "int64"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "name": "container_metadata.json",
+  "path": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/container_metadata.json",
+  "size": 162,
+  "sha256": "d46f3f876ec1bdde17f3f91362c2282629b3e462228b320991a5aa0747c8bcfc",
+  "git_blob_id": "6bf53c0c454f29220967d6a6f1541a1c2705a4c1",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/container_metadata.json"
+ },
+ {
+  "name": "dataset.parquet",
+  "path": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dataset.parquet",
+  "size": 5468566,
+  "sha256": "71c54c1e0d7215cd77921c2a36509b14ced567efb3a0b7bdde6633f325674a9e",
+  "git_blob_id": "edbfe272e48f08e8a45158c3819596c2e48c8976",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dataset.parquet"
+ },
+ {
+  "name": "dataset_metadata.dataset-mold-v1.json",
+  "path": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dataset_metadata.dataset-mold-v1.json",
+  "size": 2781,
+  "sha256": "d78359b46ec789d2262b2880b1212e2d859620a9393e905f0e5c84fbab3ecdfb",
+  "git_blob_id": "665bd7a257897c305c168af8af6cd8de4fc3953c",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dataset_metadata.dataset-mold-v1.json"
+ },
+ {
+  "name": "dtypes.json",
+  "path": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dtypes.json",
+  "size": 468,
+  "sha256": "a8060cd4b0cae9b22a3abe46cd8238558846628248ab2ffcd198515062a32360",
+  "git_blob_id": "fc0653ee3fb827a2048919fce70c223a2dc805e5",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/dtypes.json"
+ },
+ {
+  "name": "experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "path": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/experiment_metadata.predictive-ml-splits-mold-v1.json",
+  "size": 18961469,
+  "sha256": "92fad14dd5e34a788e983374ea5deda7f4a765a7f5cb1ca0c659b53aa52ff6a2",
+  "git_blob_id": "cfb6ecf1a3275ba500734b286ba6a1155075ad2a",
+  "lfs": true,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/experiment_metadata.predictive-ml-splits-mold-v1.json"
+ },
+ {
+  "name": "task_metadata.predictive-ml-task-mold-v1.json",
+  "path": "rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/task_metadata.predictive-ml-task-mold-v1.json",
+  "size": 266,
+  "sha256": "9688fa1d3bebbceec603807949ec816b1a0d05b2bec2216a26c09c06e8757ea1",
+  "git_blob_id": "348b7139d2382fad489e146c0e7f084e355ed0b5",
+  "lfs": false,
+  "url": "https://huggingface.co/datasets/TabArena/BeyondArena/resolve/2ecfe882ccfb814fc27c4de10a64ceefd5d7655c/rossmann_store_sales/019db4fb-6d9e-7c15-b8cb-1bf97ea88782/task_metadata.predictive-ml-task-mold-v1.json"
+ }
+]

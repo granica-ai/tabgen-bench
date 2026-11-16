@@ -1,0 +1,80 @@
+{
+ "rows": 512625,
+ "columns": [
+  {
+   "name": "Elevation",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Aspect",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Slope",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Horizontal_Distance_To_Hydrology",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Vertical_Distance_To_Hydrology",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Horizontal_Distance_To_Roadways",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Hillshade_9am",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Hillshade_Noon",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Hillshade_3pm",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Horizontal_Distance_To_Fire_Points",
+   "dtype": "int64",
+   "storage": "int64"
+  },
+  {
+   "name": "Cover_Type",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Wilderness_Area",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Soil_Type",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Soil_ClimaticZone",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  },
+  {
+   "name": "Soil_GeologicZone",
+   "dtype": "category",
+   "storage": "dictionary<values=string, indices=int8, ordered=0>"
+  }
+ ]
+}

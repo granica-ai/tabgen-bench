@@ -1,0 +1,13 @@
+{
+ "unique_name": "porto_seguro",
+ "domain": "insurance",
+ "year": "2017",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/c/porto-seguro-safe-driver-prediction",
+ "license": "Kaggle Competition Rules",
+ "reference_key": "Howard2017PortoSegurosSafeDriverPrediction",
+ "task_type": "binary_classification",
+ "target": "target",
+ "rows": 595206,
+ "columns": 38
+}

@@ -1,0 +1,27 @@
+{
+ "table": "consumer_complaints",
+ "columns_sha256": "6e167209ebf2a3ff31191cedeed731450a778cb8d06ae55971d94a4f24cd2348",
+ "digest_label": "tabgen-bench frame digest v1",
+ "digests": {
+  "train": "a619cc80867b2191a551540bcd2c3d2c65619ec30a14f55cec56936dce6d8ba5",
+  "validation": "71b266c6efbf326ff7eb4274094d4cdfacf19216c7814dd93541e75e38cfdd1c",
+  "test": "263a652cab0b77cb52dcc1847250fdad2d51dc70ae474e8379201d1b92dbeeec"
+ },
+ "rows": {
+  "train": 980912,
+  "validation": 122614,
+  "test": 122614
+ },
+ "columns": 12,
+ "policy": {
+  "max_categories": 15000,
+  "missing_indicator_min_frac": 0.01
+ },
+ "environment": {
+  "python": "3.13.14",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "pyarrow": "20.0.0"
+ },
+ "tabgen_bench_version": "0.1.0"
+}

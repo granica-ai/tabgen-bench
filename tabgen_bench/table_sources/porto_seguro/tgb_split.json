@@ -1,0 +1,21 @@
+{
+ "table": "porto_seguro",
+ "file": "tgb_split_indices.parquet",
+ "sha256": "332c4ac08eb3a096ff75c329609a56651d7f2c961d45532c0b10f7b5e0bd1cbd",
+ "raw_file": "porto_seguro/019d736f-86ed-700f-96c9-8f4be8546db1/dataset.parquet",
+ "raw_sha256": "6ce750766d906f25cdd7691c50c6274f84fd694a544164b99f14487d5b4bedd2",
+ "raw_rows": 595206,
+ "rows": {
+  "train": 476164,
+  "validation": 59521,
+  "test": 59521
+ },
+ "rule": {
+  "drawn_as": "fractions",
+  "cut_regime": "iid",
+  "val_fraction": 0.1,
+  "test_fraction": 0.1,
+  "seed": 42,
+  "rng": "numpy default_rng(crc32(name) ^ seed); see _table_rng"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "unique_name": "sdss_17",
+ "domain": "physics & astronomy",
+ "year": "2022",
+ "original_source": "Kaggle",
+ "original_link": "https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17",
+ "license": "Public Domain",
+ "reference_key": "accetta2022seventeenth",
+ "task_type": "multiclass_classification",
+ "target": "ObjectType",
+ "rows": 78053,
+ "columns": 12
+}
