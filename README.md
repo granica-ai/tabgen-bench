@@ -16,7 +16,7 @@ This package provides scripts for downloading datasets, preparing and validating
 ## Install
 
 ```bash
-pip install -e .            # from a clone of this repository
+pip install .            # from a clone of this repository
 ```
 
 Requirements are specified in `pyproject.toml`.
