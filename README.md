@@ -58,7 +58,7 @@ observed = task["observed"]
 targets = task["targets"]
 ```
 Three reproducible and ready-to-use downstream tasks are available. `prediction` returns original prediction task associated to a dataset; `imputation_30` returns imputation tasks with 30% columns are randomly masked per row; likewise, `imputation_50` randomly masks 50% columns per row.
-Masks indicating hidden values are automatically downloaded from `Granica/TabGenBench` on Hugging Face upon first use.
+Masks indicating hidden values are automatically downloaded from `Granica/TabGenBench` on [HuggingFace](https://huggingface.co/datasets/Granica/TabGenBench) upon first use.
 
 
 ## Licences
