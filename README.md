@@ -6,7 +6,7 @@ Tabular generative models are reaching performance saturation on simple datasets
 This package provides scripts for downloading datasets, preparing and validating the benchmark, generating reproducible and ready-to-use train/validation/test splits, and evaluating downstream tasks. TabGenBench contains
 
 - **28 real-world tables**: repurposed for IID tabular data generation (original tasks: 15 binary classification, 3 multiclass, 10 regression)
-- **Data size**: 69,000 to 1.3 million rows and 4 to 296 columns per table; 15 million rows in total
+- **Data size**: 69,000 to 1.3 million rows and 4 to 296 columns per table before preparation; 15 million rows in total
 - **Data split**: 80 / 10 / 10 ratio for train / validation / test split
 - **Missingness**: over 70% tables contain missing values; missing rate reaches as high as 63.7%
 - **Downstream tasks**: prediction and imputation tasks for evaluating conditional generation capability
