@@ -13,13 +13,15 @@ This package provides scripts for downloading datasets, preparing and validating
 
 ![The 28 TabGenBench tables: rows, columns by type, missing cells](docs/figures/dataset_overview_compact.png)
 
-## Install
+## Installation
 
+Clone the repository and install TabGenBench locally:
 ```bash
-pip install .            # from a clone of this repository
+git clone https://github.com/granica-ai/tabgen-bench.git
+cd tabgen-bench
+pip install .
 ```
-
-Requirements are specified in `pyproject.toml`.
+All required dependencies will be installed automatically, as specified in `pyproject.toml`.
 
 ## Quick start
 
